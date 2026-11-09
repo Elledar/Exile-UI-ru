@@ -1,3 +1,6 @@
+;## Русский перевод интерфейса Exile UI. Собран tools/build_ui_ru.py из английского шаблона по tools/ui_ru.json.
+;## Шрифт: Fontin Sans CR SC (файл data\alt_font_FontinSansCR-SC.ttf, см. README). Непереведённые строки — на английском.
+
 ;#####################################################
 ;## general information/instructions
 ;#####################################################
@@ -34,7 +37,7 @@
 ;#####################################################
 
 ;## these are some global system-settings that are dependent on the target language
-		system_font			=	"Fontin Sans CR SC"		;## ru: в Fontin SmallCaps нет русских букв, файл шрифта кладётся в data\alt_font_FontinSansCR-SC.ttf ;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
+		system_font			=	"Fontin Sans CR SC"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
 													;## this key is also present in the client.txt file, where it takes priority (i.e. the value there will override this one)
 
 
@@ -55,7 +58,7 @@
 ;## these don't necessarily have to be translated, it's up to the translator(s)
 ;## the feature-names are used here and there, so make sure to be consistent across each mention
 		ms_general			=	"general"
-		ms_actdecoder			=	"act-decoder"
+		ms_actdecoder			=	"акт-декодер"
 		ms_addons				=	"add-ons"
 		ms_anoints			=	"enchant finder"
 		ms_betrayal-info		=	"betrayal-info"
@@ -65,7 +68,7 @@
 		ms_filterspoon			=	"filterspoon"		;## sarcastically derived from FilterBlade
 		ms_hotkeys			=	"hotkeys"
 		ms_item-info			=	"item-info"
-		ms_leveling tracker		=	"act-tracker"
+		ms_leveling tracker		=	"акт-трекер"
 		ms_macros				=	"chat macros"
 		ms_mapping tracker		=	"map-tracker"
 		ms_map-info			=	"map-info"
@@ -91,28 +94,28 @@
 
 ;## these strings are commonly used throughout the tool
 		global_screencap		=	"screen-cap"
-		global_error			=	"error"
-		global_success			=	"successful"
-		global_fail			=	"failed"
+		global_error			=	"ошибка"
+		global_success			=	"успешно"
+		global_fail			=	"не удалось"
 		global_abort			=	"aborted"
-		global_delete			=	"delete"
-		global_delete			=	"del"
+		global_delete			=	"удалить"
+		global_delete			=	"удал."
 		global_scan			=	"scanning..."
 		global_scan			=	"scan"
 		global_match			=	"no match"
 		global_match			=	"not specific enough"
 		global_match			=	"too many matches"		;## when search results don't fit on screen
 		global_window			=	"settings menu"
-		global_general			=	"general settings:"
-		global_ui				=	"ui settings:"
-		global_font			=	"text-size:"
+		global_general			=	"общие настройки:"
+		global_ui				=	"настройки интерфейса:"
+		global_font			=	"размер текста:"
 		global_button			=	"button-size:"
-		global_enable			=	"enable"
-		global_reset			=	"reset"
-		global_reset			=	"r"
+		global_enable			=	"включить"
+		global_reset			=	"сбросить"
+		global_reset			=	"с"
 		global_color			=	"color"
 		global_color			=	"colors:"
-		global_opacity			=	"opacity:"
+		global_opacity			=	"прозрачность:"
 		global_zoom			=	"zoom:"
 		global_tier			=	"tier"
 		global_tiers			=	"t1"
@@ -121,48 +124,48 @@
 		global_ilvl			=	"ilvl"
 		global_name			=	"name:"
 		global_type			=	"type:"
-		global_add			=	"add"
+		global_add			=	"добавить"
 		global_calibrate		=	"cal"
 		global_calibrate		=	"calibration required"
 		global_calibrate		=	"calibrate"
-		global_import			=	"import"
+		global_import			=	"импорт"
 		global_test			=	"test"
-		global_edit			=	"edit"
+		global_edit			=	"изменить"
 		global_info			=	"info"
 		global_negative		=	"negative"
 		global_positive		=	"positive"
-		global_paste			=	"paste"
-		global_snip			=	"snip"
-		global_show			=	"show"
-		global_preview			=	"preview"
+		global_paste			=	"вставить"
+		global_snip			=	"снимок"
+		global_show			=	"показать"
+		global_preview			=	"просмотр"
 		global_image			=	"img"
-		global_save			=	"save"
-		global_discard			=	"discard"
+		global_save			=	"сохранить"
+		global_discard			=	"отменить"
 		global_restart			=	"apply & restart"
 		global_restart			=	"restart"
-		global_imgfolder		=	"open img folder"
+		global_imgfolder		=	"открыть папку картинок"
 		global_openfolder		=	"open folder"
 		global_newentry		=	"add entry:"
 		global_savedentry		=	"saved entries:"
-		global_errorname		=	"input cannot be blank"
-		global_errorname		=	"input invalid"
-		global_errorname		=	"regular letters, spaces,;and numbers only"
-		global_errorname		=	"name already in use"
-		global_errorname		=	"name must not contain:;"
+		global_errorname		=	"поле не может быть пустым"
+		global_errorname		=	"недопустимый ввод"
+		global_errorname		=	"только буквы, пробелы;и цифры"
+		global_errorname		=	"имя уже занято"
+		global_errorname		=	"имя не должно содержать:;"
 		global_inventory		=	"inventory"
-		global_skilltree		=	"skilltree"
-		global_ascendancy		=	"ascendancy-tree"
+		global_skilltree		=	"дерево умений"
+		global_ascendancy		=	"дерево восхождения"
 		global_atlas			=	"atlas"
 		global_stash			=	"stash"
 		global_nothing			=	"there's;nothing to display"
-		global_imageinvalid		=	"couldn't find image-data;in clipboard"
+		global_imageinvalid		=	"в буфере обмена;нет картинки"
 		global_releasekey		=	"release key:"
 		global_configwindow		=	"close the configuration;window first"
 		global_ultrawide		=	"The current aspect ratio is wider than officially supported by the game."
 		global_ultrawide		=	"Unless you're using a mod, the client will display black bars on the sides."
 		global_ultrawide		=	"Are there black bars on the sides of the client?"
 		global_credits			=	"credits"
-		global_none			=	"none"
+		global_none			=	"нет"
 		global_axis			=	"x-axis"
 		global_axis			=	"y-axis"
 		global_width			=	"width"
@@ -176,10 +179,10 @@
 		global_hotkey			=	"hotkey:"
 		global_hotkey			=	"optional hotkey:"
 		global_panelsize		=	"panel-size:"
-		global_uisize			=	"ui-size:"
+		global_uisize			=	"размер интерфейса:"
 		global_auto			=	"auto"
 		global_price			=	"price"
-		global_all			=	"all"
+		global_all			=	"все"
 		global_confirm			=	"confirm"
 		global_mouse			=	"l#m#r"			;## left, middle, right mouse-button
 		global_coordinates		=	"coordinates"
@@ -190,11 +193,11 @@
 		global_clipboard		=	"copied to clipboard"
 		global_start			=	"start"
 		global_cancel			=	"cancel"
-		global_downloading		=	"downloading..."
-		global_extracting		=	"extracting..."
-		global_copying			=	"copying..."
+		global_downloading		=	"загрузка..."
+		global_extracting		=	"распаковка..."
+		global_copying			=	"копирование..."
 		global_download		=	"download"
-		global_search			=	"search:"
+		global_search			=	"поиск:"
 		global_toggle			=	"toggle"			;## pressing a hotkey opens a feature
 		global_hold			=	"hold"			;## feature stays open while holding a hotkey, then closes on release
 		global_hide			=	"hide"
@@ -211,9 +214,9 @@
 		global_multithreading	=	"threads:"
 		global_ignore			=	"ignore"
 		global_custom			=	"custom"			;## as in "user-defined"
-		global_condition		=	"condition:"		;## as in "if x condition is met"
-		global_yes			=	"yes"
-		global_no				=	"no"
+		global_condition		=	"условие:"		;## as in "if x condition is met"
+		global_yes			=	"да"
+		global_no				=	"нет"
 		global_activation		=	"activation:"
 		global_maps			=	"maps"
 		global_league			=	"league"
@@ -258,7 +261,7 @@
 		global_last			=	"last"
 		global_gem			=	"gem"
 		global_gem			=	"gems"
-		global_act			=	"act"
+		global_act			=	"акт"
 		global_ctrl			=	"ctrl"			;## modifier-keys
 		global_alt			=	"alt"
 		global_shift			=	"shift"
@@ -296,9 +299,9 @@
 		global_animations		=	"ui animations"	;## as in UI transitions, movement, etc.
 		global_animations		=	"animations"
 		global_hold_ctrl		=	"hold ctrl"
-		global_load			=	"load"
+		global_load			=	"загрузить"
 		global_troubleshoot		=	"trouble-shooting"
-		global_flash			=	"flash"			;## as in flashing text (alternating color, brightness, etc.)
+		global_flash			=	"мигание"			;## as in flashing text (alternating color, brightness, etc.)
 		global_omnikey			=	"omni-key"
 		global_omnikey			=	"omni"
 		global_notification		=	"notification"
@@ -498,53 +501,53 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the leveling tracker / act-tracker
-		lvltracker_header			=	"skilltree configuration"
-		lvltracker_deleteall		=	"del all"
+		lvltracker_header			=	"настройка дерева умений"
+		lvltracker_deleteall		=	"удал. всё"
 
-		lvltracker_autotrack		=	"now tracking:"				;## used when character-tracking dynamically switches to a different char, e.g. "now tracking: Lailloken (17)"
+		lvltracker_autotrack		=	"отслеживается:"				;## used when character-tracking dynamically switches to a different char, e.g. "now tracking: Lailloken (17)"
 
-		lvltracker_gemnotes			=	"not included in PoB"
-		lvltracker_gemfail			=	"no gems in PoB"
-		lvltracker_gemregex			=	"regex copied"
-		lvltracker_gemregex			=	"regex failed"
+		lvltracker_gemnotes			=	"нет в PoB"
+		lvltracker_gemfail			=	"в PoB нет камней"
+		lvltracker_gemregex			=	"regex скопирован"
+		lvltracker_gemregex			=	"ошибка regex"
 
-		lvltracker_gearlist			=	"char (lvl):"					;## PoE1 only (whole block), displayed at the top of the geartracker: "char (lvl): Lailloken (69)"
-		lvltracker_gearadd			=	"item added"
-		lvltracker_gearadd			=	"item already added"
-		lvltracker_gearadd			=	"item already;equippable"
-		lvltracker_gearadd			=	"item doesn't have;any requirements"
-		lvltracker_gear5levels		=	"only show the next 5 levels"
-		lvltracker_gearready		=	"gear rdy"					;## needs to be as short as possible
-		lvltracker_clearequip		=	"clear: equippable"				;## button to clear a list of gear that is equippable (lvl-requirements are met)
-		lvltracker_cleargems		=	"clear: gems"
-
-
-		lvltracker_endreached		=	"can't go further"
-		lvltracker_fastforwarderror	=	"current location is not;included in any remaining step"
-		lvltracker_guidemissing		=	"guide hasn't been;loaded yet"
-		lvltracker_importerror		=	""gems only" guides;are not supported"								;## PoE1 only, exile-leveling has a "gems only" option
-		lvltracker_importerror		=	"invalid import data"
-		lvltracker_multipaste		=	"some files are;not supported"
-		lvltracker_multipaste		=	"multi-paste not supported;for ascendancy-trees"
-		lvltracker_multipaste		=	"# entries starting from # will potentially be overwritten.;Continue?"	;## the placeholders will be replaced by numbers
-		lvltracker_noimages			=	"couldn't find;image-files"
-		lvltracker_timererror		=	"can't resume: run complete"										;## campaign timer can't be resumed because the run has finished
-		lvltracker_timererror		=	"enter the first zone or town to reset"								;## timer can only be reset in specific areas
-		lvltracker_timererror		=	"pause the timer first"
-		lvltracker_timererror		=	"blocked by hideout-pause setting"									;## there's a setting "pause timer in hideouts" which blocks manual resuming
-		lvltracker_timermessage		=	"run started"
-		lvltracker_timermessage		=	"timer resumed"
-		lvltracker_timermessage		=	"timer paused"
-		lvltracker_treeerror		=	"skill-tree version;is incompatible"
-		lvltracker_treenone			=	"imported pob doesn't;have usable trees"
-		lvltracker_treeascendancy	=	"slot empty"
-		lvltracker_exp				=	"lvl-diff:"													;## stands for level-difference, i.e. character-level - area-level = X
-		lvltracker_recommended		=	"recommended level:"											;## PoE1 only, used to filter out lvl-recommendations in the guide
-		lvltracker_recommended		=	"уровень фарма:"												;## PoE1 only, used to filter out lvl-recommendations in the guide
+		lvltracker_gearlist			=	"перс. (ур.):"					;## PoE1 only (whole block), displayed at the top of the geartracker: "char (lvl): Lailloken (69)"
+		lvltracker_gearadd			=	"предмет добавлен"
+		lvltracker_gearadd			=	"предмет уже добавлен"
+		lvltracker_gearadd			=	"предмет уже;можно надеть"
+		lvltracker_gearadd			=	"у предмета нет;требований"
+		lvltracker_gear5levels		=	"только следующие 5 уровней"
+		lvltracker_gearready		=	"надеть!"					;## needs to be as short as possible
+		lvltracker_clearequip		=	"очистить: доступное"				;## button to clear a list of gear that is equippable (lvl-requirements are met)
+		lvltracker_cleargems		=	"очистить: камни"
 
 
-		lvltracker_format_kill		=	"убить"					;## the string that follows this word will automatically be highlighted as a unique boss
-		lvltracker_format_act		=	"а"						;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter a1 | clearfell encampment")
+		lvltracker_endreached		=	"дальше нельзя"
+		lvltracker_fastforwarderror	=	"текущей локации нет;в оставшихся шагах"
+		lvltracker_guidemissing		=	"гайд ещё;не загружен"
+		lvltracker_importerror		=	""только камни" гайды;не поддерживаются"								;## PoE1 only, exile-leveling has a "gems only" option
+		lvltracker_importerror		=	"неверные данные импорта"
+		lvltracker_multipaste		=	"некоторые файлы;не поддерживаются"
+		lvltracker_multipaste		=	"мульти-вставка не работает;для деревьев восхождения"
+		lvltracker_multipaste		=	"# записей, начиная с #, могут быть перезаписаны.;Продолжить?"	;## the placeholders will be replaced by numbers
+		lvltracker_noimages			=	"не найдены;файлы картинок"
+		lvltracker_timererror		=	"нельзя продолжить: забег завершён"										;## campaign timer can't be resumed because the run has finished
+		lvltracker_timererror		=	"для сброса зайди в первую зону или город"								;## timer can only be reset in specific areas
+		lvltracker_timererror		=	"сначала поставь таймер на паузу"
+		lvltracker_timererror		=	"мешает настройка «пауза в убежище»"									;## there's a setting "pause timer in hideouts" which blocks manual resuming
+		lvltracker_timermessage		=	"забег начат"
+		lvltracker_timermessage		=	"таймер продолжен"
+		lvltracker_timermessage		=	"таймер на паузе"
+		lvltracker_treeerror		=	"версия дерева;несовместима"
+		lvltracker_treenone			=	"в импорте pob нет;подходящих деревьев"
+		lvltracker_treeascendancy	=	"слот пуст"
+		lvltracker_exp				=	"разн. ур.:"													;## stands for level-difference, i.e. character-level - area-level = X
+		lvltracker_recommended		=	"рекомендуемый уровень:"											;## PoE1 only, used to filter out lvl-recommendations in the guide
+		lvltracker_recommended		=	"поднять до уровня:"													;## PoE1 only, used to filter out lvl-recommendations in the guide
+
+
+		lvltracker_format_kill		=	"убить"						;## the string that follows this word will automatically be highlighted as a unique boss
+		lvltracker_format_act		=	"а"							;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter a1 | clearfell encampment")
 		lvltracker_format_interlude	=	"int "						;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter int 1 | the refuge")
 		lvltracker_format_epilogue	=	"эпилог"
 		lvltracker_format_optional	=	"optional:"					;## in guides, lines with optional tasks/steps can be toggled dynamically if tagged with this string
@@ -552,27 +555,27 @@
 		lvltracker_format_twink		=	"twinkrun:"					;## same as above but related to non-league-start tasks/steps
 
 
-		lvltracker_editor			=	"guide editor"
-		lvltracker_editor_slot		=	"slot"						;## the act-tracker has multiple slots to save guides into
-		lvltracker_editor_acts		=	"acts:"
-		lvltracker_editor_save		=	"unsaved changes:"
-		lvltracker_editor_export		=	"export guide"
-		lvltracker_editor_areas		=	"area-names (click to paste):"
-		lvltracker_editor_icons		=	"icons (click to paste):"
-		lvltracker_editor_highlight	=	"highlight selected text:"
-		lvltracker_editor_load		=	"load default guide"
-		lvltracker_editor_blocked	=	"(blocked)"					;## there are two different "Halani Gates" areas: the first time you visit, they're blocked off
-		lvltracker_editor_hint		=	"hint / more info"
-		lvltracker_editor_quest-name	=	"quest-name"
-		lvltracker_editor_quest-item	=	"quest-item"
-		lvltracker_editor_color		=	"apply custom color"
-		lvltracker_editor_remove		=	"remove page"
-		lvltracker_editor_condition	=	"no condition"
+		lvltracker_editor			=	"редактор гайда"
+		lvltracker_editor_slot		=	"слот"						;## the act-tracker has multiple slots to save guides into
+		lvltracker_editor_acts		=	"акты:"
+		lvltracker_editor_save		=	"несохранённые изменения:"
+		lvltracker_editor_export		=	"экспорт гайда"
+		lvltracker_editor_areas		=	"локации (клик — вставить):"
+		lvltracker_editor_icons		=	"значки (клик — вставить):"
+		lvltracker_editor_highlight	=	"выделить выбранный текст:"
+		lvltracker_editor_load		=	"загрузить стандартный гайд"
+		lvltracker_editor_blocked	=	"(закрыто)"					;## there are two different "Halani Gates" areas: the first time you visit, they're blocked off
+		lvltracker_editor_hint		=	"подсказка / подробнее"
+		lvltracker_editor_quest-name	=	"название квеста"
+		lvltracker_editor_quest-item	=	"квестовый предмет"
+		lvltracker_editor_color		=	"свой цвет"
+		lvltracker_editor_remove		=	"удалить страницу"
+		lvltracker_editor_condition	=	"без условия"
 
 		lvltracker_itembuy			=	"купить предметы"
-		lvltracker_gempickups		=	"gem pickups"					;## a manager to adjust when gems should be picked up
-		lvltracker_gemreward		=	"взять:"					;## when handing in quests, the guide will prompt you to take specific rewards
-		lvltracker_gembuy			=	"купить камни"					;## ru: должно совпадать с "купить_камни" в гайде ;## the guide will tell you to buy gems that you unlocked via questing
+		lvltracker_gempickups		=	"подбор камней"					;## a manager to adjust when gems should be picked up
+		lvltracker_gemreward		=	"взять:"						;## when handing in quests, the guide will prompt you to take specific rewards
+		lvltracker_gembuy			=	"купить камни"					;## the guide will tell you to buy gems that you unlocked via questing
 		lvltracker_gembuy			=	"(держите omni-key)"
 
 
@@ -987,13 +990,13 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "act-decoder" section of the settings menu
-		m_actdecoder_simple		=	"only show generic layouts"
-		m_actdecoder_download	=	"download layouts:"
-		m_actdecoder_download	=	"layouts have not been downloaded yet"
-		m_actdecoder_leftover	=	"found leftover files (previous download)"
-		m_actdecoder_failed		=	"update check failed, try again later"
-		m_actdecoder_success	=	"layouts are up-to-date"
-		m_actdecoder_required	=	"but it requires a newer tool version"		;## continuation of "update available", displayed if a general tool update is required first
+		m_actdecoder_simple		=	"только общие раскладки"
+		m_actdecoder_download	=	"загрузить раскладки:"
+		m_actdecoder_download	=	"раскладки ещё не загружены"
+		m_actdecoder_leftover	=	"найдены остатки прошлой загрузки"
+		m_actdecoder_failed		=	"проверка обновлений не удалась, попробуйте позже"
+		m_actdecoder_success	=	"раскладки актуальны"
+		m_actdecoder_required	=	"но нужна более новая версия программы"		;## continuation of "update available", displayed if a general tool update is required first
 
 
 
@@ -1091,10 +1094,10 @@
 		m_hotkeys_widget		=	"widget-key:"
 		m_hotkeys_menukey		=	"menu-key:"
 		m_hotkeys_restartkey	=	"restart-key:"
-		m_hotkeys_error		=	"invalid hotkey"
-		m_hotkeys_error		=	"duplicate keybinds detected"
-		m_hotkeys_error		=	"alt-key is rebound, but no;alternative key is set up"				;## if certain tickboxes are ticked, the user has to provide an alternative hotkey
-		m_hotkeys_error		=	"c-key is rebound, but;omni-key 2 is not set up"					;## and these messages will appear if they have not provided that
+		m_hotkeys_error		=	"неверная горячая клавиша"
+		m_hotkeys_error		=	"обнаружены повторяющиеся клавиши"
+		m_hotkeys_error		=	"alt переназначен, но;запасная клавиша не задана"				;## if certain tickboxes are ticked, the user has to provide an alternative hotkey
+		m_hotkeys_error		=	"клавиша c переназначена, но;omni-key 2 не задан"					;## and these messages will appear if they have not provided that
 
 
 
@@ -1145,29 +1148,29 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "act-tracker" section of the settings menu
-		m_lvltracker_timer			=	"timer"
-		m_lvltracker_fadeout		=	"fade"
-		m_lvltracker_fadeout		=	"hover"
-		m_lvltracker_gear			=	"gear tracker"
-		m_lvltracker_lvltips		=	"lvl tips"
-		m_lvltracker_pagehotkeys		=	"page-hotkeys"
-		m_lvltracker_poboverlays		=	"pob overlay settings:"
-		m_lvltracker_pobgems		=	"gems: use toggle instead of hold"
-		m_lvltracker_pobmanual		=	"tree: use screen-caps instead of schematics"
-		m_lvltracker_pob			=	"pob: middle-click opens screen-cap menu"
-		m_lvltracker_screencap		=	"screen-cap menu"
-		m_lvltracker_guide			=	"guides:"
-		m_lvltracker_incompatible	=	"incompatible guide-data,;update required"
-		m_lvltracker_treeclear		=	"delete data"
-		m_lvltracker_leaguestart		=	"league-start"
-		m_lvltracker_optionals		=	"optionals"						;## refers to optional loot, quests, etc.
-		m_lvltracker_bandit			=	"bandit"
-		m_lvltracker_bandits		=	"alira"
-		m_lvltracker_bandits		=	"kraityn"
-		m_lvltracker_bandits		=	"oak"
-		m_lvltracker_treehotkey		=	"hotkey to close trees:"				;## optional setting for users who don't close the in-game tree with ESC
-		m_lvltracker_gemquests		=	"gem-quests"						;## quests that unlock gems
-		m_lvltracker_autotracking	=	"auto-track"
+		m_lvltracker_timer			=	"таймер"
+		m_lvltracker_fadeout		=	"скрывать"
+		m_lvltracker_fadeout		=	"наведение"
+		m_lvltracker_gear			=	"трекер снаряжения"
+		m_lvltracker_lvltips		=	"советы по ур."
+		m_lvltracker_pagehotkeys		=	"клавиши страниц"
+		m_lvltracker_poboverlays		=	"настройки оверлеев pob:"
+		m_lvltracker_pobgems		=	"камни: переключать, а не удерживать"
+		m_lvltracker_pobmanual		=	"дерево: снимки экрана вместо схем"
+		m_lvltracker_pob			=	"pob: средняя кнопка открывает меню снимков"
+		m_lvltracker_screencap		=	"меню снимков"
+		m_lvltracker_guide			=	"гайды:"
+		m_lvltracker_incompatible	=	"данные гайда несовместимы,;нужно обновление"
+		m_lvltracker_treeclear		=	"удалить данные"
+		m_lvltracker_leaguestart		=	"старт лиги"
+		m_lvltracker_optionals		=	"необязательное"						;## refers to optional loot, quests, etc.
+		m_lvltracker_bandit			=	"бандит"
+		m_lvltracker_bandits		=	"алира"
+		m_lvltracker_bandits		=	"крайтин"
+		m_lvltracker_bandits		=	"дуб"
+		m_lvltracker_treehotkey		=	"клавиша закрытия дерева:"				;## optional setting for users who don't close the in-game tree with ESC
+		m_lvltracker_gemquests		=	"квесты камней"						;## quests that unlock gems
+		m_lvltracker_autotracking	=	"автослежение"
 
 
 
@@ -1372,7 +1375,7 @@
 		m_updater_github		=	"main page"
 		m_updater_github		=	"releases"
 		m_updater_changelog		=	"full changelog"
-		m_updater_skip			=	"skip"
+		m_updater_skip			=	"пропустить"
 		m_updater_failed		=	"update failed:"
 		m_updater_error1		=	"the last update attempt failed because of write-permission errors. please open the <general> section of the settings and run the test at the bottom."
 		m_updater_error1		=	"fixing these issues is critical not just for the updater but for many other features as well."

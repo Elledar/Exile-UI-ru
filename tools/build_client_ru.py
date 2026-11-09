@@ -111,5 +111,6 @@ if missing:
     sys.exit("Не найдены в шаблоне (автор что-то поменял): %r" % missing)
 header = [";## Русский языковой пакет для Exile UI (клиент игры на русском; общая папка для PoE 1 и PoE 2, проверено на PoE 1) — client.txt",
           ";## Собран скриптом tools/build_client_ru.py из английского шаблона. Непереведённые строки пока на английском.", ""]
-open(dst, "w", encoding="utf-8-sig", newline="\r\n").write("\n".join(header + out) + "\n")
+# без BOM, как английский шаблон
+open(dst, "w", encoding="utf-8", newline="\r\n").write("\n".join(header + out) + "\n")
 print("ok:", len(RU), "замен")

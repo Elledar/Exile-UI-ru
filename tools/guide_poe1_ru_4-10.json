@@ -60,7 +60,7 @@
   "(hint)__ (color:cc99ff)start & (color:cc99ff)exit: adjacent corners2": "(hint)__ (color:cc99ff)старт и (color:cc99ff)выход: соседние углы2",
   "follow (img:0) edge, kill avarius": "вдоль (img:0) края, убить авария",
   "leaguestart: (hint)__ (img:craft): corridor along (img:4) edge": "leaguestart: (hint)__ (img:craft): коридор вдоль (img:4) края",
-  "(hint)__ high xp area, farm level: 40-42": "(hint)__ много опыта, уровень фарма: 40-42",
+  "(hint)__ high xp area, farm level: 40-42": "(hint)__ много опыта, поднять до уровня: 40-42",
   "go (img:3), enter areaid1_5_4b ;; torched courts": "иди (img:3), вход: areaid1_5_4b ;; torched courts",
   "leaguestart: (hint)__ (img:town) (color:cc99ff)vendor: talk to (img:quest) bannon": "leaguestart: (hint)__ (img:town) (color:cc99ff)торговец: поговорить с (img:quest) бэнноном",
   "reach areaid1_5_3b ;; ruined square": "дойти: areaid1_5_3b ;; ruined square",
@@ -272,7 +272,7 @@
   "kill solaris_&_lunaris": "убить солярис_и_лунарис",
   "enter areaid2_9_1 ;; blood aqueduct": "вход: areaid2_9_1 ;; blood aqueduct",
 
-  "farm level: 58-62": "уровень фарма: 58-62",
+  "farm level: 58-62": "поднять до уровня: 58-62",
   "enter areaid2_9_town ;; highgate": "вход: areaid2_9_town ;; highgate",
   "go (img:1): areaid2_9_2 ;; the descent": "иди (img:1): areaid2_9_2 ;; the descent",
   "reach areaid2_9_3 ;; vastiri desert": "дойти: areaid2_9_3 ;; vastiri desert",
