@@ -22,7 +22,7 @@ if missing:
     sys.exit(f"нет картинок-подсказок в {hdir}: {missing}")
 
 readme = f"""Русский языковой пакет для Exile UI (версия программы {ver})
-https://github.com/Elledar/exile-ui-ru
+https://github.com/Elledar/Exile-UI-ru
 
 Установка:
 1. Закройте Exile UI. Распакуйте этот архив прямо в папку Exile UI (где лежит «Exile UI.ahk»),
