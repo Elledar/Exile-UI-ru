@@ -12,7 +12,7 @@
   "enter areaid1_1_2a ;; tidal island": "вход: areaid1_1_2a ;; tidal island",
   "follow (img:6) side of wall": "вдоль (img:6) стороны стены",
   "(hint)__ see a ledge? follow (img:2) side": "(hint)__ видишь уступ? иди по (img:2) стороне",
-  "kill hailrake for (quest:chest) (lvl:4)": "убить отморозка за (quest:судовую аптечку) (lvl:4)",
+  "kill hailrake for (quest:chest) (lvl:4)": "убить отморозка за (quest:судовую_аптечку) (lvl:4)",
   "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch": "(color:cc99ff)релог: areaid1_1_town ;; lioneye's watch",
   "(img:quest) tarkleigh: <breaking_some_eggs1>, <breaking_some_eggs2>": "(img:quest) таркли: <разорение_гнёзд1>, <разорение_гнёзд2>",
   "(img:quest) nessa: <mercy_mission>": "(img:quest) несса: <любовь_к_ближнему>",

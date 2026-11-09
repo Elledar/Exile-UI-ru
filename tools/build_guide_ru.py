@@ -19,7 +19,10 @@ for f in sorted(glob.glob(os.path.join(here, "guide_poe1_ru*.json"))):  # акт
         if k in tr and tr[k] != v:
             sys.exit(f"строка переведена по-разному в разных файлах: {k}")
         tr[k] = v
-names = load(os.path.join(here, "quest_names_ru.json"))
+        bad = re.findall(r"\((?:quest|img|color|hint)[^)]*\s[^)]*\)", v)
+        if bad:  # программа не распознаёт метку с пробелом и показывает её как текст
+            sys.exit(f"пробел внутри метки (нужен _): {bad} в строке: {v}")
+names =load(os.path.join(here, "quest_names_ru.json"))
 qmap = {k.replace(" ", "_"): v.replace(" ", "_") for k, v in names["quests"].items()}
 npcs = names["npcs"]
 guide = load(os.path.join(src, "[leveltracker] default guide.json"))
