@@ -1,0 +1,9143 @@
+{
+  "_comments": [
+    "when translating gems, add a 'name' key to a gem's object, for example:",
+    {
+      "absolution": {
+        "attribute": 1,
+        "level": 12,
+        "name": "TRANSLATION",
+        "quests": {}
+      }
+    }
+  ],
+  "_quests": {
+    "a fixture of fate": {
+      "act": 3,
+      "npc": "siosa"
+    },
+    "breaking some eggs1": {
+      "act": 1,
+      "npc": "tarkleigh"
+    },
+    "breaking some eggs2": {
+      "act": 1,
+      "npc": "tarkleigh"
+    },
+    "breaking the seal": {
+      "act": 4,
+      "npc": "oyun"
+    },
+    "enemy at the gate": {
+      "act": 1,
+      "npc": "tarkleigh"
+    },
+    "fallen from grace": {
+      "act": 6,
+      "npc": "lilly"
+    },
+    "intruders in black": {
+      "act": 2,
+      "npc": "greust"
+    },
+    "lost in love": {
+      "act": 3,
+      "npc": "maramoa"
+    },
+    "mercy mission": {
+      "act": 1,
+      "npc": "nessa"
+    },
+    "sever the right hand": {
+      "act": 3,
+      "npc": "maramoa"
+    },
+    "sharp and cruel": {
+      "act": 2,
+      "npc": "silk"
+    },
+    "the caged brute1": {
+      "act": 1,
+      "npc": "nessa"
+    },
+    "the caged brute2": {
+      "act": 1,
+      "npc": "tarkleigh"
+    },
+    "the eternal nightmare": {
+      "act": 4,
+      "npc": "dialla"
+    },
+    "the root of the problem": {
+      "act": 2,
+      "npc": ""
+    },
+    "the siren's cadence": {
+      "act": 1,
+      "npc": "nessa"
+    }
+  },
+  "quicksilver flask": {
+    "attribute": 2,
+    "quests": {
+      "mercy mission": {
+        "quest": []
+      }
+    },
+    "name": "ртутный флакон"
+  },
+  "absolution": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar"
+        ]
+      },
+      "the siren's cadence": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "witch",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "отпущение"
+  },
+  "added chaos damage support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "урон хаосом"
+  },
+  "added cold damage support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "урон холодом"
+  },
+  "added fire damage support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "урон огнём"
+  },
+  "added lightning damage support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar"
+        ]
+      }
+    },
+    "name": "урон молнией"
+  },
+  "additional accuracy support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "меткость"
+  },
+  "advanced traps support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "улучшенные ловушки"
+  },
+  "alchemist's mark": {
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "lost in love": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "метка алхимика"
+  },
+  "ambush": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "засада"
+  },
+  "ancestral call support": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "зов предков"
+  },
+  "ancestral cry": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "клич предков"
+  },
+  "anger": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "жгучая злоба"
+  },
+  "animate guardian": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": []
+      }
+    },
+    "name": "аниматрон"
+  },
+  "animate weapon": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "живое оружие"
+  },
+  "arc": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "цепь молний"
+  },
+  "arcane cloak": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "чародейский покров"
+  },
+  "arcane surge support": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "witch"
+        ]
+      },
+      "mercy mission": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "колдовской выброс"
+  },
+  "arcanist brand": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "клеймо чаротворца"
+  },
+  "archmage support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "архимаг"
+  },
+  "arctic armour": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "северная броня"
+  },
+  "armageddon brand": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "клеймо армагеддона"
+  },
+  "arrogance support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "заносчивость"
+  },
+  "arrow nova support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "кольцо стрел"
+  },
+  "artillery ballista": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "артиллерийская баллиста"
+  },
+  "assassin's mark": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "shadow",
+          "duelist",
+          "scion"
+        ]
+      }
+    },
+    "name": "метка убийцы"
+  },
+  "autoexertion": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "автоусиление"
+  },
+  "automation": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "vendor": []
+      }
+    },
+    "name": "автоматизация"
+  },
+  "ball lightning": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "шаровая молния"
+  },
+  "ballista totem support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "тотем-баллиста"
+  },
+  "bane": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "погибель"
+  },
+  "barrage": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "очередь"
+  },
+  "barrage support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "стрельба очередями"
+  },
+  "battlemage's cry": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "клич боевого мага"
+  },
+  "bear trap": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "медвежий капкан"
+  },
+  "behead support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "templar",
+          "scion",
+          "marauder",
+          "duelist"
+        ]
+      }
+    },
+    "name": "обезглавливание"
+  },
+  "berserk": {
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "боевое безумие"
+  },
+  "blade blast": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "взрыв клинков"
+  },
+  "blade flurry": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "порыв клинков"
+  },
+  "blade trap": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "ranger",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "ловушка лезвий"
+  },
+  "blade vortex": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "вихрь клинков"
+  },
+  "bladefall": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "мечепад"
+  },
+  "bladestorm": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    },
+    "name": "ураган лезвий"
+  },
+  "blasphemy support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "богохульство"
+  },
+  "blast rain": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "дождь взрывов"
+  },
+  "blastchain mine support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "цепной подрыв"
+  },
+  "blazing salvo": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "пылающий залп"
+  },
+  "blessed call support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "священный призыв"
+  },
+  "blight": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "мор"
+  },
+  "blind support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "ослепление"
+  },
+  "blink arrow": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "стрела-телепорт"
+  },
+  "block chance reduction support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {},
+    "name": "затруднение блока"
+  },
+  "blood and sand": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "кровь и песок"
+  },
+  "blood rage": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "кровавый угар"
+  },
+  "bloodlust support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "кровожадность"
+  },
+  "bloodthirst support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "кровавое зверство"
+  },
+  "bodyswap": {
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "обмен телами"
+  },
+  "bone offering": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "подношение костей"
+  },
+  "bonechill support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "леденящее охлаждение"
+  },
+  "boneshatter": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "дробление костей"
+  },
+  "brand recall": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "возврат клейм"
+  },
+  "brutality support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    },
+    "name": "жестокость"
+  },
+  "burning arrow": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "горящая стрела"
+  },
+  "burning damage support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "урон от горения"
+  },
+  "cast on critical strike support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "сотворение чар при критическом ударе"
+  },
+  "cast on death support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "сотворение чар при смерти"
+  },
+  "cast on melee kill support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "сотворение чар при убийстве в ближнем бою"
+  },
+  "cast when damage taken support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "сотворение чар при получении урона"
+  },
+  "cast when stunned support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "сотворение чар при оглушении"
+  },
+  "cast while channelling support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "сотворение чар при поддержании"
+  },
+  "caustic arrow": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "едкая стрела"
+  },
+  "chain hook": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    },
+    "name": "цепной крюк"
+  },
+  "chain support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "цепь"
+  },
+  "chance to bleed support": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist"
+        ]
+      },
+      "mercy mission": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "шанс кровотечения"
+  },
+  "chance to flee support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "паника"
+  },
+  "chance to poison support": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "shadow"
+        ]
+      },
+      "mercy mission": {
+        "quest": [
+          "witch",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "шанс отравить"
+  },
+  "charged dash": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "заряженный рывок"
+  },
+  "charged mines support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "заряженные мины"
+  },
+  "charged traps support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "заряженные ловушки"
+  },
+  "clarity": {
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "ясность ума"
+  },
+  "cleave": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "рассечение"
+  },
+  "close combat support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "бой вплотную"
+  },
+  "cluster traps support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "кассетные ловушки"
+  },
+  "cobra lash": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "бросок кобры"
+  },
+  "cold penetration support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "пронизывающий холод"
+  },
+  "cold snap": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "укус стужи"
+  },
+  "cold to fire support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "холод в огонь"
+  },
+  "combustion support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "воспламенение"
+  },
+  "concentrated effect support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "средоточие"
+  },
+  "conductivity": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "проводимость"
+  },
+  "conflagration": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger"
+        ]
+      }
+    },
+    "name": "пожарище"
+  },
+  "consecrated path": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "освящённый путь"
+  },
+  "contagion": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "инфекция"
+  },
+  "controlled blaze support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "управляемое горение"
+  },
+  "controlled destruction support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "witch"
+        ]
+      }
+    },
+    "name": "контролируемое разрушение"
+  },
+  "conversion trap": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "ловушка переманивания"
+  },
+  "convocation": {
+    "attribute": 0,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "сбор"
+  },
+  "corrupting cry support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "оскверняющий клич"
+  },
+  "corrupting fever": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "разлагающая лихорадка"
+  },
+  "crackling lance": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    },
+    "name": "искрящееся копьё"
+  },
+  "creeping frost": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "ползучий мороз"
+  },
+  "cremation": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "кремация"
+  },
+  "critical strike affliction support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "критические удары состояниями"
+  },
+  "cruelty support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch",
+          "scion",
+          "duelist"
+        ]
+      }
+    },
+    "name": "злость"
+  },
+  "crushing fist": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "сокрушающий кулак"
+  },
+  "culling strike support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": []
+      }
+    },
+    "name": "добивание"
+  },
+  "cursed ground support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "проклятая земля"
+  },
+  "cyclone": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "вихрь"
+  },
+  "damage on full life support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "урон при полном здоровье"
+  },
+  "dark bargain": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "тёмная сделка"
+  },
+  "dark pact": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "тёмная сделка"
+  },
+  "dash": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "рывок"
+  },
+  "deadly ailments support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "смертельные состояния"
+  },
+  "decay support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "разложение"
+  },
+  "decoy totem": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "тотем-приманка"
+  },
+  "defiance banner": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "знамя непокорности"
+  },
+  "desecrate": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "осквернение"
+  },
+  "despair": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "отчаяние"
+  },
+  "destructive link": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "разрушительная связь"
+  },
+  "determination": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    },
+    "name": "решимость"
+  },
+  "detonate dead": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "подрыв трупа"
+  },
+  "detonate mines": {
+    "attribute": 0,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "подрыв мин"
+  },
+  "devour support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "пожирание"
+  },
+  "devouring totem": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "поглощающий тотем"
+  },
+  "discharge": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": []
+      }
+    },
+    "name": "разряд"
+  },
+  "discipline": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "дисциплина"
+  },
+  "divine blast": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "божественный взрыв"
+  },
+  "divine blessing support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {},
+    "name": "божественное благословение"
+  },
+  "divine ire": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "божественный гнев"
+  },
+  "divine retribution": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    },
+    "name": "божественное возмездие"
+  },
+  "dominating blow": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "удар власти"
+  },
+  "double strike": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "двойной удар"
+  },
+  "dread banner": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "знамя страха"
+  },
+  "dual strike": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "парный удар"
+  },
+  "earthquake": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "землетрясение"
+  },
+  "earthshatter": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "разлом земли"
+  },
+  "efficacy support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "witch"
+        ]
+      }
+    },
+    "name": "эффективность"
+  },
+  "elemental army support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "стихийное войско"
+  },
+  "elemental damage with attacks support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar",
+          "marauder"
+        ]
+      }
+    },
+    "name": "урон от стихий атаками"
+  },
+  "elemental focus support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "концентрация стихий"
+  },
+  "elemental hit": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "удар стихии"
+  },
+  "elemental penetration support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {},
+    "name": "пронизывающие стихии"
+  },
+  "elemental proliferation support": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch",
+          "templar"
+        ]
+      }
+    },
+    "name": "разгул стихий"
+  },
+  "elemental weakness": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "уязвимость к стихиям"
+  },
+  "empower support": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {},
+    "name": "усилитель"
+  },
+  "endurance charge on melee stun support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "заряд выносливости при оглушении в ближнем бою"
+  },
+  "enduring cry": {
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "клич стойкости"
+  },
+  "energy blade": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "клинок энергии"
+  },
+  "energy leech support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "похищение энергетического щита"
+  },
+  "enfeeble": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "слабость"
+  },
+  "enhance support": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {},
+    "name": "улучшитель"
+  },
+  "enlighten support": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {},
+    "name": "наставник"
+  },
+  "ensnaring arrow": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "стрела ловчего"
+  },
+  "essence drain": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "похищение сущности"
+  },
+  "eternal blessing support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "вечное благословение"
+  },
+  "ethereal knives": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "marauder",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "бесплотные ножи"
+  },
+  "eviscerate": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "потрошение"
+  },
+  "excommunicate support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "отлучение"
+  },
+  "exemplar support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "эталон"
+  },
+  "expert retaliation support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "искусная расплата"
+  },
+  "explosive arrow": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger"
+        ]
+      }
+    },
+    "name": "взрывная стрела"
+  },
+  "explosive concoction": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    },
+    "name": "взрывная смесь"
+  },
+  "explosive trap": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "взрывная ловушка"
+  },
+  "exsanguinate": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "обескровливание"
+  },
+  "eye of winter": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "templar",
+          "shadow",
+          "scion",
+          "witch"
+        ]
+      }
+    },
+    "name": "око зимы"
+  },
+  "faster attacks support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "ускорение атак"
+  },
+  "faster casting support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "ускоренное сотворение чар"
+  },
+  "faster projectiles support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "ускорение снарядов"
+  },
+  "feeding frenzy support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "голодное остервенение"
+  },
+  "fire penetration support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "пронизывающий жар"
+  },
+  "fire trap": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "огненная ловушка"
+  },
+  "fireball": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "огненный шар"
+  },
+  "firestorm": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "shadow",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "огненный шторм"
+  },
+  "fist of war support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "кулак войны"
+  },
+  "flame dash": {
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "огненный рывок"
+  },
+  "flame link": {
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "marauder",
+          "templar",
+          "duelist"
+        ]
+      }
+    },
+    "name": "пламенная связь"
+  },
+  "flame surge": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "выброс пламени"
+  },
+  "flame wall": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "стена пламени"
+  },
+  "flameblast": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "пламенный взрыв"
+  },
+  "flamethrower trap": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "ловушка-огнемёт"
+  },
+  "flamewood support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "лучина"
+  },
+  "flammability": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "горючесть"
+  },
+  "flesh and stone": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    },
+    "name": "камень и плоть"
+  },
+  "flesh offering": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "подношение плоти"
+  },
+  "flicker strike": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "внезапный удар"
+  },
+  "focused ballista support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "прицельная баллиста"
+  },
+  "focused channelling support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "shadow",
+          "witch"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "сфокусированное поддержание"
+  },
+  "forbidden rite": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "vendor": [
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "запретный ритуал"
+  },
+  "fork support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "разветвление"
+  },
+  "fortify support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "укрепление"
+  },
+  "freezing pulse": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "волна холода"
+  },
+  "frenzy": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "бешенство"
+  },
+  "fresh meat support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "свежее мясо"
+  },
+  "frigid bond support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "морозные узы"
+  },
+  "frost blades": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "ледяные клинки"
+  },
+  "frost bomb": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "морозная бомба"
+  },
+  "frost shield": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "морозный щит"
+  },
+  "frost wall": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "vendor": [
+          "duelist",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "стена льда"
+  },
+  "frostbite": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch",
+          "ranger"
+        ]
+      }
+    },
+    "name": "обморожение"
+  },
+  "frostblink": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs2": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "ледяной скачок"
+  },
+  "frostbolt": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "морозный шар"
+  },
+  "frozen legion": {
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "замёрзший легион"
+  },
+  "galvanic arrow": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "электризующая стрела"
+  },
+  "galvanic field": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "intruders in black": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "электризующее поле"
+  },
+  "general's cry": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "клич полководца"
+  },
+  "generosity support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "щедрость"
+  },
+  "glacial cascade": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    },
+    "name": "ледяной каскад"
+  },
+  "glacial hammer": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    },
+    "name": "леденящий молот"
+  },
+  "glacial shield swipe": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "взмах ледяного щита"
+  },
+  "grace": {
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    },
+    "name": "грация"
+  },
+  "greater multiple projectiles support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "много дополнительных снарядов"
+  },
+  "greater volley support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "большой залп"
+  },
+  "ground slam": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    },
+    "name": "сотрясение"
+  },
+  "guardian's blessing support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "благословение защитника"
+  },
+  "hallow support": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "templar"
+        ]
+      },
+      "mercy mission": {
+        "vendor": [
+          "marauder",
+          "scion",
+          "witch"
+        ]
+      }
+    },
+    "name": "благодать"
+  },
+  "haste": {
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "спешка"
+  },
+  "hatred": {
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "холодная ненависть"
+  },
+  "heavy strike": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "тяжёлый удар"
+  },
+  "herald of agony": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "вестник агонии"
+  },
+  "herald of ash": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "вестник пепла"
+  },
+  "herald of ice": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "вестник льда"
+  },
+  "herald of purity": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "вестник чистоты"
+  },
+  "herald of thunder": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "вестник грома"
+  },
+  "hex bloom support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "расцвет порчи"
+  },
+  "hexblast": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    },
+    "name": "взрыв порчи"
+  },
+  "hextouch support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "касание порчи"
+  },
+  "high-impact mine support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "усиленная мина"
+  },
+  "holy flame totem": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "тотем священного огня"
+  },
+  "holy hammers": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ]
+      }
+    },
+    "name": "священные молоты"
+  },
+  "holy strike": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "святой удар"
+  },
+  "holy sweep": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    },
+    "name": "священный взмах"
+  },
+  "hydrosphere": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "гидросфера"
+  },
+  "hypothermia support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "переохлаждение"
+  },
+  "ice bite support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "укус льда"
+  },
+  "ice crash": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "ледяное сокрушение"
+  },
+  "ice nova": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "кольцо льда"
+  },
+  "ice shot": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "ледяной выстрел"
+  },
+  "ice spear": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "ледяное копьё"
+  },
+  "ice trap": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "ледяная ловушка"
+  },
+  "icicle mine": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "шквальная мина"
+  },
+  "ignite proliferation support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "распространение поджога"
+  },
+  "immolate support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "жертвенность"
+  },
+  "immortal call": {
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "призыв к бессмертию"
+  },
+  "impale support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "прокол"
+  },
+  "impending doom support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "обречённость"
+  },
+  "incinerate": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "испепеление"
+  },
+  "increased area of effect support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "расширенная область действия"
+  },
+  "increased critical damage support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "усиление критических ударов"
+  },
+  "increased critical strikes support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "учащение критических ударов"
+  },
+  "infernal blow": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "удар преисподней"
+  },
+  "infernal cry": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "клич преисподней"
+  },
+  "infernal legion support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "пылающий легион"
+  },
+  "infused channelling support": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "усиленное поддержание"
+  },
+  "innervate support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "возбуждение"
+  },
+  "inspiration support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "вдохновение"
+  },
+  "intensify support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "интенсивность"
+  },
+  "intimidating cry": {
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "устрашающий клич"
+  },
+  "intuitive link": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "подсознательная связь"
+  },
+  "iron grip support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "железная хватка"
+  },
+  "iron will support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "железная воля"
+  },
+  "item rarity support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "редкость предметов"
+  },
+  "kinetic blast": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "кинетический взрыв"
+  },
+  "kinetic bolt": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "кинетический заряд"
+  },
+  "kinetic fusillade": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "кинетический шквал"
+  },
+  "kinetic instability support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "кинетическая нестабильность"
+  },
+  "kinetic rain": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "кинетический дождь"
+  },
+  "knockback support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "отбрасывание"
+  },
+  "lacerate": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "разрубание"
+  },
+  "lancing steel": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "пронзающая сталь"
+  },
+  "leap slam": {
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "наскок"
+  },
+  "less duration support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "сокращение"
+  },
+  "life gain on hit support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "здоровье за удар"
+  },
+  "life leech support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "вытягивание здоровья"
+  },
+  "lifetap support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar",
+          "marauder"
+        ]
+      }
+    },
+    "name": "жизнеотвод"
+  },
+  "lightning arrow": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    },
+    "name": "стрела молнии"
+  },
+  "lightning conduit": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "witch",
+          "templar"
+        ]
+      }
+    },
+    "name": "проводник молнии"
+  },
+  "lightning penetration support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "пронизывающие молнии"
+  },
+  "lightning spire trap": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "ловушка шпиля молний"
+  },
+  "lightning strike": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "удар молнии"
+  },
+  "lightning tendrils": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "побеги молний"
+  },
+  "lightning trap": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "ловушка молний"
+  },
+  "lightning warp": {
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "грозовой переход"
+  },
+  "living lightning support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "живая молния"
+  },
+  "locus mine support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "ranger",
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "направленная мина"
+  },
+  "maim support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "увечье"
+  },
+  "malevolence": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "злорадство"
+  },
+  "mana leech support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "вытягивание маны"
+  },
+  "manabond": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "templar",
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "узы маны"
+  },
+  "manaforged arrows support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "стрелы маны"
+  },
+  "mana-infused staff": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "насыщенный маной посох"
+  },
+  "mark on hit support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "vendor": []
+      }
+    },
+    "name": "метка при попадании"
+  },
+  "meat shield support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "живой щит"
+  },
+  "melee physical damage support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar"
+        ]
+      }
+    },
+    "name": "физический урон ближнего боя"
+  },
+  "melee splash support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "раскатистый удар"
+  },
+  "minefield support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "минное поле"
+  },
+  "minion damage support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar"
+        ]
+      }
+    },
+    "name": "урон приспешников"
+  },
+  "minion life support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "здоровье приспешников"
+  },
+  "minion speed support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "скорость приспешников"
+  },
+  "mirage archer support": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "призрачный лучник"
+  },
+  "mirror arrow": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "ranger"
+        ]
+      }
+    },
+    "name": "стрела-двойник"
+  },
+  "molten shell": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "расплавленный панцирь"
+  },
+  "molten strike": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "магмовый удар"
+  },
+  "momentum support": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "ranger"
+        ]
+      },
+      "mercy mission": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    },
+    "name": "импульс"
+  },
+  "more duration support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "продление"
+  },
+  "multiple projectiles support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "дополнительные снаряды"
+  },
+  "multiple totems support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "templar",
+          "marauder"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "множество тотемов"
+  },
+  "multiple traps support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "дополнительные ловушки"
+  },
+  "multistrike support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "град ударов"
+  },
+  "nightblade support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "клинок во тьме"
+  },
+  "orb of storms": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "сфера бурь"
+  },
+  "overcharge support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "sharp and cruel": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "перегрузка"
+  },
+  "overexertion support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      }
+    },
+    "name": "переусиление"
+  },
+  "penance brand": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "клеймо покаяния"
+  },
+  "perforate": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "пронзающие шипы"
+  },
+  "pestilent strike": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "моровой удар"
+  },
+  "petrified blood": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "окаменелая кровь"
+  },
+  "phase run": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "призрачный бег"
+  },
+  "physical to lightning support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "физический урон в молнии"
+  },
+  "pierce support": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "scion",
+          "shadow",
+          "ranger"
+        ]
+      }
+    },
+    "name": "пронзание"
+  },
+  "pinpoint support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "сосредоточение"
+  },
+  "plague bearer": {
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "носитель чумы"
+  },
+  "poacher's mark": {
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "shadow",
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "метка браконьера"
+  },
+  "point blank support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "стрельба в упор"
+  },
+  "poisonous concoction": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    },
+    "name": "ядовитая смесь"
+  },
+  "portal": {
+    "attribute": 0,
+    "level": 10,
+    "quests": {},
+    "name": "портал"
+  },
+  "power charge on critical support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "заряд энергии при критическом ударе"
+  },
+  "power siphon": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "перелив энергии"
+  },
+  "precision": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "точность"
+  },
+  "predator support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "хищник"
+  },
+  "pride": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "гордость"
+  },
+  "prismatic burst support": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "scion"
+        ]
+      },
+      "mercy mission": {
+        "vendor": [
+          "templar",
+          "shadow",
+          "witch",
+          "scion"
+        ]
+      }
+    },
+    "name": "радужная вспышка"
+  },
+  "protective link": {
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "vendor": [
+          "scion",
+          "marauder",
+          "templar"
+        ]
+      }
+    },
+    "name": "ограждающая связь"
+  },
+  "pulverise support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "распыление"
+  },
+  "puncture": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    },
+    "name": "надрез"
+  },
+  "punishment": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "наказание"
+  },
+  "purifying flame": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "очищающее пламя"
+  },
+  "purity of elements": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "спасение от стихий"
+  },
+  "purity of fire": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "спасение от огня"
+  },
+  "purity of ice": {
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "спасение от холода"
+  },
+  "purity of lightning": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "спасение от молний"
+  },
+  "pyroclast mine": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "пирокластовая мина"
+  },
+  "quickstep": {
+    "attribute": 0,
+    "level": 1,
+    "quests": {},
+    "name": "отскок"
+  },
+  "rage support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "свирепость"
+  },
+  "rage vortex": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "свирепый вихрь"
+  },
+  "rain of arrows": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "ливень стрел"
+  },
+  "raise spectre": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "сотворение призрака"
+  },
+  "raise zombie": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "поднятие зомби"
+  },
+  "rallying cry": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "клич сплочения"
+  },
+  "reap": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "кровавая жатва"
+  },
+  "reave": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    },
+    "name": "опустошение"
+  },
+  "rejuvenation totem": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "восполняющий тотем"
+  },
+  "rending steel": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {},
+    "name": "раздирающая сталь"
+  },
+  "returning projectiles support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "возвращающиеся снаряды"
+  },
+  "righteous fire": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "праведный огонь"
+  },
+  "rolling magma": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "ползучая магма"
+  },
+  "rupture support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      }
+    },
+    "name": "разрывание"
+  },
+  "ruthless support": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "marauder"
+        ]
+      },
+      "mercy mission": {
+        "quest": [
+          "templar",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "беспощадность"
+  },
+  "sacred wisps support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "священные огоньки"
+  },
+  "sacrifice support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "жертвоприношение"
+  },
+  "sadism support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "садизм"
+  },
+  "scorching ray": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "опаляющий луч"
+  },
+  "scourge arrow": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "стрела скверны"
+  },
+  "searing bond": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "обжигающие узы"
+  },
+  "second wind support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "второе дыхание"
+  },
+  "seismic cry": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "сейсмический клич"
+  },
+  "seismic trap": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "сейсмическая ловушка"
+  },
+  "shattering steel": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "дробящая сталь"
+  },
+  "shield charge": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "vendor": []
+      },
+      "breaking some eggs2": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ]
+      }
+    },
+    "name": "удар щитом"
+  },
+  "shield crush": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "сокрушающий щит"
+  },
+  "shield of light": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "щит света"
+  },
+  "shock nova": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "кольцо молний"
+  },
+  "shockwave support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "templar",
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "ударная волна"
+  },
+  "shockwave totem": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "сотрясающий тотем"
+  },
+  "shrapnel ballista": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "осколочная баллиста"
+  },
+  "siege ballista": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "осадная баллиста"
+  },
+  "sigil of power": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "печать силы"
+  },
+  "siphoning trap": {
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "ловушка переливания"
+  },
+  "slower projectiles support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      }
+    },
+    "name": "замедленные снаряды"
+  },
+  "smite": {
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "кара"
+  },
+  "smoke mine": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "дымовая мина"
+  },
+  "snipe": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    },
+    "name": "прицельный выстрел"
+  },
+  "sniper's mark": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "метка снайпера"
+  },
+  "somatic shell": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "соматический панцирь"
+  },
+  "soul link": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "духовная связь"
+  },
+  "soulrend": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "разрыв души"
+  },
+  "spark": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "искра"
+  },
+  "spectral helix": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "призрачная спираль"
+  },
+  "spectral shield throw": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "бросок призрачного щита"
+  },
+  "spectral throw": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    },
+    "name": "призрачный бросок"
+  },
+  "spell cascade support": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "каскад чар"
+  },
+  "spell echo support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "эхо магии"
+  },
+  "spell totem support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "колдующий тотем"
+  },
+  "spellblade support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "чародейский клинок"
+  },
+  "spellslinger": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "чароплёт"
+  },
+  "spirit offering": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "подношение духа"
+  },
+  "split arrow": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "расколотая стрела"
+  },
+  "splitting steel": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "scion",
+          "ranger"
+        ]
+      }
+    },
+    "name": "раскалывающая сталь"
+  },
+  "static strike": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the root of the problem": {
+        "quest": [
+          "templar"
+        ]
+      },
+      "the siren's cadence": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "статичный разряд"
+  },
+  "steelskin": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "marauder"
+        ]
+      },
+      "breaking some eggs2": {
+        "vendor": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ]
+      }
+    },
+    "name": "стальная кожа"
+  },
+  "storm brand": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "клеймо бури"
+  },
+  "storm burst": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "грозовой взрыв"
+  },
+  "storm call": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "призыв бури"
+  },
+  "storm rain": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    },
+    "name": "грозовой дождь"
+  },
+  "stormbind": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "грозовые руны"
+  },
+  "stormblast mine": {
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "штормовая мина"
+  },
+  "stun support": {
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "оглушение"
+  },
+  "summon carrion golem": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "призыв трупного голема"
+  },
+  "summon chaos golem": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "призыв голема хаоса"
+  },
+  "summon flame golem": {
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "призыв голема огня"
+  },
+  "summon holy relic": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "призыв священной реликвии"
+  },
+  "summon ice golem": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "призыв голема льда"
+  },
+  "summon lightning golem": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "призыв голема молнии"
+  },
+  "summon phantasm support": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "призыв фантома"
+  },
+  "summon raging spirit": {
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "призыв неистового духа"
+  },
+  "summon reaper": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "призыв жнеца"
+  },
+  "summon skeletons": {
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "сотворение скелетов"
+  },
+  "summon skitterbots": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "призыв мехаботов"
+  },
+  "summon stone golem": {
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "призыв каменного голема"
+  },
+  "sunder": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "раскол"
+  },
+  "swift affliction support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "стремительный недуг"
+  },
+  "swift assembly support": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "быстрая сборка"
+  },
+  "swiftbrand support": {
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "быстрое клеймение"
+  },
+  "swordstorm": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    },
+    "name": "буря мечей"
+  },
+  "tectonic slam": {
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "тектонический удар"
+  },
+  "tempest shield": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "щит бури"
+  },
+  "temporal chains": {
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "witch",
+          "scion",
+          "shadow",
+          "ranger"
+        ]
+      }
+    },
+    "name": "путы времени"
+  },
+  "temporal rift": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "ranger",
+          "witch"
+        ]
+      }
+    },
+    "name": "временной разрыв"
+  },
+  "thunderstorm": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "гроза"
+  },
+  "tornado": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "торнадо"
+  },
+  "tornado shot": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "вихрь стрел"
+  },
+  "toxic rain": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "токсичный дождь"
+  },
+  "trap and mine damage support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "урон ловушек и мин"
+  },
+  "trap support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "ловушка"
+  },
+  "trauma support": {
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "травма"
+  },
+  "trinity support": {
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "witch",
+          "shadow",
+          "duelist",
+          "ranger",
+          "templar",
+          "scion"
+        ]
+      }
+    },
+    "name": "триединство"
+  },
+  "unbound ailments support": {
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "безграничные состояния"
+  },
+  "unearth": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "эксгумация"
+  },
+  "unleash support": {
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "высвобождение"
+  },
+  "urgent orders support": {
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "срочные приказы"
+  },
+  "vampiric link": {
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "vendor": [
+          "scion",
+          "duelist",
+          "ranger"
+        ]
+      }
+    },
+    "name": "иссушающая связь"
+  },
+  "vengeful cry": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    },
+    "name": "клич отмщения"
+  },
+  "venom gyre": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "круг яда"
+  },
+  "vicious projectiles support": {
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      },
+      "the root of the problem": {
+        "quest": [
+          "marauder"
+        ]
+      }
+    },
+    "name": "яростные снаряды"
+  },
+  "vigilant strike": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "расчётливый удар"
+  },
+  "vile toxins support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "едкие токсины"
+  },
+  "viper strike": {
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "enemy at the gate": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "удар гадюки"
+  },
+  "vitality": {
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "живучесть"
+  },
+  "void manipulation support": {
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute1": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "манипуляция пустотой"
+  },
+  "void sphere": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "breaking the seal": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    },
+    "name": "сфера пустоты"
+  },
+  "volatile dead": {
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "нестабильный труп"
+  },
+  "volatility support": {
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sharp and cruel": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      }
+    },
+    "name": "нестабильность"
+  },
+  "volcanic fissure": {
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "the root of the problem": {
+        "quest": [
+          "marauder"
+        ]
+      },
+      "the siren's cadence": {
+        "quest": [
+          "marauder"
+        ]
+      }
+    },
+    "name": "вулканический разлом"
+  },
+  "volley support": {
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "mercy mission": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "залп"
+  },
+  "voltaxic burst": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the siren's cadence": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "shadow",
+          "scion",
+          "witch"
+        ]
+      }
+    },
+    "name": "вольтаксовая вспышка"
+  },
+  "vortex": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "пурга"
+  },
+  "vulnerability": {
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "беззащитность"
+  },
+  "wall of force": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "силовая стена"
+  },
+  "war banner": {
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "breaking some eggs1": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    },
+    "name": "знамя войны"
+  },
+  "warlord's mark": {
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    },
+    "name": "метка вождя"
+  },
+  "wave of conviction": {
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "intruders in black": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "волна осуждения"
+  },
+  "whirling blades": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    },
+    "name": "шквал клинков"
+  },
+  "wild strike": {
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "шальной удар"
+  },
+  "windburst support": {
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "a fixture of fate": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": []
+      }
+    },
+    "name": "порыв ветра"
+  },
+  "winter orb": {
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "sever the right hand": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "зимняя сфера"
+  },
+  "wintertide brand": {
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the root of the problem": {
+        "quest": [
+          "witch"
+        ]
+      },
+      "the siren's cadence": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "клеймо зимы"
+  },
+  "wither": {
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "увядание"
+  },
+  "withering step": {
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "the caged brute2": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    },
+    "name": "губительный шаг"
+  },
+  "withering touch support": {
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "the eternal nightmare": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    },
+    "name": "губительное прикосновение"
+  },
+  "wrath": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "грозный гнев"
+  },
+  "zealotry": {
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "a fixture of fate": {
+        "vendor": []
+      },
+      "lost in love": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    },
+    "name": "фанатизм"
+  }
+}
