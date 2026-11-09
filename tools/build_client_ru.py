@@ -4,8 +4,6 @@ import re, sys
 
 # (ключ, английское значение) -> русское значение. Только строки, подтверждённые журналом русского клиента PoE 1.
 RU = {
-    # в Fontin SmallCaps нет русских букв; шрифт Alegreya SC кладётся в data\ как alt_font_*.ttf (см. папку font)
-    ("system_font", "Fontin SmallCaps"): "Alegreya SC",
     ("log_level", "is now level"): "достигает # уровня",
     ("log_whois", "is a level # in the"): "имеет уровень # в лиге",
     ("log_whois_class", "level # in the"): "уровень # в лиге",

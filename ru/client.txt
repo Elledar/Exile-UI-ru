@@ -54,7 +54,7 @@
 ;#####################################################
 
 ;## these are some global system-settings that are dependent on the target language
-		system_font			=	"Alegreya SC"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
+		system_font			=	"Fontin SmallCaps"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
 		system_fullstop		=	"."					;## the type of punctuation mark the language uses at the end of a sentence (e.g. Japanese uses a different fullstop)
 		system_parenthesis		=	"(#)"				;## the level-up message in the game's client.txt log-file "CHARACTER (CLASS) is now Level X" uses a different parenthesis in Japanese at least
 		system_poedb_lang		=	"us"					;## which language to use on poedb (available: tw, cn, kr, us, jp, ru, po, th, fr, de, es)

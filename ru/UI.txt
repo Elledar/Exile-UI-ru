@@ -34,7 +34,7 @@
 ;#####################################################
 
 ;## these are some global system-settings that are dependent on the target language
-		system_font			=	"Alegreya SC"		;## ru: в Fontin SmallCaps нет русских букв, файл шрифта лежит в data\alt_font_AlegreyaSC-Regular.ttf ;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
+		system_font			=	"Fontin SmallCaps"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
 													;## this key is also present in the client.txt file, where it takes priority (i.e. the value there will override this one)
 
 
