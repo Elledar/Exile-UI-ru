@@ -1,0 +1,18 @@
+# HANDOFF — русский языковой пакет для Exile UI
+
+## Готово
+- Пакет = папка `ru/` (без форка программы, так просит автор). Установка: `python tools/install_ru.py "D:/Downloads/PoE_UI/Exile-UI-main"` (копирует ru/ в data\ru + русские копии картинок-подсказок).
+- Этап 1 — `ru/client.txt` (строки журнала русского клиента): проверен в игре, работает.
+- Этап 2 — названия локаций/камней (`tools/build_names_ru.py`, данные RePoE): проверен в игре. Шрифт Fontin Sans CR SC (data\alt_font_FontinSansCR-SC.ttf, в git не входит).
+- Этап 3а — гайд PoE 1, все 10 актов (`tools/guide_poe1_ru.json`, `guide_poe1_ru_4-10.json`, сборка `tools/build_guide_ru.py`), квесты синхронно в гайде/gems.json/client.txt (`tools/quest_names_ru.json`), 26 подсказок (`tools/hints_ru.json`). Установлен, в игре проверен только частично (1 акт).
+- Этап 3б — окна акт-трекера и акт-декодера: `tools/ui_ru.json` → `tools/build_ui_ru.py` → ru/UI.txt; 83 подсказки `tools/help_tooltips_ru.json` → `tools/build_help_ru.py`. Установлено, не проверено в игре.
+- Все ru-файлы собираются скриптами из английского шаблона `.tmp/src/data/english` (клон Exile-UI в .tmp).
+
+## В работе
+- `BACKLOG.md`, в очереди 2 правки: (1) «за сундук» → «за судовую аптечку» (строка «kill hailrake for (quest:chest) (lvl:4)»); (2) сократить длинные надписи кнопок в настройках акт-трекера (ключи m_lvltracker_*, global_* в tools/ui_ru.json).
+- Ждём от пользователя названия из игры (акт 3): решётка в Трущобах и свеча в Библиотеке; сверить: картографическое устройство (а7), тайник контрабандистов (а8), тележки с топливом/маяк (а6), рычаг (а4).
+
+## Дальше
+- Выполнить правки из BACKLOG.md, пересобрать, `install_ru.py`, коммит.
+- Затем: остальной интерфейс UI.txt (~770 строк), гайд PoE 2, скрипт сверки после обновлений Exile UI, заметки автору (lilly захардкожен в коде, «.support» в regex, теги <if:gen> в названиях зон).
+- Подвохи: lilly — служебная метка (не переводить в «lilly: <»), markers leaguestart/optional/twinkrun не переводить; Lang_Match требует все значения ключа; ru/UI.txt и client.txt без BOM.
