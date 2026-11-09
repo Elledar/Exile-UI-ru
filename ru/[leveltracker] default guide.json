@@ -34,7 +34,7 @@
       "lines": [
         "вдоль (img:6) стороны стены",
         "(hint)__ видишь уступ? иди по (img:2) стороне",
-        "убить хейлрейка за (quest:сундук) (lvl:4)",
+        "убить отморозка за (quest:сундук) (lvl:4)",
         "(color:cc99ff)релог: areaid1_1_town ;; lioneye's watch"
       ]
     },
@@ -120,7 +120,7 @@
       "вход: areaid1_1_7_2 ;; upper prison"
     ],
     [
-      "leaguestart: optional: найти сейф химика",
+      "leaguestart: optional: найти ларец алхимика",
       "(hint)__ может выпасть ртутный флакон",
       "найти и убить изувера (lvl:8-10)",
       "(color:cc99ff)релог: areaid1_1_town ;; lioneye's watch"
@@ -182,7 +182,7 @@
     ],
     [
       "leaguestart: пройти (img:lab) (color:569777)испытание",
-      "убить фиделитас (lvl:14-15) || взять (img:quest) (quest:камень)",
+      "убить фиделиса (lvl:14-15) || взять (img:quest) (quest:камень)",
       "(hint)__ (color:cc99ff)старт и (color:cc99ff)арена: противоположные углы",
       "(color:cc99ff)релог: areaid1_2_town ;; forest encampment"
     ],
@@ -602,7 +602,7 @@
       "(img:waypoint) до: areaid1_3_10_1 ;; the sewers"
     ],
     [
-      "сжечь (img:quest) (quest:завал_нежити)",
+      "сжечь (img:quest) (quest:бессмертную_преграду)",
       "вход: areaid1_3_13 ;; ebony barracks"
     ],
     [
