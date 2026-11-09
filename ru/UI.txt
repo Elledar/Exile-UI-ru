@@ -543,10 +543,10 @@
 		lvltracker_recommended		=	"farm level:"													;## PoE1 only, used to filter out lvl-recommendations in the guide
 
 
-		lvltracker_format_kill		=	"kill"						;## the string that follows this word will automatically be highlighted as a unique boss
-		lvltracker_format_act		=	"a"							;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter a1 | clearfell encampment")
+		lvltracker_format_kill		=	"убить"					;## the string that follows this word will automatically be highlighted as a unique boss
+		lvltracker_format_act		=	"а"						;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter a1 | clearfell encampment")
 		lvltracker_format_interlude	=	"int "						;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter int 1 | the refuge")
-		lvltracker_format_epilogue	=	"epilogue"
+		lvltracker_format_epilogue	=	"эпилог"
 		lvltracker_format_optional	=	"optional:"					;## in guides, lines with optional tasks/steps can be toggled dynamically if tagged with this string
 		lvltracker_format_league		=	"leaguestart:"					;## same as above but related to league-start tasks/steps
 		lvltracker_format_twink		=	"twinkrun:"					;## same as above but related to non-league-start tasks/steps
@@ -569,11 +569,11 @@
 		lvltracker_editor_remove		=	"remove page"
 		lvltracker_editor_condition	=	"no condition"
 
-		lvltracker_itembuy			=	"buy items"
+		lvltracker_itembuy			=	"купить предметы"
 		lvltracker_gempickups		=	"gem pickups"					;## a manager to adjust when gems should be picked up
-		lvltracker_gemreward		=	"take:"						;## when handing in quests, the guide will prompt you to take specific rewards
-		lvltracker_gembuy			=	"buy gems"					;## the guide will tell you to buy gems that you unlocked via questing
-		lvltracker_gembuy			=	"(hold omni-key)"
+		lvltracker_gemreward		=	"взять:"					;## when handing in quests, the guide will prompt you to take specific rewards
+		lvltracker_gembuy			=	"купить камни"					;## ru: должно совпадать с "купить_камни" в гайде ;## the guide will tell you to buy gems that you unlocked via questing
+		lvltracker_gembuy			=	"(держите omni-key)"
 
 
 ;#####################################################

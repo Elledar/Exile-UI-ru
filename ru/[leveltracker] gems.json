@@ -11,75 +11,75 @@
     }
   ],
   "_quests": {
-    "a fixture of fate": {
+    "разгадка судьбы": {
       "act": 3,
-      "npc": "siosa"
+      "npc": "сиоса"
     },
-    "breaking some eggs1": {
+    "разорение гнёзд1": {
       "act": 1,
-      "npc": "tarkleigh"
+      "npc": "таркли"
     },
-    "breaking some eggs2": {
+    "разорение гнёзд2": {
       "act": 1,
-      "npc": "tarkleigh"
+      "npc": "таркли"
     },
-    "breaking the seal": {
+    "снятие печати": {
       "act": 4,
-      "npc": "oyun"
+      "npc": "оюн"
     },
-    "enemy at the gate": {
+    "враг у ворот": {
       "act": 1,
-      "npc": "tarkleigh"
+      "npc": "таркли"
     },
-    "fallen from grace": {
+    "впавшие в немилость": {
       "act": 6,
       "npc": "lilly"
     },
-    "intruders in black": {
+    "захватчики в чёрном": {
       "act": 2,
-      "npc": "greust"
+      "npc": "груст"
     },
-    "lost in love": {
+    "разлучённые влюблённые": {
       "act": 3,
-      "npc": "maramoa"
+      "npc": "марамоа"
     },
-    "mercy mission": {
+    "любовь к ближнему": {
       "act": 1,
-      "npc": "nessa"
+      "npc": "несса"
     },
-    "sever the right hand": {
+    "отсечение правой руки": {
       "act": 3,
-      "npc": "maramoa"
+      "npc": "марамоа"
     },
-    "sharp and cruel": {
+    "мучительно острый": {
       "act": 2,
-      "npc": "silk"
+      "npc": "шёлк"
     },
-    "the caged brute1": {
+    "зверь в клетке1": {
       "act": 1,
-      "npc": "nessa"
+      "npc": "несса"
     },
-    "the caged brute2": {
+    "зверь в клетке2": {
       "act": 1,
-      "npc": "tarkleigh"
+      "npc": "таркли"
     },
-    "the eternal nightmare": {
+    "вечный кошмар": {
       "act": 4,
-      "npc": "dialla"
+      "npc": "диалла"
     },
-    "the root of the problem": {
+    "корень бед": {
       "act": 2,
       "npc": ""
     },
-    "the siren's cadence": {
+    "зов сирены": {
       "act": 1,
-      "npc": "nessa"
+      "npc": "несса"
     }
   },
   "quicksilver flask": {
     "attribute": 2,
     "quests": {
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": []
       }
     },
@@ -89,15 +89,15 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar"
         ]
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "templar"
         ],
@@ -115,7 +115,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -125,10 +125,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "ranger",
           "shadow",
@@ -148,10 +148,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "templar",
           "marauder",
@@ -174,10 +174,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch",
           "templar",
@@ -191,7 +191,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar"
         ]
@@ -203,10 +203,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -223,7 +223,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -233,7 +233,7 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "ranger"
         ],
@@ -250,7 +250,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "shadow"
         ],
@@ -268,10 +268,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "templar",
           "marauder",
@@ -293,10 +293,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "marauder",
           "duelist"
@@ -315,10 +315,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "marauder",
           "scion"
@@ -338,10 +338,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": []
       }
     },
@@ -351,10 +351,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "vendor": [
           "scion",
           "shadow",
@@ -368,10 +368,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch"
         ],
@@ -388,10 +388,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch",
           "templar",
@@ -411,15 +411,15 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "witch"
         ]
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "templar",
           "scion"
@@ -430,7 +430,7 @@
           "templar"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar",
           "witch"
@@ -443,7 +443,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "templar"
         ],
@@ -461,7 +461,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar",
@@ -476,10 +476,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch",
           "ranger",
@@ -502,10 +502,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ],
@@ -522,7 +522,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "templar",
           "marauder",
@@ -538,10 +538,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "ranger"
         ],
@@ -559,10 +559,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger"
         ],
@@ -581,10 +581,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "shadow"
         ],
@@ -602,10 +602,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "vendor": [
           "duelist",
           "marauder",
@@ -620,10 +620,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "vendor": []
       }
     },
@@ -633,10 +633,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch",
           "shadow"
@@ -654,10 +654,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "ranger",
@@ -672,10 +672,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "shadow",
@@ -695,10 +695,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "duelist",
           "ranger",
@@ -713,7 +713,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "duelist",
           "ranger",
@@ -729,10 +729,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "templar"
         ],
@@ -750,10 +750,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "ranger",
           "shadow",
@@ -773,7 +773,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "marauder",
           "duelist"
@@ -792,7 +792,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "marauder"
         ],
@@ -810,10 +810,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "shadow"
         ],
@@ -832,10 +832,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger",
           "shadow",
@@ -855,10 +855,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "ranger",
           "shadow",
@@ -872,10 +872,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "shadow",
           "scion"
@@ -894,10 +894,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "shadow",
           "scion"
@@ -916,10 +916,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "duelist"
         ],
@@ -936,7 +936,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar"
@@ -950,10 +950,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "duelist",
           "ranger"
@@ -971,10 +971,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "ranger",
           "scion",
@@ -990,10 +990,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch",
           "templar"
@@ -1012,7 +1012,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "templar"
         ],
@@ -1025,10 +1025,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "witch",
           "shadow"
@@ -1047,10 +1047,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1066,10 +1066,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "duelist",
           "ranger",
@@ -1095,10 +1095,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "duelist"
         ],
@@ -1116,10 +1116,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "duelist",
           "ranger",
@@ -1140,10 +1140,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1160,7 +1160,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "marauder",
           "duelist",
@@ -1175,10 +1175,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "witch"
         ],
@@ -1197,10 +1197,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "scion",
           "templar",
@@ -1214,7 +1214,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "shadow"
@@ -1233,10 +1233,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1251,10 +1251,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "templar"
         ],
@@ -1272,7 +1272,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "marauder"
         ],
@@ -1289,10 +1289,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist",
           "ranger",
@@ -1307,7 +1307,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar"
@@ -1321,7 +1321,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -1331,7 +1331,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -1341,7 +1341,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -1351,7 +1351,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -1361,7 +1361,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -1371,7 +1371,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -1381,10 +1381,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "ranger"
         ],
@@ -1402,10 +1402,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "marauder"
         ],
@@ -1422,7 +1422,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "templar",
@@ -1441,15 +1441,15 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist"
         ]
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "templar",
           "marauder",
@@ -1469,10 +1469,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1488,15 +1488,15 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "shadow"
         ]
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "witch",
           "duelist",
@@ -1515,10 +1515,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "duelist",
           "ranger",
@@ -1541,7 +1541,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "shadow"
         ],
@@ -1554,7 +1554,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "shadow"
         ],
@@ -1567,10 +1567,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "witch",
           "templar",
@@ -1586,10 +1586,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "duelist"
         ],
@@ -1607,10 +1607,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "marauder",
           "duelist",
@@ -1632,7 +1632,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "shadow"
         ],
@@ -1650,10 +1650,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "shadow"
         ],
@@ -1670,7 +1670,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar",
@@ -1686,10 +1686,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch",
           "shadow"
@@ -1709,10 +1709,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "scion",
           "shadow",
@@ -1727,10 +1727,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch",
           "templar"
@@ -1749,10 +1749,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch",
           "templar",
@@ -1772,10 +1772,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "templar",
@@ -1796,10 +1796,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger"
         ],
@@ -1814,10 +1814,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ],
@@ -1834,10 +1834,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "witch",
           "shadow"
@@ -1856,7 +1856,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "marauder"
         ],
@@ -1869,10 +1869,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch",
           "templar"
@@ -1884,7 +1884,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "witch"
         ]
@@ -1896,10 +1896,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "vendor": [
           "ranger",
           "scion",
@@ -1914,7 +1914,7 @@
     "attribute": 0,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -1924,7 +1924,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "marauder",
           "duelist"
@@ -1938,10 +1938,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "marauder",
           "duelist",
@@ -1961,10 +1961,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -1982,10 +1982,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch"
         ],
@@ -2003,10 +2003,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch",
           "shadow"
@@ -2026,7 +2026,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "ranger",
           "shadow"
@@ -2040,10 +2040,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch",
           "templar",
@@ -2066,10 +2066,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "marauder",
           "duelist"
@@ -2088,10 +2088,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": []
       }
     },
@@ -2101,7 +2101,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -2111,10 +2111,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "marauder",
           "duelist",
@@ -2135,10 +2135,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2153,10 +2153,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": [
           "scion",
           "shadow",
@@ -2170,10 +2170,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": [
           "scion",
           "shadow",
@@ -2187,10 +2187,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs2": {
+      "разорение гнёзд2": {
         "quest": [
           "duelist",
           "ranger",
@@ -2206,10 +2206,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "shadow",
           "scion"
@@ -2230,7 +2230,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "scion"
@@ -2248,10 +2248,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "marauder",
           "duelist",
@@ -2272,10 +2272,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "duelist"
         ],
@@ -2293,10 +2293,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch"
         ],
@@ -2315,10 +2315,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "ranger",
@@ -2338,7 +2338,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "vendor": [
           "scion",
           "shadow",
@@ -2352,10 +2352,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "marauder"
         ],
@@ -2372,10 +2372,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "witch",
           "shadow"
@@ -2393,7 +2393,7 @@
     "attribute": 0,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -2403,10 +2403,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch"
         ],
@@ -2424,10 +2424,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2444,10 +2444,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": []
       }
     },
@@ -2457,10 +2457,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch"
         ],
@@ -2478,10 +2478,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ],
@@ -2504,10 +2504,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar",
           "scion"
@@ -2526,10 +2526,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "templar"
         ],
@@ -2546,10 +2546,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ],
@@ -2567,10 +2567,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2586,10 +2586,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "duelist"
         ],
@@ -2608,10 +2608,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2627,10 +2627,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "marauder"
         ],
@@ -2648,10 +2648,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "marauder",
           "duelist"
@@ -2670,10 +2670,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch"
         ],
@@ -2684,7 +2684,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "witch"
         ]
@@ -2696,7 +2696,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -2706,10 +2706,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "templar",
           "marauder",
@@ -2726,7 +2726,7 @@
           "templar"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar",
           "marauder"
@@ -2739,10 +2739,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch",
           "templar",
@@ -2762,10 +2762,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "ranger"
         ],
@@ -2789,10 +2789,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "witch",
           "shadow",
@@ -2813,10 +2813,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "templar",
@@ -2843,10 +2843,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2861,10 +2861,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "marauder",
           "duelist"
@@ -2883,10 +2883,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "vendor": [
           "scion",
           "shadow",
@@ -2901,7 +2901,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar",
@@ -2917,10 +2917,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "templar",
@@ -2952,10 +2952,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "ranger"
         ],
@@ -2973,10 +2973,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch",
           "shadow"
@@ -2995,7 +2995,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "marauder"
         ],
@@ -3013,10 +3013,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "shadow"
         ],
@@ -3033,10 +3033,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "marauder",
           "duelist"
@@ -3055,7 +3055,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "templar"
         ],
@@ -3068,10 +3068,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "templar"
         ],
@@ -3088,7 +3088,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "duelist"
         ],
@@ -3101,10 +3101,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": [
           "duelist",
           "marauder",
@@ -3118,10 +3118,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger"
         ],
@@ -3139,10 +3139,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "shadow"
         ],
@@ -3160,10 +3160,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "scion"
         ],
@@ -3182,10 +3182,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -3203,10 +3203,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "marauder",
           "duelist",
@@ -3223,10 +3223,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch",
           "templar",
@@ -3242,7 +3242,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "shadow"
         ],
@@ -3255,7 +3255,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch"
         ],
@@ -3268,7 +3268,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar",
@@ -3283,10 +3283,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "shadow"
         ],
@@ -3304,10 +3304,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "marauder",
           "scion",
@@ -3323,10 +3323,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch",
           "templar"
@@ -3345,7 +3345,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "templar",
           "marauder",
@@ -3365,10 +3365,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "witch",
           "templar",
@@ -3389,7 +3389,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "scion"
         ],
@@ -3407,10 +3407,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "scion",
           "shadow",
@@ -3425,10 +3425,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "witch",
           "templar"
@@ -3447,10 +3447,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch",
           "templar",
@@ -3471,10 +3471,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "shadow"
         ],
@@ -3491,10 +3491,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "marauder"
         ],
@@ -3511,10 +3511,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "templar",
@@ -3536,10 +3536,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "duelist"
         ],
@@ -3556,10 +3556,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch"
         ],
@@ -3576,10 +3576,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "vendor": [
           "duelist",
           "marauder",
@@ -3595,7 +3595,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "ranger"
         ],
@@ -3608,7 +3608,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "shadow",
           "witch"
@@ -3622,10 +3622,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "vendor": [
           "witch",
           "shadow",
@@ -3639,7 +3639,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "ranger"
         ],
@@ -3652,7 +3652,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "templar",
           "marauder",
@@ -3669,10 +3669,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "witch",
           "shadow"
@@ -3690,10 +3690,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "duelist",
           "ranger",
@@ -3714,10 +3714,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch"
         ],
@@ -3734,7 +3734,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "templar",
           "scion"
@@ -3752,10 +3752,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "ranger"
         ],
@@ -3773,10 +3773,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "witch",
           "templar",
@@ -3796,7 +3796,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar",
@@ -3817,10 +3817,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "vendor": [
           "duelist",
           "templar",
@@ -3834,10 +3834,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "templar",
@@ -3859,10 +3859,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs2": {
+      "разорение гнёзд2": {
         "quest": [
           "witch",
           "templar",
@@ -3878,10 +3878,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "templar"
         ],
@@ -3899,7 +3899,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "templar"
         ],
@@ -3917,10 +3917,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "duelist",
           "ranger"
@@ -3938,7 +3938,7 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch"
         ],
@@ -3955,10 +3955,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "marauder"
         ],
@@ -3976,7 +3976,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -3986,10 +3986,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -4007,10 +4007,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4024,10 +4024,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "duelist"
         ],
@@ -4045,10 +4045,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "duelist",
           "ranger"
@@ -4066,7 +4066,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "templar",
@@ -4085,7 +4085,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "duelist",
           "ranger",
@@ -4101,10 +4101,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "marauder"
         ],
@@ -4121,7 +4121,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "templar"
         ],
@@ -4134,15 +4134,15 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "templar"
         ]
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "vendor": [
           "marauder",
           "scion",
@@ -4156,10 +4156,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "vendor": [
           "duelist",
           "ranger",
@@ -4174,10 +4174,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "duelist",
           "ranger",
@@ -4200,10 +4200,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4218,10 +4218,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "ranger",
           "shadow"
@@ -4240,10 +4240,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch",
           "templar",
@@ -4262,10 +4262,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch",
           "templar",
@@ -4284,10 +4284,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "templar"
         ],
@@ -4306,10 +4306,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch",
           "templar",
@@ -4328,7 +4328,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch"
         ],
@@ -4345,10 +4345,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch",
           "shadow",
@@ -4368,7 +4368,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -4378,7 +4378,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "shadow"
         ],
@@ -4391,10 +4391,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "templar"
         ],
@@ -4411,10 +4411,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ]
@@ -4426,10 +4426,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "scion",
           "templar"
@@ -4442,10 +4442,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "marauder",
           "duelist"
@@ -4463,7 +4463,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar"
@@ -4482,7 +4482,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "duelist",
           "ranger"
@@ -4496,7 +4496,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "ranger",
           "shadow",
@@ -4511,10 +4511,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar",
           "marauder",
@@ -4536,10 +4536,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch",
           "templar",
@@ -4559,10 +4559,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "ranger"
         ],
@@ -4579,10 +4579,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "scion",
           "shadow",
@@ -4597,10 +4597,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": [
           "scion",
           "shadow",
@@ -4614,10 +4614,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "shadow"
         ],
@@ -4635,7 +4635,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "templar"
         ],
@@ -4652,7 +4652,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "scion"
@@ -4671,7 +4671,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4686,7 +4686,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "marauder",
           "duelist",
@@ -4701,7 +4701,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "shadow",
@@ -4716,10 +4716,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "scion",
           "shadow",
@@ -4734,7 +4734,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "templar",
@@ -4753,10 +4753,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "ranger",
           "scion",
@@ -4771,10 +4771,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "ranger",
           "scion",
@@ -4789,10 +4789,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "marauder"
         ],
@@ -4811,10 +4811,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "marauder"
         ],
@@ -4832,10 +4832,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch"
         ],
@@ -4851,10 +4851,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "witch",
           "templar",
@@ -4874,7 +4874,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "shadow",
           "scion"
@@ -4888,7 +4888,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -4898,7 +4898,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar",
@@ -4913,10 +4913,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "marauder",
           "duelist"
@@ -4935,7 +4935,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "scion"
         ],
@@ -4953,10 +4953,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4972,10 +4972,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4990,7 +4990,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -5000,10 +5000,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -5021,10 +5021,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "witch"
         ],
@@ -5042,10 +5042,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "scion",
           "shadow",
@@ -5059,10 +5059,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch"
         ],
@@ -5079,10 +5079,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -5100,10 +5100,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -5118,10 +5118,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "duelist"
         ],
@@ -5141,10 +5141,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "duelist"
         ],
@@ -5161,10 +5161,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "templar",
           "marauder",
@@ -5186,7 +5186,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -5196,10 +5196,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -5214,7 +5214,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "marauder",
           "duelist",
@@ -5230,10 +5230,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "templar",
           "marauder",
@@ -5247,7 +5247,7 @@
           "scion"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar",
           "marauder"
@@ -5260,10 +5260,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "ranger"
         ],
@@ -5280,7 +5280,7 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -5297,7 +5297,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "templar",
@@ -5313,10 +5313,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "shadow"
         ],
@@ -5333,10 +5333,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "ranger"
         ],
@@ -5355,10 +5355,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "witch",
           "templar",
@@ -5378,10 +5378,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "shadow"
         ],
@@ -5399,10 +5399,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "witch"
         ],
@@ -5420,10 +5420,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch"
         ],
@@ -5440,10 +5440,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "ranger",
           "witch",
@@ -5458,10 +5458,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "duelist"
         ],
@@ -5479,10 +5479,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "shadow",
@@ -5502,7 +5502,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -5512,10 +5512,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch",
           "templar"
@@ -5534,10 +5534,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "ranger"
         ],
@@ -5554,10 +5554,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "templar"
         ],
@@ -5574,7 +5574,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "vendor": []
       }
     },
@@ -5584,7 +5584,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch"
         ],
@@ -5597,10 +5597,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "templar",
           "marauder",
@@ -5610,7 +5610,7 @@
         ],
         "vendor": []
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar"
         ]
@@ -5622,10 +5622,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "templar",
           "marauder",
@@ -5642,7 +5642,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "shadow"
         ],
@@ -5659,10 +5659,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch"
         ],
@@ -5672,7 +5672,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar"
         ]
@@ -5684,10 +5684,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "scion",
           "templar",
@@ -5701,10 +5701,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch"
         ],
@@ -5721,10 +5721,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "duelist",
           "ranger"
@@ -5743,10 +5743,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "ranger"
         ]
@@ -5758,10 +5758,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "marauder"
         ],
@@ -5779,10 +5779,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "templar",
           "marauder",
@@ -5803,15 +5803,15 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "ranger"
         ]
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "marauder",
           "duelist",
@@ -5833,7 +5833,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "marauder"
         ],
@@ -5846,10 +5846,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "duelist",
           "ranger",
@@ -5871,7 +5871,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "templar",
           "marauder"
@@ -5885,10 +5885,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "shadow"
         ],
@@ -5906,7 +5906,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "templar",
@@ -5925,10 +5925,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "shadow"
         ],
@@ -5945,10 +5945,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "witch",
           "shadow"
@@ -5967,7 +5967,7 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch"
         ],
@@ -5985,7 +5985,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "marauder"
         ],
@@ -6003,10 +6003,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ],
@@ -6023,10 +6023,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "duelist"
         ],
@@ -6044,10 +6044,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "shadow"
         ],
@@ -6064,10 +6064,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "marauder",
           "duelist",
@@ -6087,7 +6087,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "vendor": [
           "duelist",
           "ranger",
@@ -6102,10 +6102,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "duelist",
           "marauder",
@@ -6122,10 +6122,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "duelist",
           "ranger",
@@ -6146,7 +6146,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "shadow"
@@ -6160,10 +6160,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "shadow"
         ],
@@ -6180,10 +6180,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "duelist",
           "ranger"
@@ -6202,10 +6202,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "duelist",
           "ranger",
@@ -6220,10 +6220,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "ranger"
         ],
@@ -6247,10 +6247,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "vendor": [
           "ranger",
           "scion",
@@ -6265,10 +6265,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "scion",
           "shadow",
@@ -6282,10 +6282,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "duelist",
           "ranger",
@@ -6300,10 +6300,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch"
         ],
@@ -6320,10 +6320,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "marauder",
           "duelist"
@@ -6337,15 +6337,15 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "scion"
         ]
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "vendor": [
           "templar",
           "shadow",
@@ -6360,7 +6360,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "vendor": [
           "scion",
           "marauder",
@@ -6374,7 +6374,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "templar",
           "marauder",
@@ -6389,10 +6389,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "duelist",
           "ranger"
@@ -6410,10 +6410,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "templar",
           "marauder",
@@ -6433,10 +6433,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "templar"
         ],
@@ -6454,10 +6454,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch"
         ],
@@ -6470,10 +6470,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "vendor": [
           "duelist",
           "marauder",
@@ -6488,10 +6488,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "vendor": [
           "duelist",
           "ranger",
@@ -6506,10 +6506,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "vendor": [
           "scion",
           "shadow",
@@ -6524,10 +6524,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "shadow"
         ],
@@ -6551,10 +6551,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "marauder",
           "duelist"
@@ -6575,10 +6575,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "marauder"
         ],
@@ -6596,10 +6596,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "duelist",
           "ranger",
@@ -6619,10 +6619,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -6639,10 +6639,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "witch"
         ],
@@ -6659,10 +6659,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "duelist"
         ],
@@ -6680,10 +6680,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "scion"
         ],
@@ -6702,10 +6702,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "ranger",
           "shadow"
@@ -6723,10 +6723,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -6747,7 +6747,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "ranger",
           "shadow",
@@ -6762,10 +6762,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "vendor": [
           "marauder",
           "scion",
@@ -6780,10 +6780,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "witch",
           "templar"
@@ -6802,7 +6802,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "ranger"
         ],
@@ -6821,15 +6821,15 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "marauder"
         ]
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "templar",
           "duelist",
@@ -6848,10 +6848,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch"
         ],
@@ -6869,7 +6869,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch"
         ],
@@ -6882,10 +6882,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "duelist",
           "scion"
@@ -6899,10 +6899,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch",
           "templar",
@@ -6922,10 +6922,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger"
         ],
@@ -6943,10 +6943,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "templar"
         ],
@@ -6963,7 +6963,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "ranger",
           "shadow"
@@ -6977,10 +6977,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "marauder",
           "duelist"
@@ -6999,10 +6999,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "shadow"
         ],
@@ -7019,10 +7019,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "duelist"
         ],
@@ -7039,13 +7039,13 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "vendor": []
       },
-      "breaking some eggs2": {
+      "разорение гнёзд2": {
         "quest": [
           "templar",
           "marauder",
@@ -7060,10 +7060,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "marauder"
         ],
@@ -7081,10 +7081,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "templar"
         ],
@@ -7100,10 +7100,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ],
@@ -7121,10 +7121,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "templar",
           "marauder"
@@ -7143,10 +7143,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "templar"
         ],
@@ -7163,10 +7163,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "ranger"
         ],
@@ -7185,10 +7185,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "ranger"
         ],
@@ -7206,7 +7206,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar"
@@ -7225,10 +7225,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "shadow"
         ],
@@ -7245,7 +7245,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       }
     },
@@ -7255,10 +7255,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "templar"
         ],
@@ -7275,10 +7275,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "ranger",
           "shadow"
@@ -7298,7 +7298,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "ranger"
         ],
@@ -7316,10 +7316,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "duelist",
           "ranger"
@@ -7338,10 +7338,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -7359,7 +7359,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "scion"
         ],
@@ -7377,10 +7377,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch",
           "shadow",
@@ -7400,10 +7400,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "scion",
           "shadow",
@@ -7418,10 +7418,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "scion"
         ],
@@ -7441,10 +7441,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "duelist"
         ],
@@ -7463,10 +7463,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist",
           "marauder",
@@ -7483,10 +7483,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "witch",
           "templar",
@@ -7507,7 +7507,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "templar",
@@ -7526,10 +7526,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "marauder",
           "scion",
@@ -7544,7 +7544,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "templar"
         ],
@@ -7562,10 +7562,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch"
         ],
@@ -7583,10 +7583,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "vendor": [
           "scion",
           "templar",
@@ -7600,10 +7600,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "ranger",
           "scion"
@@ -7622,10 +7622,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "duelist",
           "scion"
@@ -7643,15 +7643,15 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "templar"
         ]
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "templar",
           "marauder",
@@ -7672,15 +7672,15 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "marauder"
         ]
       },
-      "breaking some eggs2": {
+      "разорение гнёзд2": {
         "vendor": [
           "templar",
           "marauder",
@@ -7695,10 +7695,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "templar"
         ],
@@ -7715,10 +7715,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "templar",
           "scion"
@@ -7737,10 +7737,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "templar"
         ],
@@ -7758,10 +7758,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger"
         ],
@@ -7779,10 +7779,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch",
           "templar"
@@ -7801,10 +7801,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "quest": [
           "shadow"
         ],
@@ -7822,10 +7822,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -7840,7 +7840,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar"
@@ -7860,7 +7860,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar",
@@ -7879,7 +7879,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar",
@@ -7898,10 +7898,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "templar"
         ],
@@ -7917,7 +7917,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar",
@@ -7936,7 +7936,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar",
@@ -7955,10 +7955,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "witch",
           "scion"
@@ -7977,10 +7977,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "witch"
         ],
@@ -7997,10 +7997,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "witch"
         ],
@@ -8017,10 +8017,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "witch"
         ],
@@ -8037,10 +8037,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "shadow"
         ],
@@ -8058,7 +8058,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar",
@@ -8077,10 +8077,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "marauder"
         ],
@@ -8098,7 +8098,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "witch",
           "shadow"
@@ -8112,10 +8112,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "shadow"
         ],
@@ -8134,7 +8134,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "templar"
         ],
@@ -8147,10 +8147,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "duelist"
         ],
@@ -8167,10 +8167,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "marauder",
           "scion"
@@ -8189,10 +8189,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "vendor": [
           "duelist",
           "marauder",
@@ -8209,10 +8209,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "shadow",
@@ -8232,7 +8232,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "shadow"
         ],
@@ -8250,10 +8250,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "duelist",
           "ranger"
@@ -8272,7 +8272,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "ranger",
           "shadow"
@@ -8290,10 +8290,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger",
           "scion"
@@ -8312,10 +8312,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "ranger"
         ],
@@ -8333,10 +8333,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "shadow"
         ],
@@ -8355,10 +8355,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "vendor": [
           "duelist",
           "ranger",
@@ -8374,7 +8374,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "marauder",
           "duelist"
@@ -8393,10 +8393,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "witch",
           "ranger",
@@ -8418,10 +8418,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch",
           "scion"
@@ -8440,10 +8440,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "shadow"
         ],
@@ -8462,7 +8462,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "witch",
           "templar",
@@ -8483,7 +8483,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "marauder",
           "duelist"
@@ -8497,7 +8497,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "vendor": [
           "scion",
           "duelist",
@@ -8511,10 +8511,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "marauder"
         ],
@@ -8531,10 +8531,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "shadow"
         ],
@@ -8551,10 +8551,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "duelist",
           "ranger",
@@ -8566,7 +8566,7 @@
           "scion"
         ]
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "marauder"
         ]
@@ -8578,10 +8578,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "templar",
           "marauder",
@@ -8603,7 +8603,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "shadow"
         ],
@@ -8620,10 +8620,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "враг у ворот": {
         "vendor": [
           "duelist",
           "ranger",
@@ -8638,10 +8638,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "templar",
           "marauder",
@@ -8657,10 +8657,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute1": {
+      "зверь в клетке1": {
         "quest": [
           "witch",
           "ranger",
@@ -8681,7 +8681,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "снятие печати": {
         "quest": [
           "witch",
           "templar",
@@ -8702,10 +8702,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "witch",
           "shadow"
@@ -8725,10 +8725,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "мучительно острый": {
         "quest": [
           "marauder"
         ],
@@ -8746,12 +8746,12 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "marauder"
         ]
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "marauder"
         ]
@@ -8763,10 +8763,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "mercy mission": {
+      "любовь к ближнему": {
         "quest": [
           "duelist",
           "ranger",
@@ -8789,10 +8789,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "shadow"
         ],
@@ -8809,10 +8809,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": [
           "scion",
           "shadow",
@@ -8827,10 +8827,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "templar",
           "marauder",
@@ -8850,10 +8850,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "witch"
         ],
@@ -8870,10 +8870,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "разорение гнёзд1": {
         "quest": [
           "duelist"
         ],
@@ -8892,10 +8892,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "marauder",
           "duelist"
@@ -8914,10 +8914,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "intruders in black": {
+      "захватчики в чёрном": {
         "quest": [
           "templar"
         ],
@@ -8935,10 +8935,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "duelist",
           "ranger",
@@ -8957,10 +8957,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "quest": [
           "ranger"
         ],
@@ -8977,7 +8977,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "quest": [
           "duelist",
           "ranger"
@@ -8991,10 +8991,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "sever the right hand": {
+      "отсечение правой руки": {
         "vendor": [
           "scion",
           "shadow",
@@ -9009,15 +9009,15 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the root of the problem": {
+      "корень бед": {
         "quest": [
           "witch"
         ]
       },
-      "the siren's cadence": {
+      "зов сирены": {
         "quest": [
           "templar"
         ],
@@ -9035,10 +9035,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "witch"
         ],
@@ -9056,10 +9056,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "the caged brute2": {
+      "зверь в клетке2": {
         "quest": [
           "shadow",
           "scion"
@@ -9079,7 +9079,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "вечный кошмар": {
         "quest": [
           "ranger",
           "shadow"
@@ -9098,10 +9098,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "shadow",
           "scion"
@@ -9121,10 +9121,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "разгадка судьбы": {
         "vendor": []
       },
-      "lost in love": {
+      "разлучённые влюблённые": {
         "quest": [
           "witch",
           "templar",

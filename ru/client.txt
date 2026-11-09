@@ -508,12 +508,12 @@
 
 ;## these are some quest/NPC names that are required for the guide's routing logic
 		quest_lilly				=	"lilly"
-		quest_tarkleigh			=	"tarkleigh"
+		quest_tarkleigh			=	"таркли"
 
-		quest_fixture				=	"a fixture of fate"				;## A3 library quest
-		quest_mercy				=	"mercy mission"				;## A1 medicine chest quest
-		quest_fallen				=	"fallen from grace"				;## A6 twilight strand quest
-		quest_breaking				=	"breaking some eggs"			;## A1 rhoa nest quest
+		quest_fixture				=	"разгадка судьбы"				;## A3 library quest
+		quest_mercy				=	"любовь к ближнему"				;## A1 medicine chest quest
+		quest_fallen				=	"впавшие в немилость"				;## A6 twilight strand quest
+		quest_breaking				=	"разорение гнёзд"			;## A1 rhoa nest quest
 
 ;## these are the names on Timeless Jewels, just in case the target language uses localized names		;## PoE1 only (whole block)
 		seed_brutal restraint		=	"asenath"

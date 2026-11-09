@@ -1,0 +1,40 @@
+{
+  "_comment": "Официальные русские названия квестов (poedb ru/us, сверено с игрой: 'Враг у ворот') и NPC. Ключи квестов — как в Exile UI (gems.json _quests). Меняются синхронно в гайде, gems.json и client.txt. NPC 'lilly' оставлен латиницей: это служебная метка, программа вырезает её перед показом и ищет буквально 'lilly' в коде.",
+  "quests": {
+    "a fixture of fate": "разгадка судьбы",
+    "breaking some eggs1": "разорение гнёзд1",
+    "breaking some eggs2": "разорение гнёзд2",
+    "breaking the seal": "снятие печати",
+    "enemy at the gate": "враг у ворот",
+    "fallen from grace": "впавшие в немилость",
+    "intruders in black": "захватчики в чёрном",
+    "lost in love": "разлучённые влюблённые",
+    "mercy mission": "любовь к ближнему",
+    "sever the right hand": "отсечение правой руки",
+    "sharp and cruel": "мучительно острый",
+    "the caged brute1": "зверь в клетке1",
+    "the caged brute2": "зверь в клетке2",
+    "the eternal nightmare": "вечный кошмар",
+    "the root of the problem": "корень бед",
+    "the siren's cadence": "зов сирены"
+  },
+  "npcs": {
+    "siosa": "сиоса",
+    "tarkleigh": "таркли",
+    "oyun": "оюн",
+    "lilly": "lilly",
+    "greust": "груст",
+    "maramoa": "марамоа",
+    "nessa": "несса",
+    "silk": "шёлк",
+    "dialla": "диалла"
+  },
+  "client_quest_keys": {
+    "quest_lilly": "lilly",
+    "quest_tarkleigh": "таркли",
+    "quest_fixture": "разгадка судьбы",
+    "quest_mercy": "любовь к ближнему",
+    "quest_fallen": "впавшие в немилость",
+    "quest_breaking": "разорение гнёзд"
+  }
+}

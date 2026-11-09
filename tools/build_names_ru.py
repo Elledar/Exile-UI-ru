@@ -84,8 +84,20 @@ for key, val in gems.items():
         val["name"] = ru; done += 1
     else:
         report.append(f"камень без русского названия: {key}")
+
+# ---------- квесты: те же русские названия, что в гайде и client.txt (tools/quest_names_ru.json) ----------
+names = load(os.path.join(os.path.dirname(os.path.abspath(__file__)), "quest_names_ru.json"))
+qmap, npcs = names["quests"], names["npcs"]
+missing = [q for q in gems["_quests"] if q not in qmap]
+if missing:
+    sys.exit(f"квесты без перевода в quest_names_ru.json (автор добавил новые?): {missing}")
+gems["_quests"] = {qmap[q]: {**v, "npc": npcs.get(v.get("npc", ""), v.get("npc", ""))} for q, v in gems["_quests"].items()}
+for key, val in gems.items():
+    if not key.startswith("_") and isinstance(val, dict) and isinstance(val.get("quests"), dict):
+        val["quests"] = {qmap.get(q, q): v for q, v in val["quests"].items()}
+report.insert(2, f"квесты: переименовано {len(qmap)}")
 json.dump(gems, open(os.path.join(out, "[leveltracker] gems.json"), "w", encoding="utf-8", newline="\r\n"), ensure_ascii=False, indent=2)
 report.insert(1, f"камни: переведено {done} из {sum(1 for k, v in gems.items() if not k.startswith('_') and isinstance(v, dict))}")
 
 open(os.path.join(out, "..", ".tmp", "names_report.txt"), "w", encoding="utf-8").write("\n".join(report) + "\n")
-print("\n".join(report[:2]))
+print("\n".join(report[:3]))

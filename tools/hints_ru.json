@@ -1,0 +1,16 @@
+{
+  "_comment": "Картинки-подсказки акт-трекера PoE 1: русская фраза из гайда -> английский файл в img\\GUI\\leveling tracker\\hints. Установщик копирует картинку под русским именем (пробелы -> '_'), картинки автора в пакет не входят.",
+  "по ручьям": "follow_streams.jpg",
+  "уступ у дороги": "ledge_near_road.jpg",
+  "между 2 колоннами": "between_2_pillars.jpg",
+  "сторону без": "the_side_without.jpg",
+  "сторону с": "the_side_with_the.jpg",
+  "указывает на выход": "points_to_the_exit.jpg",
+  "противоположные углы": "opposite_corners.jpg",
+  "соседние углы1": "adjacent_corners1.jpg",
+  "вверх по каналу": "channel_upstream.jpg",
+  "одинокая телега": "single_wagon.jpg",
+  "свеча в узком коридоре": "candle_in_a_narrow_corridor.jpg",
+  "клетка дворянки": "scion_cage.jpg",
+  "сейф химика": "chemist's_strongbox.jpg"
+}

@@ -1,20 +1,20 @@
 [
   [
     [
-      "kill hillock",
-      "enter areaid1_1_town ;; lioneye's watch"
+      "убить хиллока",
+      "вход: areaid1_1_town ;; lioneye's watch"
     ],
     [
-      "(img:quest) tarkleigh: <enemy_at_the_gate>",
-      "enter areaid1_1_2 ;; the coast"
+      "(img:quest) таркли: <враг_у_ворот>",
+      "вход: areaid1_1_2 ;; the coast"
     ],
     [
-      "leaguestart: activate (img:waypoint)",
-      "enter areaid1_1_3 ;; mud flats"
+      "leaguestart: включить (img:waypoint)",
+      "вход: areaid1_1_3 ;; mud flats"
     ],
     [
-      "follow streams for (img:quest) (quest:3_glyphs)",
-      "enter (img:quest) areaid1_1_4_1 ;; submerged passage"
+      "по ручьям за (img:quest) (quest:3_глифа)",
+      "вход: (img:quest) areaid1_1_4_1 ;; submerged passage"
     ],
     {
       "condition": [
@@ -22,8 +22,8 @@
         "yes"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_1_2 ;; the coast",
-        "enter areaid1_1_2a ;; tidal island"
+        "(img:waypoint) до: areaid1_1_2 ;; the coast",
+        "вход: areaid1_1_2a ;; tidal island"
       ]
     },
     {
@@ -32,10 +32,10 @@
         "yes"
       ],
       "lines": [
-        "follow (img:6) side of wall",
-        "(hint)__ see a ledge? follow (img:2) side",
-        "kill hailrake for (quest:chest) (lvl:4)",
-        "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+        "вдоль (img:6) стороны стены",
+        "(hint)__ видишь уступ? иди по (img:2) стороне",
+        "убить хейлрейка за (quest:сундук) (lvl:4)",
+        "(color:cc99ff)релог: areaid1_1_town ;; lioneye's watch"
       ]
     },
     {
@@ -44,9 +44,9 @@
         "yes"
       ],
       "lines": [
-        "(img:quest) tarkleigh: <breaking_some_eggs1>, <breaking_some_eggs2>",
-        "(img:quest) nessa: <mercy_mission>",
-        "(img:waypoint) to areaid1_1_4_1 ;; submerged passage"
+        "(img:quest) таркли: <разорение_гнёзд1>, <разорение_гнёзд2>",
+        "(img:quest) несса: <любовь_к_ближнему>",
+        "(img:waypoint) до: areaid1_1_4_1 ;; submerged passage"
       ]
     },
     {
@@ -55,9 +55,9 @@
         "no"
       ],
       "lines": [
-        "(color:ff00ff)buy_gems in (img:hideout) (color:fec076)your_hideout || lilly: <mercy_mission>, <breaking_some_eggs1>, <breaking_some_eggs2> ;; only shows with imported pob",
-        "find & enter areaid1_1_4_0 ;; flooded depths",
-        "(hint)__ (img:6) / (img:1) before (color:cc99ff)bridge, rarely (img:3)"
+        "(color:ff00ff)купить_камни в (img:hideout) (color:fec076)убежище || lilly: <любовь_к_ближнему>, <разорение_гнёзд1>, <разорение_гнёзд2> ;; only shows with imported pob",
+        "найти вход: areaid1_1_4_0 ;; flooded depths",
+        "(hint)__ (img:6) / (img:1) перед (color:cc99ff)мостом, редко (img:3)"
       ]
     },
     {
@@ -66,9 +66,9 @@
         "no"
       ],
       "lines": [
-        "find & kill dweller (essence)",
-        "(hint)__ (color:cc99ff)start & arena:dweller : opposite corners",
-        "use (img:arena) boat: areaid1_1_4_1 ;; submerged passage"
+        "найти и убить обитателя (эссенция)",
+        "(hint)__ (color:cc99ff)старт и arena:обитатель : противоположные углы",
+        "лодка у (img:arena): areaid1_1_4_1 ;; submerged passage"
       ]
     },
     {
@@ -77,7 +77,7 @@
         "no"
       ],
       "lines": [
-        "enter areaid1_1_5 nearby ;; the ledge"
+        "вход рядом: areaid1_1_5 ;; the ledge"
       ]
     },
     {
@@ -86,20 +86,20 @@
         "yes"
       ],
       "lines": [
-        "(color:ff00ff)safe: set (img:portal) near (color:cc99ff)bridge or (img:arena)",
-        "(hint)__ then move on to areaid1_1_5 ;; the ledge",
-        "(color:ff00ff)fast: enter areaid1_1_4_0 ;; flooded depths",
-        "(hint)__ then kill dweller || use (img:arena) boat",
-        "find & enter areaid1_1_5 ;; the ledge"
+        "(color:ff00ff)надёжно: (img:portal) у (color:cc99ff)моста или (img:arena)",
+        "(hint)__ затем дальше: areaid1_1_5 ;; the ledge",
+        "(color:ff00ff)быстро: вход: areaid1_1_4_0 ;; flooded depths",
+        "(hint)__ затем убить обитателя || лодка у (img:arena)",
+        "найти вход: areaid1_1_5 ;; the ledge"
       ]
     },
     [
-      "follow wall to areaid1_1_6 ;; the climb",
-      "(hint)__ safer route: follow cliff"
+      "вдоль стены: areaid1_1_6 ;; the climb",
+      "(hint)__ безопаснее: вдоль обрыва"
     ],
     [
-      "follow edge: areaid1_1_7_1 ;; lower prison",
-      "leaguestart: (img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+      "вдоль края: areaid1_1_7_1 ;; lower prison",
+      "leaguestart: (img:waypoint) до: areaid1_1_town (img:town) ;; lioneye's watch"
     ],
     {
       "condition": [
@@ -107,104 +107,104 @@
         "yes"
       ],
       "lines": [
-        "(color:ff00ff)safe? enter (img:portal) + (img:arena) depths",
-        "(hint)__ kill dweller (essence)  || (color:cc99ff)relog",
-        "(img:quest) tarkleigh: (quest:book) ;; dweller",
-        "(img:quest) nessa: <the_caged_brute1>",
-        "(img:waypoint) to areaid1_1_7_1 ;; lower prison"
+        "(color:ff00ff)надёжно? в (img:portal) + (img:arena) глубины",
+        "(hint)__ убить обитателя (эссенция)  || (color:cc99ff)релог",
+        "(img:quest) таркли: (quest:книга) ;; dweller",
+        "(img:quest) несса: <зверь_в_клетке1>",
+        "(img:waypoint) до: areaid1_1_7_1 ;; lower prison"
       ]
     },
     [
-      "leaguestart: complete (img:lab) trial",
-      "(hint)__ often (img:1) in the zone",
-      "enter areaid1_1_7_2 ;; upper prison"
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
+      "(hint)__ часто (img:1) в зоне",
+      "вход: areaid1_1_7_2 ;; upper prison"
     ],
     [
-      "leaguestart: optional: find chemist's strongbox",
-      "(hint)__ can drop quicksilver flask",
-      "find & kill brutus (lvl:8-10)",
-      "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+      "leaguestart: optional: найти сейф химика",
+      "(hint)__ может выпасть ртутный флакон",
+      "найти и убить изувера (lvl:8-10)",
+      "(color:cc99ff)релог: areaid1_1_town ;; lioneye's watch"
     ],
     [
-      "twinkrun: (img:quest) tarkleigh: (quest:book) ;; dweller",
-      "(img:quest) tarkleigh: <the_caged_brute2>",
-      "twinkrun: (img:quest) nessa: <the_caged_brute1>",
-      "leaguestart: optional: spare quicksilver? (color:cc99ff)vendor:",
-      "(hint)__ qs-flask + aug + (ms) boots",
-      "(img:waypoint) to areaid1_1_8 ;; prisoner's gate"
+      "twinkrun: (img:quest) таркли: (quest:книга) ;; dweller",
+      "(img:quest) таркли: <зверь_в_клетке2>",
+      "twinkrun: (img:quest) несса: <зверь_в_клетке1>",
+      "leaguestart: optional: лишний ртутный? (color:cc99ff)торговцу:",
+      "(hint)__ ртутный + сфера дополнения + сапоги (ск. передв.)",
+      "(img:waypoint) до: areaid1_1_8 ;; prisoner's gate"
     ],
     [
-      "ledge near road leads to passage",
-      "follow wall to areaid1_1_9 ;; ship graveyard"
+      "уступ у дороги ведёт к проходу",
+      "вдоль стены: areaid1_1_9 ;; ship graveyard"
     ],
     [
-      "leaguestart: kill fairgraves (quest:(allflame))",
-      "twinkrun: kill fairgraves",
-      "reach areaid1_1_11_1 ;; cavern of wrath",
-      "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+      "leaguestart: убить фейргрейвса (quest:(всепламень))",
+      "twinkrun: убить фейргрейвса",
+      "дойти: areaid1_1_11_1 ;; cavern of wrath",
+      "(img:waypoint) до: areaid1_1_town (img:town) ;; lioneye's watch"
     ],
     [
-      "(img:quest) bestel: (quest:book)",
-      "(img:quest) nessa: <the_siren's_cadence>",
-      "(img:waypoint) to areaid1_1_11_1 ;; cavern of wrath"
+      "(img:quest) бестель: (quest:книга)",
+      "(img:quest) несса: <зов_сирены>",
+      "(img:waypoint) до: areaid1_1_11_1 ;; cavern of wrath"
     ],
     [
-      "reach areaid1_1_11_2 ;; cavern of anger",
-      "(hint)__ flow of water points to it"
+      "дойти: areaid1_1_11_2 ;; cavern of anger",
+      "(hint)__ течение воды ведёт туда"
     ],
     [
-      "kill merveil in (img:arena) lair (lvl:11-13)",
-      "(hint)__ flow of water points to it",
-      "enter areaid1_2_1 ;; southern forest"
+      "убить мервейл в (img:arena) логове (lvl:11-13)",
+      "(hint)__ течение воды ведёт туда",
+      "вход: areaid1_2_1 ;; southern forest"
     ]
   ],
   [
     [
-      "follow wall: areaid1_2_town ;; forest encampment"
+      "вдоль стены: areaid1_2_town ;; forest encampment"
     ],
     [
-      "go (img:1) to areaid1_2_2 ;; old fields"
+      "иди (img:1): areaid1_2_2 ;; old fields"
     ],
     [
-      "leaguestart: optional: (color:8787fe)flask / <belt> : find (img:arena) den, set (img:portal) ;; the den",
-      "(hint)__ usually near the road",
-      "follow road: areaid1_2_3 ;; the crossroads"
+      "leaguestart: optional: (color:8787fe)флакон / <пояс> : найти (img:arena) берлогу, поставить (img:portal) ;; the den",
+      "(hint)__ обычно у дороги",
+      "по дороге: areaid1_2_3 ;; the crossroads"
     ],
     [
-      "follow road: get (img:waypoint)",
-      "leaguestart: optional: (color:8787fe)flask / <belt> : (img:waypoint) to (img:town), enter  (img:portal)",
-      "(hint)__ enter (img:arena) (color:ffffff)for arena:beast || (color:cc99ff)relog: (img:quest) yeena",
-      "go (img:7): areaid1_2_6_1 ;; chamber of sins (1)"
+      "по дороге: взять (img:waypoint)",
+      "leaguestart: optional: (color:8787fe)флакон / <пояс> : (img:waypoint) в (img:town), войти в (img:portal)",
+      "(hint)__ в (img:arena) (color:ffffff)за arena:зверем || (color:cc99ff)релог: (img:quest) йина",
+      "иди (img:7): areaid1_2_6_1 ;; chamber of sins (1)"
     ],
     [
-      "enter areaid1_2_6_2 ;; chamber of sins (2)",
-      "(hint)__ (img:waypoint) in center points to the exit"
+      "вход: areaid1_2_6_2 ;; chamber of sins (2)",
+      "(hint)__ (img:waypoint) в центре указывает на выход"
     ],
     [
-      "leaguestart: complete (img:lab) trial",
-      "kill fidelitas (lvl:14-15) || take (img:quest) (quest:gem)",
-      "(hint)__ (color:cc99ff)start & (color:cc99ff)arena: opposite corners",
-      "(color:cc99ff)relog: areaid1_2_town ;; forest encampment"
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
+      "убить фиделитас (lvl:14-15) || взять (img:quest) (quest:камень)",
+      "(hint)__ (color:cc99ff)старт и (color:cc99ff)арена: противоположные углы",
+      "(color:cc99ff)релог: areaid1_2_town ;; forest encampment"
     ],
     [
-      "(img:quest) greust: <intruders_in_black>",
-      "(img:quest) helena: <invite_to_hideout>",
-      "go (img:5) to areaid1_2_7 ;; the riverways"
+      "(img:quest) груст: <захватчики_в_чёрном>",
+      "(img:quest) елена: <приглашение_в_убежище>",
+      "иди (img:5): areaid1_2_7 ;; the riverways"
     ],
     [
-      "follow road: get (img:waypoint)",
-      "follow road: areaid1_2_9 ;; western forest"
+      "по дороге: взять (img:waypoint)",
+      "по дороге: areaid1_2_9 ;; western forest"
     ],
     [
-      "follow road: get (img:waypoint)",
-      "enter areaid1_2_10 ;; weaver's chambers",
-      "(hint)__ search the side without (img:waypoint)"
+      "по дороге: взять (img:waypoint)",
+      "вход: areaid1_2_10 ;; weaver's chambers",
+      "(hint)__ ищи сторону без (img:waypoint)"
     ],
     [
-      "kill weaver for (quest:spike) (lvl:16)",
-      "(hint)__ follow (img:6) edge. if it doesn't",
-      "(hint)__ go further (img:6) or (img:4), go (img:1)",
-      "(color:cc99ff)relog: areaid1_2_town ;; forest encampment"
+      "убить ткачиху за (quest:шип) (lvl:16)",
+      "(hint)__ вдоль (img:6) края. если не выходит,",
+      "(hint)__ дальше на (img:6) или (img:4), затем (img:1)",
+      "(color:cc99ff)релог: areaid1_2_town ;; forest encampment"
     ],
     {
       "condition": [
@@ -216,8 +216,8 @@
         ]
       ],
       "lines": [
-        "(img:quest) silk: <sharp_and_cruel>",
-        "(img:waypoint) to areaid1_2_3 ;; the crossroads"
+        "(img:quest) шёлк: <мучительно_острый>",
+        "(img:waypoint) до: areaid1_2_3 ;; the crossroads"
       ]
     },
     {
@@ -230,7 +230,7 @@
         ]
       ],
       "lines": [
-        "go (img:1) to areaid1_2_4 ;; broken bridge"
+        "иди (img:1): areaid1_2_4 ;; broken bridge"
       ]
     },
     {
@@ -243,11 +243,11 @@
         ]
       ],
       "lines": [
-        "follow the road",
-        "leaguestart: optional: jewellery + 3 rogue exiles",
-        "(hint)__ look for (color:cc99ff)ruins near (img:waypoint)",
-        "(color:red)kill arena:kraityn for (quest:amulet)",
-        "(color:cc99ff)relog: areaid1_2_town ;; forest encampment"
+        "по дороге",
+        "leaguestart: optional: бижутерия + 3 изгнанника-разбойника",
+        "(hint)__ ищи (color:cc99ff)руины у (img:waypoint)",
+        "(color:red)убить arena:крайтина за (quest:амулет)",
+        "(color:cc99ff)релог: areaid1_2_town ;; forest encampment"
       ]
     },
     {
@@ -258,8 +258,8 @@
         ]
       ],
       "lines": [
-        "(img:quest) silk: <sharp_and_cruel>",
-        "(img:waypoint) to areaid1_2_7 ;; the riverways"
+        "(img:quest) шёлк: <мучительно_острый>",
+        "(img:waypoint) до: areaid1_2_7 ;; the riverways"
       ]
     },
     {
@@ -271,7 +271,7 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_2_7 ;; the riverways"
+        "(img:waypoint) до: areaid1_2_7 ;; the riverways"
       ]
     },
     {
@@ -284,8 +284,8 @@
         ]
       ],
       "lines": [
-        "enter areaid1_2_12 ;; the wetlands",
-        "(hint)__ follow path between 2 pillars"
+        "вход: areaid1_2_12 ;; the wetlands",
+        "(hint)__ тропа между 2 колоннами"
       ]
     },
     {
@@ -298,9 +298,9 @@
         ]
       ],
       "lines": [
-        "(color:red)kill arena:oak for (quest:amulet)",
-        "find (img:waypoint): areaid1_2_9 ;; western forest",
-        "(hint)__ often (img:7) or (img:1), rarely (img:5)"
+        "(color:red)убить arena:дуба за (quest:амулет)",
+        "найти (img:waypoint): areaid1_2_9 ;; western forest",
+        "(hint)__ часто (img:7) или (img:1), редко (img:5)"
       ]
     },
     {
@@ -311,7 +311,7 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_2_9 ;; western forest"
+        "(img:waypoint) до: areaid1_2_9 ;; western forest"
       ]
     },
     {
@@ -324,10 +324,10 @@
         ]
       ],
       "lines": [
-        "find & (color:red)kill arena:alira for (quest:amulet)",
-        "(hint)__ search the side with the (img:waypoint)",
-        "go (img:5), kill arteri || break (img:quest) (quest:seal)",
-        "(color:cc99ff)relog: areaid1_2_town ;; forest encampment"
+        "найти и (color:red)убить arena:алиру за (quest:амулет)",
+        "(hint)__ ищи сторону с (img:waypoint)",
+        "иди (img:5), убить артери || сломать (img:quest) (quest:печать)",
+        "(color:cc99ff)релог: areaid1_2_town ;; forest encampment"
       ]
     },
     {
@@ -338,10 +338,10 @@
         ]
       ],
       "lines": [
-        "find & (quest:help) arena:alira for (quest:apex)",
-        "(hint)__ search the side with the (img:waypoint)",
-        "go (img:5), kill arteri || break (img:quest) (quest:seal)",
-        "(color:cc99ff)relog: areaid1_2_town ;; forest encampment"
+        "найти и (quest:помочь) arena:алире за (quest:верхушку)",
+        "(hint)__ ищи сторону с (img:waypoint)",
+        "иди (img:5), убить артери || сломать (img:quest) (quest:печать)",
+        "(color:cc99ff)релог: areaid1_2_town ;; forest encampment"
       ]
     },
     {
@@ -352,8 +352,8 @@
         ]
       ],
       "lines": [
-        "(img:quest) eramir: (quest:the_apex)",
-        "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+        "(img:quest) эрамир: (quest:верхушка)",
+        "(img:waypoint) до: areaid1_1_town (img:town) ;; lioneye's watch"
       ]
     },
     {
@@ -366,7 +366,7 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+        "(img:waypoint) до: areaid1_1_town (img:town) ;; lioneye's watch"
       ]
     },
     {
@@ -377,8 +377,8 @@
         ]
       ],
       "lines": [
-        "(img:quest) bestel: (quest:book)",
-        "(img:waypoint) to areaid1_2_3 ;; the crossroads"
+        "(img:quest) бестель: (quest:книга)",
+        "(img:waypoint) до: areaid1_2_3 ;; the crossroads"
       ]
     },
     {
@@ -389,7 +389,7 @@
         ]
       ],
       "lines": [
-        "go (img:1) to areaid1_2_4 ;; broken bridge"
+        "иди (img:1): areaid1_2_4 ;; broken bridge"
       ]
     },
     {
@@ -400,11 +400,11 @@
         ]
       ],
       "lines": [
-        "follow the road",
-        "leaguestart: optional: jewellery + 3 rogue exiles",
-        "(hint)__ look for (color:cc99ff)ruins near (img:waypoint)",
-        "(quest:help) (color:ff8111)kraityn for (quest:apex)",
-        "(color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+        "по дороге",
+        "leaguestart: optional: бижутерия + 3 изгнанника-разбойника",
+        "(hint)__ ищи (color:cc99ff)руины у (img:waypoint)",
+        "(quest:помочь) (color:ff8111)крайтину за (quest:верхушку)",
+        "(color:cc99ff)релог: areaid1_1_town ;; lioneye's watch"
       ]
     },
     {
@@ -415,8 +415,8 @@
         ]
       ],
       "lines": [
-        "(img:quest) bestel: <the_way_forward>",
-        "(img:waypoint) to areaid1_2_7 ;; the riverways"
+        "(img:quest) бестель: <путь_вперёд>",
+        "(img:waypoint) до: areaid1_2_7 ;; the riverways"
       ]
     },
     {
@@ -427,8 +427,8 @@
         ]
       ],
       "lines": [
-        "enter areaid1_2_12 ;; the wetlands",
-        "(hint)__ follow path between 2 pillars"
+        "вход: areaid1_2_12 ;; the wetlands",
+        "(hint)__ тропа между 2 колоннами"
       ]
     },
     {
@@ -439,9 +439,9 @@
         ]
       ],
       "lines": [
-        "find & (quest:help) arena:oak for (quest:apex)",
-        "find (img:waypoint): areaid1_2_3 ;; the crossroads",
-        "(hint)__ usually (img:7) or (img:1), rarely (img:5)"
+        "найти и (quest:помочь) arena:дубу за (quest:верхушку)",
+        "найти (img:waypoint): areaid1_2_3 ;; the crossroads",
+        "(hint)__ обычно (img:7) или (img:1), редко (img:5)"
       ]
     },
     {
@@ -453,8 +453,8 @@
         ]
       ],
       "lines": [
-        "(img:quest) bestel: (quest:book)",
-        "(img:waypoint) to areaid1_2_3 ;; the crossroads"
+        "(img:quest) бестель: (quest:книга)",
+        "(img:waypoint) до: areaid1_2_3 ;; the crossroads"
       ]
     },
     {
@@ -465,86 +465,86 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_2_3 ;; the crossroads"
+        "(img:waypoint) до: areaid1_2_3 ;; the crossroads"
       ]
     },
     [
-      "go (img:3) to areaid1_2_15 ;; fellshrine ruins",
-      "follow road: areaid1_2_5_1 ;; the crypt (1)"
+      "иди (img:3): areaid1_2_15 ;; fellshrine ruins",
+      "по дороге: areaid1_2_5_1 ;; the crypt (1)"
     ],
     [
-      "leaguestart: complete (img:lab) trial",
-      "find & enter areaid1_2_5_2 ;; the crypt (2)",
-      "(hint)__ (color:cc99ff)start & (color:cc99ff)exit: opposite corners"
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
+      "найти вход: areaid1_2_5_2 ;; the crypt (2)",
+      "(hint)__ (color:cc99ff)старт и (color:cc99ff)выход: противоположные углы"
     ],
     [
-      "find (img:quest) (quest:altar) for (quest:golden_hand)",
-      "(hint)__ (color:cc99ff)start & (quest:altar): opposite corners",
-      "(img:portal) to areaid1_2_town ;; forest encampment"
+      "найти (img:quest) (quest:алтарь) за (quest:золотой_рукой)",
+      "(hint)__ (color:cc99ff)старт и (quest:алтарь): противоположные углы",
+      "(img:portal) до: areaid1_2_town ;; forest encampment"
     ],
     [
-      "(img:quest) yeena: (quest:book)",
-      "(img:waypoint) to areaid1_2_12 ;; the wetlands"
+      "(img:quest) йина: (quest:книга)",
+      "(img:waypoint) до: areaid1_2_12 ;; the wetlands"
     ],
     [
-      "clear (img:quest) (quest:roots): areaid1_2_11 ;; vaal ruins"
+      "убрать (img:quest) (quest:корни): areaid1_2_11 ;; vaal ruins"
     ],
     [
-      "find & enter areaid1_2_8 ;; northern forest",
-      "(hint)_ - zone is often s- or v-shaped",
-      "(hint)_ - (color:cc99ff)rare: zone is an outward spiral"
+      "найти вход: areaid1_2_8 ;; northern forest",
+      "(hint)_ - зона часто в форме s или v",
+      "(hint)_ - (color:cc99ff)редко: зона — спираль наружу"
     ],
     [
-      "(img:7) edge leads to areaid1_2_14_2 ;; the caverns"
+      "(img:7) край ведёт: areaid1_2_14_2 ;; the caverns"
     ],
     [
-      "find & enter areaid1_2_14_3 ;; ancient pyramid",
-      "twinkrun: (hint)__ in (img:7) / (img:0) / (img:1) corner after (img:waypoint)",
-      "leaguestart: (hint)_ - in (img:7) / (img:0) / (img:1) corner after (img:waypoint)",
-      "leaguestart: (hint)_ - (img:craft): diff. corner (secret door)"
+      "найти вход: areaid1_2_14_3 ;; ancient pyramid",
+      "twinkrun: (hint)__ в углу (img:7) / (img:0) / (img:1) после (img:waypoint)",
+      "leaguestart: (hint)_ - в углу (img:7) / (img:0) / (img:1) после (img:waypoint)",
+      "leaguestart: (hint)_ - (img:craft): другой угол (тайная дверь)"
     ],
     [
-      "kill oversoul in (img:arena) apex (lvl:20-22)",
-      "(hint)_ - 1st (img:arena) (color:ffffff)in random corner",
-      "(hint)_ - then in opposite corners",
-      "(color:cc99ff)relog: (img:waypoint) to areaid1_3_1 ;; city of sarn"
+      "убить вседушу на (img:arena) вершине (lvl:20-22)",
+      "(hint)_ - 1-я (img:arena) (color:ffffff)в случайном углу",
+      "(hint)_ - дальше: противоположные углы",
+      "(color:cc99ff)релог: (img:waypoint) до: areaid1_3_1 ;; city of sarn"
     ]
   ],
   [
     [
-      "leaguestart: go (img:3) to get (img:craft)",
-      "go (img:7) to save (img:quest) clarissa",
-      "go (img:5) to areaid1_3_town ;; sarn encampment"
+      "leaguestart: иди (img:3) за (img:craft)",
+      "иди (img:7), спаси (img:quest) клариссу",
+      "иди (img:5): areaid1_3_town ;; sarn encampment"
     ],
     [
-      "enter areaid1_3_2 ;; the slums",
-      "reach areaid1_3_3_1 ;; the crematorium",
-      "(hint)__ (color:cc99ff)start & (color:cc99ff)exit: opposite corners"
+      "вход: areaid1_3_2 ;; the slums",
+      "дойти: areaid1_3_3_1 ;; the crematorium",
+      "(hint)__ (color:cc99ff)старт и (color:cc99ff)выход: противоположные углы"
     ],
     [
-      "leaguestart: complete (img:lab) trial",
-      "kill piety || get (img:quest) (quest:bracelet)",
-      "(color:cc99ff)relog: areaid1_3_town ;; sarn encampment"
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
+      "убить веру || взять (img:quest) (quest:браслет)",
+      "(color:cc99ff)релог: areaid1_3_town ;; sarn encampment"
     ],
     [
-      "(img:quest) maramoa: <lost_in_love>",
-      "(img:quest) clarissa: (quest:sewer_keys)",
-      "enter areaid1_3_2 ;; the slums"
+      "(img:quest) марамоа: <разлучённые_влюблённые>",
+      "(img:quest) кларисса: (quest:ключи_от_канализации)",
+      "вход: areaid1_3_2 ;; the slums"
     ],
     [
-      "open (img:quest) (quest:grating) to areaid1_3_10_1 ;; the sewers"
+      "открыть (img:quest) (quest:решётку): areaid1_3_10_1 ;; the sewers"
     ],
     [
-      "go (img:7): (img:quest) (quest:bust_1) || go (img:1): (img:waypoint)",
-      "(color:cc99ff)check_room with (img:quest) (quest:bust_2):",
-      "(hint)__ (color:ff00ff)small? (img:quest) (quest:bust_3) is (img:2). (color:ff00ff)else (img:7)",
-      "go (img:0) to areaid1_3_5 ;; the marketplace"
+      "иди (img:7): (img:quest) (quest:бюст_1) || иди (img:1): (img:waypoint)",
+      "(color:cc99ff)проверь_комнату с (img:quest) (quest:бюстом_2):",
+      "(hint)__ (color:ff00ff)маленькая? (img:quest) (quest:бюст_3) на (img:2). (color:ff00ff)иначе (img:7)",
+      "иди (img:0): areaid1_3_5 ;; the marketplace"
     ],
     [
-      "follow (img:0) edge to (img:waypoint)",
-      "leaguestart: go (img:0) to areaid1_3_6 ;; the catacombs",
-      "twinkrun: reach areaid1_3_7 ;; the battlefront",
-      "(hint)__ search in the corners"
+      "вдоль (img:0) края до (img:waypoint)",
+      "leaguestart: иди (img:0): areaid1_3_6 ;; the catacombs",
+      "twinkrun: дойти: areaid1_3_7 ;; the battlefront",
+      "(hint)__ ищи по углам"
     ],
     {
       "condition": [
@@ -552,9 +552,9 @@
         "yes"
       ],
       "lines": [
-        "complete (img:lab) trial",
-        "(hint)__ (color:cc99ff)start & (img:lab): adjacent corners1",
-        "(color:cc99ff)relog: areaid1_3_town ;; sarn encampment"
+        "пройти (img:lab) (color:569777)испытание",
+        "(hint)__ (color:cc99ff)старт и (img:lab): соседние углы1",
+        "(color:cc99ff)релог: areaid1_3_town ;; sarn encampment"
       ]
     },
     {
@@ -563,9 +563,9 @@
         "yes"
       ],
       "lines": [
-        "(img:quest) hargan: (quest:book)",
-        "(hint)__ if lvl 23+: check for (color:cc99ff)4-links",
-        "(img:waypoint) to areaid1_3_5 ;; the marketplace"
+        "(img:quest) харган: (quest:книга)",
+        "(hint)__ если ур. 23+: глянь (color:cc99ff)4-связки",
+        "(img:waypoint) до: areaid1_3_5 ;; the marketplace"
       ]
     },
     {
@@ -574,61 +574,61 @@
         "yes"
       ],
       "lines": [
-        "reach areaid1_3_7 ;; the battlefront",
-        "(hint)__ search in the corners"
+        "дойти: areaid1_3_7 ;; the battlefront",
+        "(hint)__ ищи по углам"
       ]
     },
     [
-      "(color:red)if_you're_below_lvl_23,_catch_up",
-      "go (img:7) for (img:waypoint), then (img:5): (img:quest) (quest:spool)",
-      "go (img:7) to areaid1_3_9 (lvl:24) ;; the docks"
+      "(color:red)если_ниже_23_ур.,_подкачайся",
+      "иди (img:7) за (img:waypoint), затем (img:5): (img:quest) (quest:катушка)",
+      "иди (img:7): areaid1_3_9 (lvl:24) ;; the docks"
     ],
     [
-      "follow edge: (img:quest) (quest:sulphite)",
-      "(color:cc99ff)relog: areaid1_3_town ;; sarn encampment"
+      "вдоль края: (img:quest) (quest:волшебная_соль)",
+      "(color:cc99ff)релог: areaid1_3_town ;; sarn encampment"
     ],
     [
-      "twinkrun: (img:quest) hargan: (quest:book)",
-      "(img:waypoint) to areaid1_3_7 ;; the battlefront"
+      "twinkrun: (img:quest) харган: (quest:книга)",
+      "(img:waypoint) до: areaid1_3_7 ;; the battlefront"
     ],
     [
-      "enter areaid1_3_8_1 ;; solaris temple (1)",
-      "(hint)__ follow channel upstream",
-      "enter areaid1_3_8_2 ;; solaris temple (2)"
+      "вход: areaid1_3_8_1 ;; solaris temple (1)",
+      "(hint)__ иди вверх по каналу",
+      "вход: areaid1_3_8_2 ;; solaris temple (2)"
     ],
     [
-      "find (img:quest) dialla: <amulet>,  (quest:talc)",
-      "leaguestart: (hint)__ (img:craft) in (img:arena) room next to her",
-      "(img:waypoint) to areaid1_3_10_1 ;; the sewers"
+      "найти (img:quest) диалла: <амулет>,  (quest:тальк)",
+      "leaguestart: (hint)__ (img:craft) в (img:arena) комнате рядом с ней",
+      "(img:waypoint) до: areaid1_3_10_1 ;; the sewers"
     ],
     [
-      "burn (img:quest) (quest:undying_blockage)",
-      "enter areaid1_3_13 ;; ebony barracks"
+      "сжечь (img:quest) (quest:завал_нежити)",
+      "вход: areaid1_3_13 ;; ebony barracks"
     ],
     [
-      "get (img:waypoint) || go (img:7) for arena:gravicius",
-      "go (img:7) to areaid1_3_14_1 ;; lunaris temple (1)"
+      "взять (img:waypoint) || иди (img:7) к arena:гравицию",
+      "иди (img:7): areaid1_3_14_1 ;; lunaris temple (1)"
     ],
     [
-      "reach areaid1_3_14_2 ;; lunaris temple (2)",
-      "(hint)_ - initial (color:cc99ff)halls point (img:7) or (img:1)",
-      "(hint)_ - follow carpets + that direction"
+      "дойти: areaid1_3_14_2 ;; lunaris temple (2)",
+      "(hint)_ - первые (color:cc99ff)залы ведут (img:7) или (img:1)",
+      "(hint)_ - по коврам в ту же сторону"
     ],
     [
-      "find & kill piety for (quest:key) (lvl:27)",
-      "(hint)_ - follow (color:cc99ff)3_stairs_up + single wagon",
-      "twinkrun: (hint)_ - (color:cc99ff)2_large_gates lead to arena",
-      "leaguestart: (hint)_ - (color:cc99ff)2_large_gates lead to arena: (img:craft)",
-      "(color:cc99ff)relog: areaid1_3_town ;; sarn encampment"
+      "найти и убить веру за (quest:ключ) (lvl:27)",
+      "(hint)_ - иди по (color:cc99ff)3_лестницам_вверх + одинокая телега",
+      "twinkrun: (hint)_ - (color:cc99ff)2_больших_ворот ведут к арене",
+      "leaguestart: (hint)_ - (color:cc99ff)2_больших_ворот ведут к арене: (img:craft)",
+      "(color:cc99ff)релог: areaid1_3_town ;; sarn encampment"
     ],
     [
-      "(img:quest) maramoa: <sever_the_right_hand>",
-      "(img:quest) grigor: (quest:book)",
-      "twinkrun: (color:ff00ff)buy_gems in (img:hideout) (color:fec076)your_hideout || lilly: <a_fixture_of_fate>  ;; only shows with imported pob",
-      "(img:waypoint) to areaid1_3_13 ;; ebony barracks"
+      "(img:quest) марамоа: <отсечение_правой_руки>",
+      "(img:quest) григор: (quest:книга)",
+      "twinkrun: (color:ff00ff)купить_камни в (img:hideout) (color:fec076)убежище || lilly: <разгадка_судьбы>  ;; only shows with imported pob",
+      "(img:waypoint) до: areaid1_3_13 ;; ebony barracks"
     ],
     [
-      "go (img:1) to areaid1_3_15 ;; imperial gardens"
+      "иди (img:1): areaid1_3_15 ;; imperial gardens"
     ],
     {
       "condition": [
@@ -636,18 +636,9 @@
         "yes"
       ],
       "lines": [
-        "follow road: get (img:waypoint)",
-        "go (img:1) + (img:0) for (img:lab) trial",
-        "(color:cc99ff)relog: areaid1_3_town ;; sarn encampment"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "(img:waypoint) to areaid1_3_15 ;; imperial gardens"
+        "по дороге: взять (img:waypoint)",
+        "иди (img:1) + (img:0) к (img:lab) (color:569777)испытанию",
+        "(color:cc99ff)релог: areaid1_3_town ;; sarn encampment"
       ]
     },
     {
@@ -656,8 +647,7 @@
         "yes"
       ],
       "lines": [
-        "follow (img:7) road: areaid1_3_17_1 ;; the library",
-        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+        "(img:waypoint) до: areaid1_3_15 ;; imperial gardens"
       ]
     },
     {
@@ -666,9 +656,8 @@
         "yes"
       ],
       "lines": [
-        "find (img:waypoint) + (color:cc99ff)loose_candle",
-        "enter areaid1_3_17_2 ;; the archives",
-        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+        "по (img:7) дороге: areaid1_3_17_1 ;; the library",
+        "quest-check: <разгадка_судьбы> ;; this is a hidden routing-check"
       ]
     },
     {
@@ -677,10 +666,9 @@
         "yes"
       ],
       "lines": [
-        "find 4x (img:quest) (quest:golden_page)",
-        "(hint)__ (img:craft): candle in a narrow corridor",
-        "(color:cc99ff)relog: areaid1_3_town ;; sarn encampment",
-        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+        "найти (img:waypoint) + (color:cc99ff)шаткую_свечу",
+        "вход: areaid1_3_17_2 ;; the archives",
+        "quest-check: <разгадка_судьбы> ;; this is a hidden routing-check"
       ]
     },
     {
@@ -689,9 +677,10 @@
         "yes"
       ],
       "lines": [
-        "get some currency",
-        "(img:waypoint) to areaid1_3_17_1 ;; the library",
-        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+        "найти 4x (img:quest) (quest:золотая_страница)",
+        "(hint)__ (img:craft): свеча в узком коридоре",
+        "(color:cc99ff)релог: areaid1_3_town ;; sarn encampment",
+        "quest-check: <разгадка_судьбы> ;; this is a hidden routing-check"
       ]
     },
     {
@@ -700,25 +689,36 @@
         "yes"
       ],
       "lines": [
-        "(img:quest) siosa: <a_fixture_of_fate>",
-        "(img:waypoint) to areaid1_3_15 ;; imperial gardens",
-        "quest-check: <a_fixture_of_fate> ;; this is a hidden routing-check"
+        "набери немного валюты",
+        "(img:waypoint) до: areaid1_3_17_1 ;; the library",
+        "quest-check: <разгадка_судьбы> ;; this is a hidden routing-check"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) сиоса: <разгадка_судьбы>",
+        "(img:waypoint) до: areaid1_3_15 ;; imperial gardens",
+        "quest-check: <разгадка_судьбы> ;; this is a hidden routing-check"
       ]
     },
     [
-      "twinkrun: follow road: get (img:waypoint)",
-      "early option: (img:lab) normal_lab",
-      "(hint)__ area-lvl 33 || (color:cc99ff)2nd_option_later",
-      "follow (color:cc99ff)wagons: areaid1_3_18_1 ;; sceptre of god"
+      "twinkrun: по дороге: взять (img:waypoint)",
+      "ранний вариант: (img:lab) (color:569777)обычный_лабиринт",
+      "(hint)__ ур. зоны 33 || (color:cc99ff)2-й_вариант_позже",
+      "по (color:cc99ff)телегам: areaid1_3_18_1 ;; sceptre of god"
     ],
     [
-      "reach areaid1_3_18_2 ;; upper sceptre of god",
-      "(hint)__ (img:arena) stairs can spawn every 90\u00b0"
+      "дойти: areaid1_3_18_2 ;; upper sceptre of god",
+      "(hint)__ лестница к (img:arena) может быть через каждые 90°"
     ],
     [
-      "find (img:arena) rooftop, kill dominus (lvl:28)",
-      "(hint)__ same layout, go (img:1) past scion cage",
-      "enter areaid1_4_1 ;; the aqueduct"
+      "найти (img:arena) крышу, убить владыку (lvl:28)",
+      "(hint)__ карта одна, иди (img:1) мимо: клетка дворянки",
+      "вход: areaid1_4_1 ;; the aqueduct"
     ]
   ],
   [
@@ -727,7 +727,7 @@
       "go (img:5) to areaid1_4_2 ;; dried lake"
     ],
     [
-      "kill voll for (quest:banner) (lvl:30)",
+      "убить voll for (quest:banner) (lvl:30)",
       "(hint)__ look for a (img:help) -icon",
       "(color:cc99ff)relog: areaid1_4_town ;; highgate"
     ],
@@ -749,7 +749,7 @@
     ],
     [
       "(img:quest) tasuni: (quest:book)",
-      "(img:quest) oyun: <breaking_the_seal>",
+      "(img:quest) оюн: <снятие_печати>",
       "regular option: (img:lab) normal_lab",
       "(img:waypoint) to areaid1_4_3_3 ;; crystal veins"
     ],
@@ -761,7 +761,7 @@
       "(hint)__ if possible, go (img:1) + straight"
     ],
     [
-      "kill daresso for (quest:eye)",
+      "убить daresso for (quest:eye)",
       "(hint)__ go (img:7) whenever possible",
       "(img:portal) to areaid1_4_town"
     ],
@@ -774,7 +774,7 @@
       "(hint)__ go (img:1), then follow bridges/stairs"
     ],
     [
-      "kill kaom (quest:(eye)) || (img:portal) areaid1_4_town ;; highgate",
+      "убить kaom (quest:(eye)) || (img:portal) areaid1_4_town ;; highgate",
       "(hint)__ (color:ff00ff)if right bulge, go (img:7). (color:ff00ff)else (img:1)"
     ],
     [
@@ -787,17 +787,17 @@
       "(hint)__ go (img:6) whenever possible"
     ],
     [
-      "kill piety || enter areaid1_4_6_3 ;; the harvest",
+      "убить piety || enter areaid1_4_6_3 ;; the harvest",
       "(hint)_ - generally, (color:cc99ff)exit is west of (color:cc99ff)start",
       "(hint)_ - go straight as long as possible"
     ],
     [
-      "kill doedre,_maligaro,_shav",
-      "(img:quest) piety || kill malachai (lvl:34)",
+      "убить doedre,_maligaro,_shav",
+      "(img:quest) piety || убить malachai (lvl:34)",
       "(img:portal) to areaid1_4_town ;; highgate"
     ],
     [
-      "(img:quest) dialla: <the_eternal_nightmare>",
+      "(img:quest) диалла: <вечный_кошмар>",
       "enter areaid1_4_7 ;; the ascent"
     ],
     [
@@ -809,7 +809,7 @@
   [
     [
       "leaguestart: optional: 5l body: (color:cc99ff)league",
-      "follow (img:5) edge, kill overseer",
+      "follow (img:5) edge, убить overseer",
       "(hint)_ - find corridor with gallows",
       "(hint)_ - loop clockwise to reach arena:him",
       "enter areaid1_5_town ;; overseer's tower"
@@ -831,7 +831,7 @@
       "(hint)__ (color:cc99ff)start & (color:cc99ff)exit: adjacent corners2"
     ],
     [
-      "follow (img:0) edge, kill avarius",
+      "follow (img:0) edge, убить avarius",
       "leaguestart: (hint)__ (img:craft): corridor along (img:4) edge",
       "(hint)__ high xp area, farm level: 40-42",
       "go (img:3), enter areaid1_5_4b ;; torched courts",
@@ -869,14 +869,14 @@
       "go (img:7) to areaid1_5_8 ;; cathedral rooftop"
     ],
     [
-      "go (img:7), kill kitava",
+      "go (img:7), убить kitava",
       "(img:quest) lilly: areaid2_6_town ;; lioneye's watch"
     ]
   ],
   [
     [
       "leaguestart: talk to (img:quest) lilly",
-      "twinkrun: (color:ff00ff)buy_gems in (img:hideout) (color:fec076)your_hideout || lilly: <fallen_from_grace>  ;; only shows with imported pob",
+      "twinkrun: (color:ff00ff)купить_камни in (img:hideout) (color:fec076)your_hideout || lilly: <впавшие_в_немилость>  ;; only shows with imported pob",
       "enter areaid2_6_2 ;; the coast"
     ],
     [
@@ -884,7 +884,7 @@
       "enter areaid2_6_4 ;; mud flats"
     ],
     [
-      "go (img:2), kill queen (quest:(eye))",
+      "go (img:2), убить queen (quest:(eye))",
       "(hint)__ hit zone (color:cc99ff)edge? follow it",
       "enter (img:quest) areaid2_6_5 ;; karui fortress",
       "(hint)_ - (color:ff00ff)if (color:cc99ff)edge went (img:1), go (img:5)",
@@ -892,7 +892,7 @@
     ],
     [
       "optional: tattoo(s): follow water (img:7)",
-      "go (img:1) to (img:arena) (color:ffffff)_|| kill tukohama",
+      "go (img:1) to (img:arena) (color:ffffff)_|| убить tukohama",
       "go (img:1) to areaid2_6_6 ;; the ridge"
     ],
     {
@@ -923,7 +923,7 @@
       ],
       "lines": [
         "optional: 5l body: (color:cc99ff)league",
-        "kill everything",
+        "убить everything",
         "(color:cc99ff)relog: areaid2_6_town ;; lioneye's watch"
       ]
     },
@@ -933,9 +933,9 @@
         "yes"
       ],
       "lines": [
-        "(img:quest) lilly: <fallen_from_grace>",
+        "(img:quest) lilly: <впавшие_в_немилость>",
         "optional: (img:quest) bestel: <belt/amu> for (quest:script)",
-        "(img:quest) tarkleigh: (quest:book) ;; tukohama",
+        "(img:quest) таркли: (quest:book) ;; tukohama",
         "(img:waypoint) to areaid2_6_6 ;; the ridge"
       ]
     },
@@ -946,15 +946,15 @@
       "enter areaid2_6_7_1 ;; lower prison"
     ],
     [
-      "leaguestart: complete (img:lab) trial",
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
       "reach areaid2_6_7_2 ;; shavronne's tower"
     ],
     [
-      "kill shavronne_&_brutus",
+      "убить shavronne_&_brutus",
       "enter areaid2_6_8 ;; prisoner's gate"
     ],
     [
-      "find (color:cc99ff)passage, kill abberath",
+      "find (color:cc99ff)passage, убить abberath",
       "(hint)__ ledge near road leads to (color:cc99ff)it",
       "follow road: areaid2_6_9 ;; western forest"
     ],
@@ -963,19 +963,19 @@
       "leaguestart: (hint)__ (img:craft): torch on road + side path"
     ],
     [
-      "follow road: get (img:waypoint)",
+      "по дороге: взять (img:waypoint)",
       "enter areaid2_6_11 ;; the wetlands",
-      "(hint)__ follow path between 2 pillars"
+      "(hint)__ тропа между 2 колоннами"
     ],
     [
-      "follow (img:6) edge, kill ryslatha",
+      "follow (img:6) edge, убить ryslatha",
       "(hint)__ rare: (img:arena) arena can be (img:1) instead",
       "(color:cc99ff)relog: areaid2_6_town ;; lioneye's watch"
     ],
     [
       "(img:quest) bestel: (quest:book) ;; abberath",
-      "leaguestart: (img:quest) tarkleigh: <helmet> || (quest:book) ;; shav || ryslatha",
-      "twinkrun: (img:quest) tarkleigh: (quest:book) || <helmet> || (quest:book) ;; tukohama || shav || ryslatha",
+      "leaguestart: (img:quest) таркли: <helmet> || (quest:book) ;; shav || ryslatha",
+      "twinkrun: (img:quest) таркли: (quest:book) || <helmet> || (quest:book) ;; tukohama || shav || ryslatha",
       "(img:waypoint) to areaid2_6_10 ;; the riverways"
     ],
     [
@@ -1000,7 +1000,7 @@
       "try to go (img:5) from (img:waypoint) :",
       "(hint)_ - (color:ff00ff)open: go (img:5). follow top edge",
       "(hint)_ - (color:ff00ff)edge: go far (img:3). follow (img:2) edge",
-      "kill tsoa..., (img:portal) areaid2_6_town ;; lioneye's watch"
+      "убить tsoa..., (img:portal) areaid2_6_town ;; lioneye's watch"
     ],
     [
       "select pantheons",
@@ -1018,14 +1018,14 @@
       "follow road: areaid2_7_2 ;; the crossroads"
     ],
     [
-      "follow road: get (img:waypoint)",
+      "по дороге: взять (img:waypoint)",
       "go (img:3) to areaid2_7_3 ;; fellshrine ruins"
     ],
     [
       "follow road to areaid2_7_4 ;; the crypt"
     ],
     [
-      "leaguestart: complete (img:lab) trial",
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
       "enter (img:arena) sarc..., find (img:quest) (quest:map)",
       "(img:portal) to areaid2_7_town ;; bridge encampment"
     ],
@@ -1044,16 +1044,16 @@
     [
       "follow edge + (color:cc99ff)2_bridges",
       "leaguestart: optional: <ring> in (color:cc99ff)cradle past (color:cc99ff)1st_bridge",
-      "kill maligaro for (quest:venom)",
+      "убить maligaro for (quest:venom)",
       "(img:portal) to areaid2_7_5_1 ;; chamber of sins (1)"
     ],
     [
-      "(img:quest) silk: (quest:obsidian_key)",
+      "(img:quest) шёлк: (quest:obsidian_key)",
       "enter areaid2_7_5_2 ;; chamber of sins (2)",
       "(hint)__ the (img:waypoint) points to the exit"
     ],
     [
-      "leaguestart: complete (img:lab) trial",
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
       "(hint)__ go (img:3) if possible, else (img:6)",
       "twinkrun: find (img:lab) for orientation:",
       "(hint)__ go (img:3) if possible, else (img:6)",
@@ -1066,7 +1066,7 @@
     [
       "early option: (img:lab) cruel_lab",
       "(hint)__ area-lvl 55 || (color:cc99ff)2nd_option_later",
-      "follow road (img:5), kill greust",
+      "follow road (img:5), убить greust",
       "enter areaid2_7_8 ;; northern forest"
     ],
     [
@@ -1095,7 +1095,7 @@
       "(hint)__ (img:5) of (img:waypoint), or along (img:6) edge"
     ],
     [
-      "find (img:arena) den, kill gruthkul",
+      "find (img:arena) den, убить gruthkul",
       "leaguestart: (hint)_ - either (img:4) or (img:3) of (img:arena) start",
       "leaguestart: (hint)_ - (img:craft) in the other direction",
       "twinkrun: (hint)__ either (img:4) or (img:3) of (img:arena) start",
@@ -1119,7 +1119,7 @@
       "(hint)_ - floor 2: (rotated) z-pattern"
     ],
     [
-      "find & kill arakaali",
+      "find & убить arakaali",
       "(hint)_ - floor 1+2: (rot.) z-patterns",
       "(hint)_ - floor 3: follow (img:0) edge",
       "enter areaid2_8_1 ;; sarn ramparts"
@@ -1141,7 +1141,7 @@
       "(hint)_ - then: go (img:1) as far as possible"
     ],
     [
-      "find & kill kill doedre",
+      "find & убить убить doedre",
       "(hint)__ try: far (img:5), far (img:3), or far (img:1)",
       "after (img:waypoint), go (img:1) to areaid2_8_8 ;; the quay",
       "leaguestart: (hint)__ (img:craft) is (img:5) of the waypoint"
@@ -1149,13 +1149,13 @@
     [
       "follow water edge: (img:quest) (quest:ankh)",
       "search far (img:4) for (img:arena) res._site",
-      "(hint)__ (img:quest) clarissa || kill tolman",
+      "(hint)__ (img:quest) clarissa || убить tolman",
       "go far (img:2) to areaid2_8_9 ;; grain gate"
     ],
     [
       "(color:aqua)dead_guard leads to next (color:cc99ff)section",
       "open hidden grate: (color:red)don't_enter",
-      "kill legion (near the (img:help) -icon)",
+      "убить legion (near the (img:help) -icon)",
       "(hint)__ in same or next (color:aqua)dead_guard (color:cc99ff)section",
       "enter (img:arena) (color:aqua)grate: areaid2_8_14 ;; hidden underbelly"
     ],
@@ -1167,7 +1167,7 @@
     [
       "enter areaid2_8_12_1 ;; solaris temple (1)",
       "(hint)__ search the far (img:0) edge, or",
-      "(hint)__ follow channel upstream"
+      "(hint)__ иди вверх по каналу"
     ],
     [
       "follow (img:0) edge, then go (img:7)",
@@ -1213,11 +1213,11 @@
       ]
     },
     [
-      "reach (img:arena) arena, kill yugul",
+      "reach (img:arena) arena, убить yugul",
       "(color:cc99ff)relog: areaid2_8_town ;; sarn encampment"
     ],
     [
-      "(img:quest) maramoa: (quest:book) ;; gemling legion",
+      "(img:quest) марамоа: (quest:book) ;; gemling legion",
       "(img:quest) hargan: <ring> || (quest:book) ;; doedre, yugul",
       "(img:quest) clarissa: (quest:book) ;; tolman",
       "(img:waypoint) to areaid2_8_12_1 ;; solaris temple (1)"
@@ -1226,7 +1226,7 @@
       "enter areaid2_8_12_2 ;; solaris temple (2)"
     ],
     [
-      "kill dawn for (quest:sun_orb)",
+      "убить dawn for (quest:sun_orb)",
       "leaguestart: (hint)__ follow top edge to arena: (img:craft)",
       "twinkrun: (hint)__ follow top edge to arena",
       "(img:portal) to areaid2_8_town ;; sarn encampment"
@@ -1237,11 +1237,11 @@
     ],
     [
       "enter areaid2_8_7_2 ;; lunaris temple (2)",
-      "(hint)_ - initial (color:cc99ff)halls point (img:7) or (img:1)",
-      "(hint)_ - follow carpets + that direction"
+      "(hint)_ - первые (color:cc99ff)залы ведут (img:7) или (img:1)",
+      "(hint)_ - по коврам в ту же сторону"
     ],
     [
-      "kill dusk for (quest:moon_orb)",
+      "убить dusk for (quest:moon_orb)",
       "(hint)_ - follow (color:cc99ff)3_stairs_up + single flower-pot",
       "leaguestart: (hint)_ - (color:cc99ff)2_large_gates lead to the arena: (img:craft)",
       "twinkrun: (hint)_ - (color:cc99ff)2_large_gates lead to the arena",
@@ -1253,7 +1253,7 @@
     ],
     [
       "go (img:1) to (img:arena) shrine (lvl:54+)",
-      "kill solaris_&_lunaris",
+      "убить solaris_&_lunaris",
       "enter areaid2_9_1 ;; blood aqueduct"
     ]
   ],
@@ -1279,7 +1279,7 @@
     ],
     [
       "optional: 2x (color:cc99ff)delve_fossil: go (img:7)",
-      "go (img:1), kill basilisk for (quest:acid)",
+      "go (img:1), убить basilisk for (quest:acid)",
       "(color:cc99ff)relog: areaid2_9_town ;; highgate"
     ],
     [
@@ -1292,7 +1292,7 @@
       "go (img:1) to areaid2_9_4 ;; the oasis"
     ],
     [
-      "find (img:arena) sand_pit, kill shakari",
+      "find (img:arena) sand_pit, убить shakari",
       "(hint)__ search along the (img:2) edge",
       "(color:cc99ff)relog: areaid2_9_town ;; highgate"
     ],
@@ -1302,13 +1302,13 @@
     ],
     [
       "optional: (img:quest) <respec_points>",
-      "(hint)__ kill boulderback (color:lime)(calendar)",
+      "(hint)__ убить boulderback (color:lime)(calendar)",
       "go (img:7) to areaid2_9_7 ;; the tunnel"
     ],
     [
       "leaguestart: optional: random (color:cc99ff)transfig._gem:",
       "(hint)__ switch on (img:0) wall in trial",
-      "leaguestart: complete (img:lab) trial",
+      "leaguestart: пройти (img:lab) (color:569777)испытание",
       "(hint)__ in side path with (img:help) -icon",
       "enter areaid2_9_8 ;; the quarry"
     ],
@@ -1321,7 +1321,7 @@
     [
       "go (img:7), then (img:1) to the (img:quest) -icon",
       "leaguestart: (hint)__ (img:craft) is where rails end in a grate",
-      "kill adus, take (img:quest) (quest:powder)",
+      "убить adus, take (img:quest) (quest:powder)",
       "(color:cc99ff)relog: areaid2_9_town ;; highgate"
     ],
     [
@@ -1345,7 +1345,7 @@
     [
       "take (color:cc99ff)2nd_path (img:0) to (img:arena) core",
       "(img:quest) sin || clear (color:cc99ff)3_sub-areas",
-      "(img:quest) sin || kill depraved_trinity",
+      "(img:quest) sin || убить depraved_trinity",
       "(img:quest) lilly: areaid2_10_town ;; oriath docks"
     ]
   ],
@@ -1354,7 +1354,7 @@
       "enter areaid2_10_1 ;; cathedral rooftop"
     ],
     [
-      "go (img:0) to kill plaguewing",
+      "go (img:0) to убить plaguewing",
       "go (img:3) to areaid2_10_2 ;; ravaged square"
     ],
     [
@@ -1367,7 +1367,7 @@
       "(hint)__ (color:cc99ff)start & (color:cc99ff)exit: adjacent corners2"
     ],
     [
-      "follow (img:0) edge, kill avarius",
+      "follow (img:0) edge, убить avarius",
       "leaguestart: (hint)__ (img:craft): corridor along (img:4) edge",
       "go (img:3), (img:waypoint) to areaid2_10_town (img:town) ;; oriath docks"
     ],
@@ -1379,7 +1379,7 @@
       "go (img:5) to areaid2_10_7 ;; control blocks"
     ],
     [
-      "go far (img:6), kill vilenta",
+      "go far (img:6), убить vilenta",
       "(img:portal) to areaid2_10_town ;; oriath docks"
     ],
     [
@@ -1429,7 +1429,7 @@
       "enter areaid2_10_6 ;; feeding trough"
     ],
     [
-      "go (img:7) || (img:quest) sin || kill kitava",
+      "go (img:7) || (img:quest) sin || убить kitava",
       "(img:quest) sin || enter areaid2_10_town ;; oriath docks"
     ],
     [

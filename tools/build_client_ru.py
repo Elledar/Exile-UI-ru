@@ -69,6 +69,15 @@ RU = {
     ("lab_sepulchre halls", "sepulchre halls"): "залы усыпальницы",
     ("lab_sepulchre passage", "sepulchre passage"): "коридоры усыпальницы",
 }
+# квесты/NPC для логики гайда — те же названия, что в гайде и gems.json (tools/quest_names_ru.json)
+import json, os
+_q = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "quest_names_ru.json"), encoding="utf-8"))["client_quest_keys"]
+_en = {"quest_lilly": "lilly", "quest_tarkleigh": "tarkleigh", "quest_fixture": "a fixture of fate",
+       "quest_mercy": "mercy mission", "quest_fallen": "fallen from grace", "quest_breaking": "breaking some eggs"}
+for _k, _v in _q.items():
+    if _v != _en[_k]:
+        RU[(_k, _en[_k])] = _v
+
 EXTRA_AFTER = {  # дополнительные строки после указанной (ключ, значение)
     ("log_expedition", "Rog:"): ['log_expedition\t\t\t=\t"Рог, распылитель:"\t\t;## ru: в русском клиенте Рог говорит под двумя именами'],
 }
