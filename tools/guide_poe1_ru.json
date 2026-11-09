@@ -48,7 +48,7 @@
   "(img:quest) tarkleigh: <the_caged_brute2>": "(img:quest) таркли: <зверь_в_клетке2>",
   "twinkrun: (img:quest) nessa: <the_caged_brute1>": "twinkrun: (img:quest) несса: <зверь_в_клетке1>",
   "leaguestart: optional: spare quicksilver? (color:cc99ff)vendor:": "leaguestart: optional: лишний ртутный? (color:cc99ff)торговцу:",
-  "(hint)__ qs-flask + aug + (ms) boots": "(hint)__ ртутный + сфера дополнения + сапоги (ск. передв.)",
+  "(hint)__ qs-flask + aug + (ms) boots": "(hint)__ ртутный + сфера усиления + сапоги (ск. передв.)",
   "(img:waypoint) to areaid1_1_8 ;; prisoner's gate": "(img:waypoint) до: areaid1_1_8 ;; prisoner's gate",
   "ledge near road leads to passage": "уступ у дороги ведёт к проходу",
   "follow wall to areaid1_1_9 ;; ship graveyard": "вдоль стены: areaid1_1_9 ;; ship graveyard",

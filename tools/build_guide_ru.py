@@ -11,7 +11,14 @@ import json, os, re, sys, collections
 src, out = sys.argv[1], sys.argv[2]
 here = os.path.dirname(os.path.abspath(__file__))
 load = lambda p: json.load(open(p, encoding="utf-8-sig"))
-tr = {k: v for k, v in load(os.path.join(here, "guide_poe1_ru.json")).items() if not k.startswith("_")}
+import glob
+tr = {}
+for f in sorted(glob.glob(os.path.join(here, "guide_poe1_ru*.json"))):  # акты 1–3 и 4–10
+    for k, v in load(f).items():
+        if k.startswith("_"): continue
+        if k in tr and tr[k] != v:
+            sys.exit(f"строка переведена по-разному в разных файлах: {k}")
+        tr[k] = v
 names = load(os.path.join(here, "quest_names_ru.json"))
 qmap = {k.replace(" ", "_"): v.replace(" ", "_") for k, v in names["quests"].items()}
 npcs = names["npcs"]
@@ -26,7 +33,9 @@ def tokens(line):
     # цвет 569777 добавляется в переводе вручную: программа сама красит только английские "trial" и "_lab"
     t.update(c for c in re.findall(r"\(color:[^)]*\)", line) if c != "(color:569777)")
     t.update(re.findall(r"\(hint\)_+", line))
-    t.update(m for m in ("leaguestart:", "optional:", "twinkrun:", "quest-check:", "lilly:", "||", ";;") for _ in range(line.count(m)))
+    t.update(m for m in ("leaguestart:", "optional:", "twinkrun:", "quest-check:", "||", ";;") for _ in range(line.count(m)))
+    # "lilly" — служебная метка только перед квестом ("lilly: <") или после "||"; в остальных строках это имя
+    t["lilly-метка"] = len(re.findall(r"\|\| lilly:|lilly: <", line))
     t["<quest>"] = line.count("<"); t["(quest:"] = line.count("(quest:"); t["arena:"] = len(re.findall(r"arena:(?=\S)", line))  # "arena: " с пробелом — обычное слово
     return t
 
