@@ -6,7 +6,8 @@
 - Этап 2 — названия локаций/камней (`tools/build_names_ru.py`, данные RePoE): проверен в игре. Шрифт Fontin Sans CR SC (data\alt_font_FontinSansCR-SC.ttf, в git не входит).
 - Этап 3а — гайд PoE 1, все 10 актов (`tools/guide_poe1_ru.json`, `guide_poe1_ru_4-10.json`, сборка `tools/build_guide_ru.py`), квесты синхронно в гайде/gems.json/client.txt (`tools/quest_names_ru.json`), 26 подсказок (`tools/hints_ru.json`). Установлен, в игре проверен только частично (1 акт).
 - Этап 3б — окна акт-трекера и акт-декодера: `tools/ui_ru.json` → `tools/build_ui_ru.py` → ru/UI.txt; 83 подсказки `tools/help_tooltips_ru.json` → `tools/build_help_ru.py`. Установлено, не проверено в игре.
-- Все ru-файлы собираются скриптами из английского шаблона `.tmp/src/data/english` (клон Exile-UI в .tmp).
+- Этап 4 — сверка после обновлений: `tools/check_update.py "<Exile UI>"` (отчёт, ⚠ опасные места), `--accept` обновляет эталон. Проверено на поддельном обновлении.
+- Все ru-файлы собираются из эталона `base/english` (версия 16501, base/version.json): `python tools/build_all.py ["<Exile UI>"]` — сборка + установка.
 
 ## В работе
 - `BACKLOG.md`: очередь пуста. Короткие кнопки настроек акт-трекера проверены в игре (окно ~677px, как английское); «судовая аптечка» в игре не проверена.
@@ -14,5 +15,5 @@
 
 ## Дальше
 - Проверить в игре «судовую аптечку» (акт 1). Общие слова настроек (загр., ред., сброс, шрифт:, прозрачн.:) — посмотреть в других модулях.
-- Затем: остальной интерфейс UI.txt (~770 строк), гайд PoE 2, скрипт сверки после обновлений Exile UI, заметки автору (lilly захардкожен в коде, «.support» в regex, теги <if:gen> в названиях зон).
+- Затем: остальной интерфейс UI.txt (~770 строк), гайд PoE 2, заметки автору (lilly захардкожен в коде, «.support» в regex, теги <if:gen> в названиях зон).
 - Подвохи: lilly — служебная метка (не переводить в «lilly: <»), markers leaguestart/optional/twinkrun не переводить; Lang_Match требует все значения ключа; ru/UI.txt и client.txt без BOM.

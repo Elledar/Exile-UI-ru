@@ -1,0 +1,21 @@
+Betrayal.json
+TLDR-tooltips.json
+UI.txt
+[leveltracker] areas 2.json
+[leveltracker] areas.json
+[leveltracker] default guide 2.json
+[leveltracker] default guide.json
+[leveltracker] gems 2.json
+[leveltracker] gems.json
+[sanctum] relics 2.json
+[sanctum] relics.json
+anoints 2.json
+anoints.json
+client.txt
+essences.json
+help tooltips.json
+map-info 2.txt
+map-info.txt
+maps 2.json
+mercenaries.json
+timeless jewels.json

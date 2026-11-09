@@ -84,33 +84,34 @@ EXTRA_AFTER = {  # дополнительные строки после указ
 # ВАЖНО: для log_level/log_whois/log_slain нельзя добавлять вторые значения — программа требует,
 # чтобы в строке журнала нашлись ВСЕ значения ключа сразу (Lang_Match). Вторые значения можно только
 # для реплик NPC (log_expedition и т.п.), там значения проверяются по одному.
-line_rx = re.compile(r'^(\s*)([^;=\s][^=]*?)(\s*=\s*)"(.*)"(.*)$')
-src, dst = sys.argv[1], sys.argv[2]
-text = open(src, encoding="utf-8-sig").read().splitlines()
-out, used = [], set()
-for line in text:
-    m = line_rx.match(line)
-    if m and not line.lstrip().startswith(";"):
-        indent, key, eq, val, rest = m.groups()
-        # значение может само содержать кавычки (Guff "Tiny" Grenn) — берём до последней кавычки
-        full = line[len(indent) + len(key) + len(eq):]
-        cut = full.find(";##"); body = full if cut < 0 else full[:cut]
-        q = body.rfind('"'); val = full[1:q]; rest = full[q + 1:]
-        k = (key.strip(), val)
-        if k in RU:
-            used.add(k)
-            if RU[k] is not None:
-                line = f'{indent}{key}{eq}"{RU[k]}"{rest}'
-        out.append(line)
-        for extra in EXTRA_AFTER.get(k, []):
-            out.append(indent + extra); used.add(k)
-    else:
-        out.append(line)
-missing = [k for k in RU if k not in used]
-if missing:
-    sys.exit("Не найдены в шаблоне (автор что-то поменял): %r" % missing)
-header = [";## Русский языковой пакет для Exile UI (клиент игры на русском; общая папка для PoE 1 и PoE 2, проверено на PoE 1) — client.txt",
-          ";## Собран скриптом tools/build_client_ru.py из английского шаблона. Непереведённые строки пока на английском.", ""]
-# без BOM, как английский шаблон
-open(dst, "w", encoding="utf-8", newline="\r\n").write("\n".join(header + out) + "\n")
-print("ok:", len(RU), "замен")
+if __name__ == "__main__":  # таблицу RU читает и tools/check_update.py
+    line_rx = re.compile(r'^(\s*)([^;=\s][^=]*?)(\s*=\s*)"(.*)"(.*)$')
+    src, dst = sys.argv[1], sys.argv[2]
+    text = open(src, encoding="utf-8-sig").read().splitlines()
+    out, used = [], set()
+    for line in text:
+        m = line_rx.match(line)
+        if m and not line.lstrip().startswith(";"):
+            indent, key, eq, val, rest = m.groups()
+            # значение может само содержать кавычки (Guff "Tiny" Grenn) — берём до последней кавычки
+            full = line[len(indent) + len(key) + len(eq):]
+            cut = full.find(";##"); body = full if cut < 0 else full[:cut]
+            q = body.rfind('"'); val = full[1:q]; rest = full[q + 1:]
+            k = (key.strip(), val)
+            if k in RU:
+                used.add(k)
+                if RU[k] is not None:
+                    line = f'{indent}{key}{eq}"{RU[k]}"{rest}'
+            out.append(line)
+            for extra in EXTRA_AFTER.get(k, []):
+                out.append(indent + extra); used.add(k)
+        else:
+            out.append(line)
+    missing = [k for k in RU if k not in used]
+    if missing:
+        sys.exit("Не найдены в шаблоне (автор что-то поменял): %r" % missing)
+    header = [";## Русский языковой пакет для Exile UI (клиент игры на русском; общая папка для PoE 1 и PoE 2, проверено на PoE 1) — client.txt",
+              ";## Собран скриптом tools/build_client_ru.py из английского шаблона. Непереведённые строки пока на английском.", ""]
+    # без BOM, как английский шаблон
+    open(dst, "w", encoding="utf-8", newline="\r\n").write("\n".join(header + out) + "\n")
+    print("ok:", len(RU), "замен")

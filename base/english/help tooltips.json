@@ -1,0 +1,2335 @@
+{
+  "settings": {
+    "selection general": [
+      "general"
+    ],
+    "selection client": [
+      "game-client"
+    ],
+    "selection hotkeys": [
+      "hotkeys"
+    ],
+    "selection screen-checks": [
+      "screen-checks"
+    ],
+    "selection news": [
+      "announcements"
+    ],
+    "selection updater": [
+      "updater"
+    ],
+    "selection donations": [
+      "donations"
+    ],
+    "slider general": [
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+    ],
+    "multi-threading multi": [
+      "the tool will use two threads/processes, which improves performance and enables advanced features",
+      "examples:\nclone-frames fps options"
+    ],
+    "multi-threading multi failed": [
+      "the tool will use two threads/processes, which improves performance and enables advanced features",
+      "examples:\nclone-frames fps options",
+      "(/highlight)multi-threading failed, the tool is using a single thread/process"
+    ],
+    "multi-threading single": [
+      "the tool will use a single thread/process, and certain advanced features and performance options will not be available"
+    ],
+    "kill time": [
+      "the tool will close automatically if it can't find any open game clients",
+      "0: don't close automatically\nX: wait X minutes before closing",
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+    ],
+    "browser features": [
+      "enables additional features when accessing 3rd-party websites via the tool",
+      "examples:\n-> chrome calculator: auto-paste stats\n-> poe.db cluster jewels: auto-highlight type"
+    ],
+    "capslock toggling": [
+      "(/highlight)only disable this option if something outside of the tool is bound to capslock",
+      "whenever autohotkey sends inputs, it toggles capslock back and forth, which triggers whatever is bound to it (e.g. voice chat mute)",
+      "toggling this option will restart the tool"
+    ],
+    "lang language": [
+      "select the tool's display language",
+      "the tool will restart upon selection"
+    ],
+    "lang unknown": [
+      "the client's language couldn't be detected from reading its config-file"
+    ],
+    "font-size": [
+      "– and + can be held down, the middle button resets the size"
+    ],
+    "animations": [
+      "animations/transitions used in some menus and interfaces"
+    ],
+    "generic color": [
+      "click to open the color-palette, right click to reset"
+    ],
+    "generic color double": [
+      "text color: click to open the color-palette, right click to reset"
+    ],
+    "generic color double1": [
+      "background color: click to open the color-palette, right click to reset"
+    ],
+    "input method 1": [
+      "default mode, full compatibility"
+    ],
+    "input method 2": [
+      "optional mode, (very) limited compatibility: a few features have modified behavior to remain functional in controller mode",
+      "examples:\n- item-info, omni-key, context menu\n- stash-ninja and rune-ninja (poe2 only)",
+      "(/highlight)controller support is low-priority and based on individual requests"
+    ],
+    "active character": [
+      "optional: enter the name of your current character",
+      "this enables level tracking and e-exp calculations"
+    ],
+    "active character status": [
+      "orange: no name specified",
+      "yellow: char not found / waiting for level-up",
+      "green: char found, tracking active"
+    ],
+    "active character whois": [
+      "click this button to use the \"/whois\" in-game command to force-refresh character info",
+      "(/highlight)make sure the in-game chat box is closed but accessible"
+    ],
+    "ascendancy": [
+      "the game only logs ascendancies when a character levels up",
+      "this label will be out of sync if you have recently (re)specced but not leveled up yet: in that case, click the refresh button"
+    ],
+    "active build": [
+      "optional: enter a description for the current build",
+      "used in the map-tracker feature to log which build was played"
+    ],
+    "league selection": [
+      "select the league you're currently playing in",
+      "this information can be used in various features for price-checking and logging"
+    ],
+    "league selection other": [
+      "this is a global setting: click this button to open the <general> tab and select your current league"
+    ],
+    "league update": [
+      "check for new leagues/events"
+    ],
+    "logfile": [
+      "the size and load-time of the game's client.txt log-file: excessively large log-files may negatively impact the game's and tool's performance",
+      "if you have issues with the game or log-related features, click the folder button on the right to open the game's log folder"
+    ],
+    "logfolder": [
+      "open the game's log folder to manually delete the log file: if you use tools that require the log-file, make a backup of the file first",
+      "(/highlight)the client.txt log-file can only be modified after closing the game"
+    ],
+    "force resolution": [
+      "you can force the client to run with a custom resolution not available by default",
+      "it will be applied on every tool start, or when starting the client while the tool is running",
+      "vertical resolutions (second value) are limited due to compatibility reasons"
+    ],
+    "reset resolution": [
+      "long-click to reset the client's resolution and delete custom-resolution settings",
+      "(/highlight)this will restart the tool",
+      "this is mainly for situations when the tool is forcing an incorrect resolution after switching monitors"
+    ],
+    "client filler": [
+      "covers the empty screen area around the client window and makes it unclickable",
+      "this area can be used to place overlays outside the client area, and it also prevents misclicks on background windows"
+    ],
+    "client filler split": [
+      "only covers the empty area(s) above and/or below the game client",
+      "this means free space to the left and/or right can still be used for something else"
+    ],
+    "client filler taskbar": [
+      "the client and filler will also cover the taskbar",
+      "(/highlight)if the taskbar pops up again, you have to refocus the game-client, e.g. by pressing the windows key twice or by alt-tabbing"
+    ],
+    "window position": [
+      "the client has to be docked to a specific spot to ensure that overlays are positioned correctly",
+      "pick a preferred position, and the client will be placed there automatically every time"
+    ],
+    "black bars": [
+      "the client's aspect ratio is limited to 24:10 and there will be black bars if it's wider",
+      "this option repositions the tool's overlays and screen-checks to compensate for that"
+    ],
+    "window borders": [
+      "removes borders around the client window"
+    ],
+    "write permissions": [
+      "use this to troubleshoot write-permission issues on your system if the tool can't create/edit files",
+      "when these issues are detected, an error message will appear and ask you to run this test",
+      "if the test results show errors, move the tool-folder to a different location or restart the tool as admin, then re-run the test"
+    ],
+    "actdecoder enable": [
+      "interactive zone-layout overlay for campaign areas",
+      "hold down the <widget-key> in supported campaign areas to open the overlay",
+      [
+        "",
+        "(/highlight)accuracy can vary from patch to patch, so use them as rough guides instead of mini-map replacement"
+      ]
+    ],
+    "actdecoder folder": [
+      "opens the act-decoder folder. you have to delete every folder and zip-file that has 'exile-ui' in its name"
+    ],
+    "actdecoder hotkey": [
+      "specify a hotkey as an alternative to the widget-key (which will then no longer activate the act-decoder)",
+      "this is primarily for improving wasd compatibility, e.g. by binding it to a thumb button (xbutton1/2) on the mouse",
+      "(/highlight)holding down this key will open the act-decoder, tapping it will use its normal function (e.g. a skill)"
+    ],
+    "actdecoder layouts opacity": [
+      "the overlay's opacity in locked mode"
+    ],
+    "actdecoder layouts locked zoom": [
+      "separate zoom setting in locked mode\n(0 = disabled)",
+      "this means you can have two different zoom while (not) holding down the hotkey"
+    ],
+    "actdecoder position reset": [
+      "long-click to reset the overlay's placement to the default position",
+      "this overlay is one of the few that can be placed outside the main monitor, which may cause issues if you change your setup between sessions"
+    ],
+    "addons about": [
+      "long-click to information about this add-on"
+    ],
+    "addons delete": [
+      "long-click to delete this add-on"
+    ],
+    "addons enable": [
+      "(/highlight)experimental:\nlets you create your own features or import someone else's features via github"
+    ],
+    "addons import": [
+      "copy a github repo url into your clipboard and click this button to import an add-on"
+    ],
+    "addons settings": [
+      "open the settings for this add-on"
+    ],
+    "anoints enable": [
+      "quick-access interface to find and filter which recipes are available with the materials you have",
+      "hover over materials and press the <omni-key> to access this feature"
+    ],
+    "anoints update": [
+      "(re)download the latest database",
+      "this is mainly for league-start so the feature can be used without having to wait for a whole new release"
+    ],
+    "betrayal enable": [
+      "interactive cheat sheet overlay for the betrayal mechanic",
+      "(/highlight)you have to set up the <betrayal> check in the <screen-checks> section",
+      "while the syndicate board is on screen, hold down the <omni-key> to activate the overlay"
+    ],
+    "betrayal ruthless": [
+      "show ruthless rewards:\ntiering/highlighting you apply is stored separately for this mode"
+    ],
+    "betrayal folder": [
+      "folder that contains calibration files"
+    ],
+    "betrayal color": [
+      "click a button to open the color-palette, right click to reset"
+    ],
+    "betrayal colors": [
+      "you can use up to 3 tiers to rank rewards"
+    ],
+    "betrayal rewards": [
+      "long-click a name below to show that member's rewards",
+      "hover over a reward and press a number key to apply a color, or space to remove it",
+      "rewards can also be tiered when using the overlay in game"
+    ],
+    "betrayal update": [
+      "(re)download the latest database",
+      "this is mainly for league-start so the feature can be used without having to wait for a whole new release"
+    ],
+    "cheatsheets enable": [
+      "toolkit to create and manage customizable cheat sheet overlays"
+    ],
+    "cheatsheets modifier-key": [
+      "cheat sheets are activated by pressing the modifier and <omni-key> simultaneously",
+      "if a sheet is configured as <hold>, only the <omni-key> has to be held down"
+    ],
+    "cheatsheets color": [
+      "click a button to open the color-palette, right click to reset",
+      "when using advanced sheets:\nhover over a note and press a number key to apply color, or press space to remove it"
+    ],
+    "cheatsheets types": [
+      "images: import/capture images and display them in an overlay, switch between them, or rearrange the information on them",
+      "app: specify an app and launch or bring it to the front with a single press of a button instead of tabbing out/repeatedly",
+      "advanced: create custom tooltips that show information for specific in-game elements while hovering over them"
+    ],
+    "cheatsheets calibrate": [
+      "pressing the key combination will open the correct sheet for what is on screen in game",
+      "for the tool to know which sheet is the correct one, manual calibration is required",
+      "opens the clipping tool: use it to clip a unique element from the in-game ui"
+    ],
+    "cheatsheets name": [
+      "type in a name and press <enter>"
+    ],
+    "cheatsheets samples get": [
+      "add this sample cheat-sheet to the list of active ones"
+    ],
+    "cheatsheets samples update": [
+      "a newer version of this sample cheat-sheet is available: click this button to update your copy"
+    ],
+    "cheatsheets test": [
+      "click while the specific in-game ui is on screen, the test should return positive",
+      "click while the specific ui is not on screen, the test should return negative",
+      "results have to be consistent and repeatable"
+    ],
+    "cheatsheets edit": [
+      "opens a menu to configure the cheat sheet"
+    ],
+    "cheatsheets delete": [
+      "long-click to delete the cheat sheet"
+    ],
+    "cheatsheets info": [
+      "long-click to view the sheet's properties"
+    ],
+    "cheatsheets toggle": [
+      "enables/disables the cheat sheet"
+    ],
+    "cloneframes toggle-info": [
+      "clone-frames can hide automatically to avoid blocking in-game content",
+      "click this button to toggle between modes\nglobal: settings will apply to every clone-frame\ncustom: each frame can have its own settings",
+      "below, you can choose how clone-frames behave when certain in-game interfaces are on screen",
+      "(/highlight)requires additional setup in the <screen-checks> section"
+    ],
+    "cloneframes toggle-modes": [
+      "ignore: clone-frames will ignore what is on screen and will never toggle",
+      "hide: clone-frames will hide when the interface is on screen",
+      "show: clone-frames will show only when the specific interface is on screen"
+    ],
+    "cloneframes close button toggle": [
+      "(/highlight)experimental option:\nmainly for setups where the <infopanel> check cannot be used reliably",
+      "this option will unlock the <close button> check in the <screen-checks> section",
+      "if calibrated correctly, clone-frames will automatically hide whenever a full-screen interface with that button is on screen"
+    ],
+    "cloneframes performance": [
+      "select a preferred/compatible performance profile",
+      "try to balance the number of clone-frames and the target fps so that the measured performance stays green"
+    ],
+    "cloneframes new": [
+      "to create a new frame, type in a name and press <enter>"
+    ],
+    "cloneframes edit": [
+      "enters edit-mode, which activates the section below and allows you to adjust the frame's settings"
+    ],
+    "cloneframes delete": [
+      "long-click to delete this clone-frame"
+    ],
+    "cloneframes groups": [
+      "optional: you can assign frames to groups 0 to 9",
+      "when editing a frame's opacity or target coordinate (yellow), the whole group will be edited accordingly",
+      "(/highlight)hold down <shift> while editing to ignore group settings and only edit the currently-selected frame"
+    ],
+    "cloneframes toggle": [
+      "enable/disable this clone-frame"
+    ],
+    "cloneframes corners": [
+      "in edit-mode, source and target frames have colored corners that correspond to a mouse-button",
+      "click a mouse-button to move the corner to the cursor's position, press <esc> or click <discard> to exit edit-mode",
+      "you can also adjust the values below for fine-tuning and more control"
+    ],
+    "cloneframes scroll": [
+      "for fine-tuning, scroll the mouse-wheel to adjust this value by 1"
+    ],
+    "donations howto": [
+      "github thread with more info"
+    ],
+    "donations kofi": [
+      "ko-fi.com/lailloken"
+    ],
+    "exchange enable": [
+      "ratio calculator, small ux improvements, trade logging, and balance tracking for the in-game currency exchange",
+      "(/highlight)you have to set up the <currency exchange> check in the <screen-checks> section",
+      "while the currency exchange is on screen, press the <omni-key> to activate the feature",
+      "hold down <alt> to temporarily hide the overlay"
+    ],
+    "exchange delete logs": [
+      "long-click to delete the entire trade log"
+    ],
+    "exchange graphs": [
+      "visualizes how your in-/outflow developed over the course of a specific day and the past week"
+    ],
+    "exchange async enable": [
+      "quick-pricing functionality, and price/age tracking for listed items",
+      "(/highlight)you have to set up the <async trade> check in the <screen-checks> section",
+      "while the async trade window is on screen, press the <omni-key> to activate the feature",
+      "hold down <alt> to temporarily hide the overlay"
+    ],
+    "exchange async name": [
+      "trade logs will show names in addition to the base type"
+    ],
+    "exchange async minchange": [
+      "the first repricing option will be x% lower than the current price, and the other options will use 5% increments",
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+    ],
+    "hotkeys ingame-keybinds": [
+      "to avoid conflicts between custom in-game keybinds and the tool's hotkeys:\n- tick anything that applies to you\n- provide alternative keys when asked to"
+    ],
+    "hotkeys formatting": [
+      "for special keys, check the ahk-link above to find the proper names",
+      "(/highlight)don't use modifier-keys, the 3 main mouse-buttons, or space"
+    ],
+    "hotkeys modifiers": [
+      "you can add one or more modifier-keys to this hotkey"
+    ],
+    "hotkeys movekey": [
+      "(/highlight)only required when using cursor-movement, not wasd",
+      "specifying the key allows the tool to adapt its behavior in certain situations",
+      "example: not activating on-hover overlays while moving the character"
+    ],
+    "hotkeys omnikey-info": [
+      "context-sensitive hotkey that activates the majority of features (default: capslock)",
+      "instead of specifying hotkeys for every feature, you calibrate screen-checks to help this hotkey interpret which feature has to be activated when pressed"
+    ],
+    "hotkeys omnikey2": [
+      "due to an in-game inconsistency, having the c-key rebound requires a secondary <omni-key> for items",
+      "whenever a feature requires you to press the <omni-key> over an item, you will have to use this secondary one"
+    ],
+    "hotkeys omniblock": [
+      "while the game-client or tool is focused, the keypress will only be registered by the tool and not the rest of the system",
+      "this means special keys (e.g. windows or accent keys, capslock, etc.) can be used without their usual side effects"
+    ],
+    "hotkeys tab": [
+      "holding down this hotkey (re)activates certain widgets and non-permanent overlays",
+      "you can still tap it to use in-game actions, but if they require holding down this key, you'll have to rebind it"
+    ],
+    "hotkeys restart": [
+      "if the tool stops responding, use this hotkey (combination) to restart it"
+    ],
+    "hotkeys menu-widget alternative": [
+      "if holding down <esc> doesn't open the menu-widget, you can use this alternative key instead",
+      "unlike <esc>, this key doesn't need to be held down",
+      "leave it blank if you don't want to have an alternative key"
+    ],
+    "iteminfo enable": [
+      "customizable item tooltip which adds glance value to loot you pick up"
+    ],
+    "iteminfo profile name": [
+      "optional: type in a name and press <enter>"
+    ],
+    "iteminfo profiles": [
+      "customized highlighting can be saved in individual profiles",
+      "if the tooltip is on screen when selecting a profile, the changes will be applied on the fly"
+    ],
+    "iteminfo reset": [
+      "long-click one of the buttons to reset specific highlighting in the active profile"
+    ],
+    "iteminfo toggle": [
+      "hold down the <omni-key> over items to open the tooltip",
+      "if it's already open, normal <omni-key> presses over other items will suffice",
+      "click into the game or press <esc> to close it"
+    ],
+    "iteminfo hold": [
+      "hold down the <omni-key> over items to activate the tooltip",
+      "the tooltip will close automatically once you release the key"
+    ],
+    "iteminfo modrolls": [
+      "hide the min/max range on explicit mods",
+      "+89 to maximum life\nvs.\n+89(80-89) to maximum Life"
+    ],
+    "iteminfo modbars tier": [
+      "rolls in mod-texts and on bars will use the range of the current tier, i.e. the divine orb range",
+      "example, t2 movement speed:\n30% inc. movement speed"
+    ],
+    "iteminfo modbars global": [
+      "rolls in mod-texts and on bars will use the global range, i.e. from worst to best possible roll",
+      "example, t2 movement speed:\n30%(10-35) inc. movement speed"
+    ],
+    "iteminfo modbars ilevel": [
+      "rolls in mod-texts and on bars will use the ilvl range, i.e. from worst to best possible roll within the given ilvl",
+      "example, t2 movement speed on ilvl 74 boots:\n30%(10-30) inc. movement speed"
+    ],
+    "iteminfo quality scaling": [
+      "shows a calculation of theoretical damage/defense values if the item had 20% quality and one or more iron runes"
+    ],
+    "iteminfo shift-click": [
+      "automatically refreshes/activates the tooltip when applying currency to items via shift-click",
+      "(/highlight)you have to set up the <inventory> check in the <screen-checks> section",
+      "(/highlight)you have to hold down <shift> first, right click currency, and then click items"
+    ],
+    "iteminfo league-start": [
+      "mainly intended for acts + early maps:\nadds a section where the item's stats are compared to your current gear",
+      "hover over gear slots in the inventory and long-click the refresh buttons to load the info from equipped items, or long-right-click to clear the slot",
+      "(/highlight)you have to set up the <inventory> check in the <screen-checks> section"
+    ],
+    "iteminfo affix-info icon": [
+      "the last column will show an icon for the mod-group of an affix (if available)"
+    ],
+    "iteminfo affix-info ilvl": [
+      "the last column will show the ilvl requirement for each affix, which exposes high-tier but low-lvl mods",
+      "this option caters more to advanced users because it adds even more information"
+    ],
+    "iteminfo affix-info max tier": [
+      "the last column will show the maximum tier possible at the item's current ilvl",
+      "this can be used to check how close affixes are to the ilvl-restricted maximum tier"
+    ],
+    "iteminfo affix-info off": [
+      "don't show anything in the last column"
+    ],
+    "iteminfo base-info": [
+      "adds a section that shows how the item's stats compare to the best-in-class stats",
+      [
+        "it also shows the base-percentile roll and ilvl, highlighting good values"
+      ]
+    ],
+    "iteminfo marking global": [
+      "colors used to highlight globally (un)desired mods",
+      "click a box to open the color-palette, right click to reset"
+    ],
+    "iteminfo marking class": [
+      "colors used to highlight class-specifically (un)desired mods",
+      "click a box to open the color-palette, right click to reset"
+    ],
+    "iteminfo item-tier": [
+      "click a box to open the color-palette, right click to reset",
+      "<fr> refers to fractured, <#> to untiered mods"
+    ],
+    "iteminfo item-level": [
+      "click a box to open the color-palette, right click to reset"
+    ],
+    "iteminfo override": [
+      "tiers/ilvl on undesired mods (except fractured) will be highlighted by the <undesired> color instead of the usual color",
+      "this will also hide the last column on undesired mods to improve visual clarity"
+    ],
+    "iteminfo rules": [
+      "single-click solution to mark larger mod groups as (un)desired",
+      "the name specifies which mods are affected, the color whether they'll be set to (un)desired"
+    ],
+    "lang unavailable": [
+      "this feature is currently not available on non-english clients"
+    ],
+    "lang incompatible": [
+      "this feature is not available on clients with an unsupported language",
+      "it will be available once a language-pack for the current language has been installed"
+    ],
+    "leveltracker enable": [
+      "automated campaign guide overlay and several qol features",
+      "adds a button to the menu-widget that toggles the guide overlay"
+    ],
+    "leveltracker timer": [
+      "adds a timer that records your act times and stores them in csv-files",
+      "timer structure:\ntotal time | act # | current act time",
+      "click <act #> to pause/resume the timer",
+      "how to reset: in the first zone or town, long-right-click on <act #>"
+    ],
+    "leveltracker timer flash": [
+      "the timer will flash while paused to prevent you from leaving it paused accidentally"
+    ],
+    "leveltracker fade-timer": [
+      "automatically hides the overlay after a delay (except when in towns)",
+      "delay: x seconds after switching guide pages",
+      "whenever it switches pages, the overlay will be shown again and the delay will be restarted",
+      "it will also be shown while holding down the <widget-key>"
+    ],
+    "leveltracker fade mouse": [
+      "overlay will be shown while hovering the cursor over its previous area",
+      "has no effect while the move key is pressed (customizable in the hotkeys section)"
+    ],
+    "leveltracker recommendation": [
+      [
+        "shows level recommendations for some areas or boss fights in the first half of the campaign",
+        "shows level recommendations for highly-optimized act 1-4 runs in the bottom-left corner"
+      ],
+      [
+        "",
+        "it shows two numbers:\n1: recommended lvl when entering a zone\n2: recommended lvl when leaving a zone\n(if you're tracking your lvl, it'll show that in between)"
+      ]
+    ],
+    "leveltracker geartracker": [
+      "mainly for re-running campaign:\ncreate a list of lvling gear/gems, and it will notify you when they are equippable\n(guide overlay will display <gear rdy>)",
+      "accessed by clicking <gear rdy> in the guide overlay or right-clicking the act-tracker button in the menu-widget",
+      "(/highlight)requires your character name in the <general> settings or the active guide slot"
+    ],
+    "leveltracker expbar": [
+      "slightly moves the guide-overlay up so it doesn't cover the exp-bar"
+    ],
+    "leveltracker skilltree-info": [
+      "hold down the <omni-key> over a gem to show gem setups/links",
+      "you can switch between skill sets by scrolling the mouse wheel",
+      "–––––",
+      "while the skill-tree is on screen, press the <omni-key> to show overlays with skill-tree schematics",
+      "(/highlight)you have to set up the <skilltree> check in the <screen-checks> section"
+    ],
+    "leveltracker skilltree clear": [
+      "long-click to delete the skill-tree files used to render schematics: they will be re-downloaded the next time they are needed",
+      "deleting them is only required if the schematics are outdated or otherwise incorrect"
+    ],
+    "leveltracker pob gems": [
+      "the gem-overlay will stay on screen after releasing the <omni-key>, until you press <esc>",
+      "this option also allows the overlay to be moved around by long-clicking a gem-name in the list(s)",
+      "clicking a gem-name in the list(s) will start an in-game search for that gem"
+    ],
+    "leveltracker pob manual": [
+      "the tree-overlay will use manual screen-caps instead of schematics rendered from pob's data",
+      "(/highlight)this changes how the overlay is accessed:\n- hold down the <omni-key> while the tree is on screen\n- scroll to switch between images"
+    ],
+    "leveltracker pob": [
+      "m-mouse in pob will open the screen-cap menu",
+      "use this menu to manage overlay images"
+    ],
+    "leveltracker screen-cap menu": [
+      "opens the screen-cap menu",
+      "use this menu to manage overlay images"
+    ],
+    "leveltracker folder": [
+      "opens the folder with overlay images",
+      "if you want to edit the images yourself, you can move them to this folder manually"
+    ],
+    "leveltracker tree hotkey": [
+      "optional: if you close the in-game passive tree by pressing its hotkey again or the <close all ui> hotkey, you can specify it here",
+      "whenever you press that hotkey to close the in-game tree, the tree overlay will also close"
+    ],
+    "leveltracker profile create": [
+      "click to add a guide slot"
+    ],
+    "leveltracker profile select": [
+      "click to activate this guide slot",
+      "long-right-click to delete this guide slot"
+    ],
+    "leveltracker import": [
+      "imports pobb.in-links, pob-codes or custom guides from clipboard into this guide slot",
+      "(/highlight)importing will reset your progress:\nyou can long-click the > button in the guide-overlay to re-sync it to the current zone",
+      "(/highlight)it will also reset gem-pickup customizations"
+    ],
+    "leveltracker editor": [
+      "open the editor to edit the guide in this slot",
+      "(/highlight)guide slots with custom edits will be protected from updates, but you should store the exports in a separate file just to be safe"
+    ],
+    "leveltracker guide info": [
+      "there are up to nine individual guide slots you can use and switch between",
+      "each slot has its own data for: guide & progress, gear, skill-tree, timer",
+      [
+        "credits:\n- guide originally derived from exile-leveling by heartofphos\n- contains several act optimizations based on cyclondefinitiv's guide",
+        "credits: acts 1-3 originally derived from u/xebtria's quick-guide"
+      ]
+    ],
+    "leveltracker gems": [
+      "(/highlight)right-click to open gem-pickup configuration:\nwhen or whether to pick up specific gems during the campaign",
+      "click to toggle whether gem-quests should be included in the guide or not (reduces backtracking and npc interactions)",
+      "on: you pick up gems via questing\noff: you buy gems separately (lilly/trading)"
+    ],
+    "leveltracker gems all": [
+      "by default, the guide skips gem-quests that don't have relevant rewards for the imported build",
+      "click this button to override this behavior and instead include every gem-quest (except a3 library)"
+    ],
+    "leveltracker guide format info": [
+      "each line has one or more steps you need to complete",
+      "(hint)__ indented lines provide more info for the step above",
+      "(hint)__",
+      "(color:FF00FF)x_tasks / (color:FF00FF)find_x: some steps have x sub-tasks you need to complete",
+      "(hint)__ they can be completed in random order or at the same time (zone-dependent)",
+      "(hint)__",
+      "optional: lines marked with a plus-sign show optional steps",
+      "(hint)__ they can be enabled/disabled with the (quest:optionals) toggle in the settings",
+      "(hint)__",
+      "when handing in quests, (img:skip) means the npc has quests queued up",
+      "(hint)__ these don't have relevant rewards and can be skipped",
+      "(hint)__",
+      "if there's a (img:craft) or (color:00FFFF)this_highlighting, hold down the widget-key to see more info",
+      "(hint)__",
+      "(img:in-out2) zone-name for x: this means \"enter (color:CC99FF)zone to get x, then leave again\"",
+      "(hint)__",
+      "(img:0), (img:2): these show cardinal directions, i.e. north, east, etc.",
+      "(hint)__ direct pathing might sometimes be blocked (you'll have to walk around)"
+    ],
+    "leveltracker guide format info 2": [
+      "each line has one or more steps you need to complete",
+      "(hint)__ indented lines provide more info for the step above",
+      "(hint)__",
+      "(color:FF00FF)x_tasks / (color:FF00FF)find_x: some steps have x sub-tasks you need to complete",
+      "(hint)__ they can be completed in random order or at the same time (zone-dependent)",
+      "(hint)__",
+      "optional: lines marked with a plus-sign show optional steps",
+      "(hint)__ they can be enabled/disabled with the (quest:optionals) toggle in the settings",
+      "(hint)__ (img:skill2): it's the 1st time a gem of this level is available as an optional",
+      "(hint)__",
+      "if text is (color:00FFFF)highlighted_like_this, hold down the widget-key to see an image",
+      "(hint)__",
+      "(img:in-out2) zone-name: x",
+      "(hint)__ this means \"enter (color:CC99FF)zone to get x, then leave again\"",
+      "(hint)__",
+      "(img:0), (img:2): these show cardinal directions, i.e. north, east, etc.",
+      "(hint)__ direct pathing might sometimes be blocked (you'll have to walk around)"
+    ],
+    "leveltracker leaguestart": [
+      "show/hide quests and objectives that only need to be done once per league",
+      [
+        "examples: tidal island (qs flask), lab trials, crafting recipes",
+        "examples: salvage & reforging bench"
+      ],
+      [
+        "if a pob import with gems is present and league-start is disabled, some gem-quests may be replaced with hideout lilly instead"
+      ],
+      "(/highlight)toggling this will reset your progress:\nyou can long-click the > button in the guide-overlay to re-sync it to the current zone"
+    ],
+    "leveltracker bandit": [
+      "choose which bandit you want to help in act 2",
+      "(/highlight)toggling this setting will reset your progress:\nyou can long-click the > button in the guide-overlay to re-sync it to the current zone"
+    ],
+    "leveltracker optionals": [
+      "show/hide optional loot, quests, encounters",
+      "(/highlight)they will be marked with a plus-sign in the guide",
+      [
+        "examples: act secrets, strongboxes, gear quests, guaranteed drops, vendor recipes",
+        "examples: jeweller's/artificer's orbs, league rewards, gems, jewelry, flasks, a4 treasure map"
+      ]
+    ],
+    "leveltracker reset": [
+      "long-click to reset the progress in this guide slot and start over",
+      "this will also update the guide to a newer version if available"
+    ],
+    "leveltracker reset custom": [
+      "long-click to reset the progress in this guide slot",
+      "(/highlight)the guide in this slot was edited: it will not be updated to a newer version",
+      "(/highlight)to update to a newer version of the default guide, use the editor or create a new slot"
+    ],
+    "leveltracker character info": [
+      "optional: enter the name of the character you will play while using this guide",
+      "this enables level tracking and e-exp calculations",
+      "(/highlight)this name will also be applied to the <general> section, i.e. this character will be tracked globally"
+    ],
+    "leveltracker character status": [
+      "orange: no name specified",
+      "yellow: char not found / refresh required",
+      "green: char found, tracking active"
+    ],
+    "leveltracker profile name": [
+      "optional: enter a description/name for the build you will play with this guide",
+      "(/highlight)it will also be applied to the <general> section, i.e. this description will be used globally"
+    ],
+    "leveltracker pob preview": [
+      "long-click to check available pob data",
+      "long-right-click to delete pob data"
+    ],
+    "leveltracker hotkeys enable": [
+      "allows you to switch guide-pages by using customizable hotkeys"
+    ],
+    "leveltracker hotkeys": [
+      "type in a key-name and press <enter>",
+      "don't bind it to modifier-keys or keys used for chatting"
+    ],
+    "leveltracker auto tracking": [
+      "1) if the guide-overlay is open, characters will be automatically tracked and added to the active guide-slot upon reaching level 2",
+      "2) when you write something into local chat, tracking will automatically switch to the guide-slot that has that character's name"
+    ],
+    "lootfilter colors": [
+      "the colors used for the background and buttons in the editor"
+    ],
+    "lootfilter enable": [
+      "(/highlight)experimental feature!",
+      "editor to modify neversink or filterblade filters and apply changes on the fly",
+      "(/highlight)item filtering has a high chance of user error, so be careful"
+    ],
+    "lootfilter filter-tester": [
+      "optional testing/fine-tuning for global presets in the editor",
+      "drop the currencies shown on the right, then adjust the presets and click <test>"
+    ],
+    "lootfilter filter-tester apply": [
+      "applies a custom item filter in game that can be used to test/preview the settings above",
+      "(/highlight)make sure the in-game chat box is closed but accessible"
+    ],
+    "lootfilter filter-tester presets": [
+      "pick a preset and adjust its value, then click <test> below"
+    ],
+    "lootfilter filter-tester restore": [
+      "(/highlight)click this button after you're done testing: it re-applies your previous in-game filter",
+      "(/highlight)make sure the in-game chat box is closed but accessible"
+    ],
+    "lootfilter filter-tester sounds": [
+      "pick a sound effect from the list to apply it to scrolls of wisdom and hear it in game",
+      "(/highlight)make sure the in-game chat box is closed but accessible"
+    ],
+    "lootfilter filter-tester sound pick": [
+      "pick a sound to hear it in game (on the dropped wisdom scroll)",
+      "(/highlight)make sure the in-game chat box is closed but accessible"
+    ],
+    "lootfilter filter-tester sound tags": [
+      "optionally, you can tag/rename sound effects 1-16 to make them easier to remember",
+      "type in a tag/name, then press <enter>"
+    ],
+    "lootfilter modifier keys": [
+      "hover over items, hold down the modifier-key, and press the <omni-key> to open the editor for that item",
+      "when the editor is already open, the modifier-key is not required",
+      "alternatively, you can open the editor via the menu-widget"
+    ],
+    "lootfilter notification": [
+      "if you are using an online filter that is periodically updated, you can set up notification pop-ups as a reminder to regularly re-sync your modified filter",
+      "these pop-ups will be displayed whenever you enter a hideout and the last sync was more than x hours ago"
+    ],
+    "macros animations": [
+      "toggles menu-widget animations"
+    ],
+    "macros fast-travel": [
+      "commands are bound to a single hotkey",
+      "(/highlight)tap: use the hideout command\nhold: open menu-widget with commands",
+      "click the icons below to enable/disable commands"
+    ],
+    "macros custom": [
+      "commands are bound to a single hotkey",
+      "(/highlight)tap: use command 0 on the list\nhold: open menu-widget with commands",
+      "to disable commands, either click the number-labels or leave the fields blank"
+    ],
+    "macros hotkeys": [
+      "for special keys, check the ahk-link above to find the proper names",
+      "leave it blank to disable this feature"
+    ],
+    "macros label": [
+      "for custom macros, the menu-widget will display a text-label instead of an icon",
+      "enter a text-label of up to 3 characters"
+    ],
+    "macros command": [
+      "enter the chat command you want to use"
+    ],
+    "macros enable": [
+      "click this button to toggle the command on/off"
+    ],
+    "macros widget size": [
+      "this is the current size of the menu-widget buttons"
+    ],
+    "macros boat": [
+      "the sovereign"
+    ],
+    "macros kingsmarch": [
+      "kingsmarch"
+    ],
+    "macros monastery": [
+      "monastery of the keepers"
+    ],
+    "macros menagerie": [
+      "menagerie"
+    ],
+    "macros heist": [
+      "rogue harbor"
+    ],
+    "macros sanctum": [
+      "the forbidden sanctum"
+    ],
+    "macros delve": [
+      "mine encampment"
+    ],
+    "macros guild": [
+      "guild hideout"
+    ],
+    "maptracker enable": [
+      "automated tracker for your map runs, and a log viewer with export tools",
+      "tracks map-times, deaths, portals, loot, kills, and certain types of side-content"
+    ],
+    "maptracker rename": [
+      "boss maps will be tagged and renamed for easier searching/filtering",
+      [
+        "boss: elder\nvs.\nabsence of value and meaning",
+        "boss: xesht\nvs.\ntwisted domain (boss)"
+      ]
+    ],
+    "maptracker character": [
+      "your character's name, class, and level will be logged",
+      "optional: name/description of the build can also be logged",
+      "you have to specify this info in the <general> section of the settings"
+    ],
+    "maptracker league": [
+      "the league you're currently playing in will be logged",
+      "you have to select the correct league in the <general> section of the settings"
+    ],
+    "maptracker side-content": [
+      "side-areas you enter and the time spent inside will be logged",
+      [
+        "examples: abyssal depths, lab trials, vaal areas, starfall crater",
+        "example: abyssal depths"
+      ]
+    ],
+    "maptracker hide": [
+      "hides the panel instead of just graying it out whenever tracking is paused (after right-clicking the button in the menu-widget)"
+    ],
+    "maptracker mechanics": [
+      "logs certain mechanics/content you encounter while mapping"
+    ],
+    "maptracker dialogue tracking": [
+      "these mechanics can be tracked automatically via in-game dialogue",
+      "(/highlight)requires enabling <output dialogue to chat> at the bottom of the game's <ui> settings"
+    ],
+    "maptracker screen tracking": [
+      "these mechanics will be tracked by searching the screen for specific ui elements",
+      "the screen will be checked whenever you hold down the <widget-key>",
+      "requires manual calibration"
+    ],
+    "maptracker dialoguemechanic": [
+      "mechanics can be toggled individually"
+    ],
+    "maptracker screenmechanic": [
+      "mechanics can be toggled individually",
+      "red highlighting indicates missing calibration",
+      "right-click to open the snipping tool and screen-cap a unique ui element of the mechanic"
+    ],
+    "maptracker portal reminder": [
+      "when using a portal scroll, a tooltip will tell you to double-check completion of map content",
+      "requires you to specify the correct in-game hotkey"
+    ],
+    "maptracker portal hotkey": [
+      "enter the in-game hotkey for <portal scroll>",
+      "for special keys, check the ahk-link above to find the proper names"
+    ],
+    "maptracker loot-tracker": [
+      "items you ctrl-click into the stash will be logged",
+      "ctrl-right-click will remove previously added items one by one (similar to ctrl-z in text editing)",
+      "(/highlight)you have to set up the <stash> check in the <screen-checks> section"
+    ],
+    "maptracker kill-tracker": [
+      "monster kills in maps will be logged",
+      "when you leave a map, the tracker panel will flash and you'll have to click the timer to refresh kills",
+      "you only have to refresh if you know you won't go back in, so ignore it otherwise"
+    ],
+    "maptracker kill-tracker omni-key": [
+      "optionally, you can refresh the kill-count by pressing the omni-key while the panel is flashing",
+      "(/highlight)the kill-count will have priority, i.e. the first omni-key press after leaving a map cannot activate any other feature"
+    ],
+    "maptracker mapinfo": [
+      "map-mods from the <map-info> feature will be logged. (separate feature, has to be enabled and actively used)",
+      [
+        "this also includes information such as:\nelder guardians, conquerors, originator, type of maven invitation, blight(-ravaged), contract/blueprint"
+      ]
+    ],
+    "maptracker notes": [
+      "adds a button to the tracker panel to log custom notes for individual map runs",
+      "also enables you to easily log items by hovering over them and pressing the <omni-key>, e.g. map-device items used, special drops found in a run, etc."
+    ],
+    "maptracker color unselected": [
+      "used for highlighted cells in the log-viewer, and for non-league dates in the date selection",
+      "click to open the color-palette, right-click to reset to default"
+    ],
+    "maptracker color selected": [
+      "used for the currently-selected year and its months in the date selection",
+      "click to open the color-palette, right-click to reset to default"
+    ],
+    "maptracker color leagues": [
+      "used to highlight dates within a certain league",
+      "click to open the color-palette, right-click to reset to default"
+    ],
+    "mapinfo enable": [
+      "compact and customizable info-panel for maps that lets you highlight mods by difficulty"
+    ],
+    "mapinfo toggle": [
+      "press the <omni-key> over maps/waystones to activate the panel",
+      "click into the game or press <esc> to close it"
+    ],
+    "mapinfo hold": [
+      "hold down the <omni-key> over maps/waystones to activate the panel",
+      "the panel will close automatically once you release the key"
+    ],
+    "mapinfo position": [
+      "the tooltip's position relative to the mouse cursor"
+    ],
+    "mapinfo shift-click": [
+      "refreshes the tooltip whenever you apply currency to maps via shift-click",
+      "you have to hold down <shift> first, right click currency, and then apply it",
+      "(/highlight)you have to set up the <inventory> check in the <screen-checks> section"
+    ],
+    "mapinfo tab": [
+      "hold down the <widget-key> to view a compact version of the panel on the right of the screen"
+    ],
+    "mapinfo colors": [
+      "click a button to open the color-palette, right click to reset"
+    ],
+    "mapinfo mapmod colors": [
+      "you can use up to 4 tiers for highlighting",
+      "hover over mods:\n- press 1-4 to apply colors\n- press <space> to strike out\n- right-click to remove colors"
+    ],
+    "mapinfo modsearch": [
+      "type in map-mods (in-game wording) and press <enter> to list them below"
+    ],
+    "mapinfo roll highlight": [
+      [
+        "highlights map rolls (quant, rarity, etc.) if they're above certain values",
+        "highlights map rolls (item rarity, pack size, etc.) if they're above certain values"
+      ]
+    ],
+    "mapinfo roll colors": [
+      "roll highlighting currently looks like this",
+      "click the buttons on the right to open the palette, right-click to reset to default"
+    ],
+    "mapinfo requirements": [
+      "specify desired min values for each roll",
+      [
+        "quantity, rarity, pack size, maps, scarabs, currency",
+        "item rarity, pack size, monster rarity, monster effectiveness, waystone drop chance"
+      ]
+    ],
+    "mapinfo mod settings": [
+      "below, you can customize the tiering of specific map mods",
+      "hover over mods and press number keys 1-4 to apply highlighting, space to strike them out, or right-click to reset them to un-tiered (white)",
+      "use the mod search to find mods, click the – and + buttons to (un)pin mods for quick access"
+    ],
+    "mapinfo reset tiers": [
+      "long-click to reset every map-mod tier to default (white, not crossed out)",
+      "(/highlight)this affects every single mod, not just the pinned ones below"
+    ],
+    "alarm enable": [
+      "timer-widget with alarm/countdown and stopwatch functionality",
+      "hidden by default: hold down the <widget-key> to access it"
+    ],
+    "map-events duration": [
+      "the notification will be on screen for x seconds",
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+    ],
+    "map-events enable": [
+      "displays notifications whenever certain events happen",
+      "examples: infamous mercenaries, claimable hideouts, graftblood (almost) full"
+    ],
+    "map-events enable event": [
+      "click to enable/disable this event",
+      "right-click to activate a test notification"
+    ],
+    "map-events hideout tiers": [
+      "you can filter hideouts by rarity:\nextremely rare | very rare | rare",
+      "(/highlight)hideout notifications are shown 10 seconds after entering the map to prevent abuse"
+    ],
+    "map-events position": [
+      "the notification will be docked to one of the client's edges"
+    ],
+    "notepad enable": [
+      "notepad tool with individual tabs, and floating widgets that can be used as sticky-notes",
+      "adds a button to the menu-widget: click it to toggle the notepad, right-click it to create a single-use sticky note"
+    ],
+    "notepad default color": [
+      "specify the default colors for widgets of new tabs",
+      "these can be customized for individual tabs afterwards"
+    ],
+    "notepad opacity": [
+      "the opacity of inactive widgets (i.e. when not holding down the <widget-key>)",
+      "0 = inactive widgets are hidden"
+    ],
+    "lab enable": [
+      "simple lab layout overlay and tracker for casual runs",
+      "while in lab or the aspirants' plaza, hold down the <widget-key> to activate the overlay"
+    ],
+    "TLDR enable": [
+      "scans the screen and displays certain information in customizable & compact tooltips",
+      "currently supported: eldritch altars, vaal side areas",
+      "(/highlight)uses built-in windows functionality. if the game's language is not available on your windows install, you will have to manually add it as a secondary language"
+    ],
+    "TLDR colors": [
+      "customize the color patterns used to highlight specific mods/rewards"
+    ],
+    "TLDR debug": [
+      "hold down <alt> while scanning to open a window that displays the screen-cap and scan result"
+    ],
+    "TLDR z hotkey": [
+      "enter the in-game hotkey for <toggle highlighting>",
+      "for special keys, check the ahk-link above to find the proper names"
+    ],
+    "TLDR hotkey": [
+      "enter the hotkey you want to use to activate this feature",
+      "don't bind it to modifier-keys or keys used for chatting",
+      "for special keys, check the ahk-link above to find the proper names"
+    ],
+    "TLDR hotkey separate": [
+      "the feature will be activated by pressing a separate hotkey"
+    ],
+    "TLDR hotkey shared": [
+      "the feature will be activated by holding down the in-game hotkey that toggles loot visibility (default: z)"
+    ],
+    "quickpob enable": [
+      "(/highlight)experimental / proof-of-concept:\nrequires a path of building window in the background",
+      "copies items and creates movable widgets with pob calculations",
+      "hover over an item or the <copy item> button of a trade listing:\n>> press the hotkey to create a widget\n>> hold down the hotkey to switch to pob and import the item",
+      "single widgets can be closed with <esc>, multiple with <right-clicks>",
+      "(/highlight)to use this feature on trade listings, you have to set up the <trade search> check in the <screen-checks> section"
+    ],
+    "quickpob locate install": [
+      "optional feature:\nopen pob, then click this button to locate the pob install folder",
+      "this way, pob can be launched on demand via keypress and doesn't have to run in the background permanently"
+    ],
+    "quickpob mode compact": [
+      "when created, the widget only shows gains/losses (green/red text in pob)",
+      "you can click the top part of a widget (item name & base) to manually toggle between modes",
+      "(/highlight)if you create multiple widgets, the new one will use the same mode as the previous one."
+    ],
+    "quickpob mode full": [
+      "when created, the widget shows the full item tooltip as presented in pob",
+      "you can click the top part of a widget (item name & base) to manually toggle between modes",
+      "(/highlight)if you create multiple widgets, the new one will use the same mode as the previous one."
+    ],
+    "quickpob snip": [
+      "this feature scans pob for the item frame and creates a movable overlay widget",
+      "you have to calibrate it once so it knows where to search for the frame"
+    ],
+    "quickpob snip offset": [
+      "launch pob and open the <items> tab/section",
+      "long-click this button:\na teal square will follow the cursor. align its top-left corner with the top-left corner of the <craft item...> button in pob"
+    ],
+    "runeshaping auto-correct input": [
+      "type in one or more (comma-separated) strings that need to be replaced because of recurring ocr inaccuracies"
+    ],
+    "runeshaping auto-correct output": [
+      "enter the string that replaces the one(s) on the left",
+      "press <enter> to save your edits"
+    ],
+    "runeshaping color high": [
+      "color used to highlight the highest price",
+      "click to open the palette, r-click to reset to default"
+    ],
+    "runeshaping color stack": [
+      "color used to highlight stack-size issues",
+      "click to open the palette, r-click to reset to default"
+    ],
+    "runeshaping color unknown": [
+      "color used to highlight pricing issues",
+      "click to open the palette, r-click to reset to default"
+    ],
+    "runeshaping debug": [
+      "pressing <alt> + <omni-key> will open the screen-cap and ocr results",
+      "this can be used to find scan issues and set up an 'auto-correct dictionary'"
+    ],
+    "runeshaping dictionary": [
+      "if scans have recurring inaccuracies, you can set up pairs of text strings to potentially fix these issues",
+      "(/highlight)this list is always active: the toggle above merely enables editing it"
+    ],
+    "runeshaping enable": [
+      "scans the rewards offered on runic remnants and displays their poe.ninja prices",
+      "while the runeshaping ui is on screen, hold down the <omni-key> to activate this feature",
+      "(/highlight)requires the english language pack. if your system is not english, you can add it as a secondary language in the windows settings.",
+      "(/highlight)you have to set up the <runeshaping> check in the <screen-checks> section"
+    ],
+    "runeshaping hold ctrl": [
+      "while holding down the <omni-key>, the ctrl-key will automatically be held down as well",
+      "this means your clicks will immediately confirm your reward choice"
+    ],
+    "runeshaping input": [
+      "click this button to toggle between keyboard and controller mode",
+      "(/highlight)controller mode requires a separate screen-check, so make sure to set it up as well"
+    ],
+    "sanctum enable": [
+      "analyzes rooms and connections on the floor map and offers tools for highlighting and planning",
+      "while you're in the sanctum/trial and the floor plan is on screen, hold down the <omni-key> to show the overlay",
+      "the overlay will hide when you release the key: press <space> to lock the overlay so it doesn't automatically hide",
+      "(/highlight)you have to set up the <sanctum/sekhema floor map> check in the <screen-checks> section"
+    ],
+    "sanctum cheatsheet": [
+      "shows an additional panel that lists the different room types and their objectives, as well as special fountain characteristics"
+    ],
+    "sanctum relics": [
+      "overlay for relic management:\nsummarizes and groups relic effects, and offers search/highlight functionality",
+      "while the relic altar is open, hold down the <omni-key> over a relic to open the overlay",
+      "(/highlight)you have to set up the <inventory> check in the <screen-checks> section"
+    ],
+    "screenchecks pixel-about": [
+      "the tool continually checks the screen for certain ui elements",
+      "this enables context sensitivity and automatic overlay toggling",
+      "(/highlight)these checks will never result in any interaction with the client"
+    ],
+    "screenchecks pixel-calibration": [
+      "follow the instructions from <info> before clicking this",
+      "captures certain pixel-values and stores them for future checks"
+    ],
+    "screenchecks pixel-test": [
+      "click this button while the ui element shown in <info> is visible, the test should return positive",
+      "click it again while the ui element shown in <info> is not visible, the test should return negative",
+      "geforce now: move your character around a bit, then redo steps 1 & 2"
+    ],
+    "screenchecks pixel-info": [
+      "long-click to see instructions"
+    ],
+    "screenchecks image-about": [
+      "these checks are used to interpret which feature to activate when you press the <omni-key>"
+    ],
+    "screenchecks image-info": [
+      "long-click to see instructions"
+    ],
+    "screenchecks image-calibration": [
+      "follow the instructions from <info> before clicking this",
+      "left-click: automatic calibration",
+      "right-click: manually screen-cap the ui element shown in <info>"
+    ],
+    "screenchecks image-test": [
+      "click this button while the ui element shown in <info> is visible, the test should return positive",
+      "click it again while the ui element shown in <info> is not visible, the test should return negative",
+      "if tests keep returning negative after automatic calibration, right-click the <cal> button and snip the marked area shown in <info>"
+    ],
+    "screenchecks folder": [
+      "opens the folder with calibration files",
+      "if tests keep failing, open the img-files to check if they contain the correct image-clip"
+    ],
+    "screenchecks variance": [
+      "since streaming-clients have variable image quality, the tool may not be able to accurately check the screen for certain ui elements",
+      "if clicking <test> doesn't return consistent, repeatable results, you may have to increase the allowed variance of screen-checks",
+      "increase the value in increments of 10 and retest the checks until the results are consistent"
+    ],
+    "screenchecks variance input": [
+      "enter a number between 0 and 255"
+    ],
+    "searchstrings poe-regex": [
+      "3rd-party website for regex-strings"
+    ],
+    "searchstrings about": [
+      "search-strings are grouped into use-cases, e.g. gwennen, harvest, vendor",
+      "when you press the <omni-key>, the tool detects the right use-case and displays a list with entries to choose from",
+      "this detection requires manual image calibration for each use-case"
+    ],
+    "searchstrings calibrate": [
+      "opens the clipping tool: use it to clip a ui element that is unique to the search"
+    ],
+    "searchstrings test": [
+      "click this button while the ui element is on screen, the test should return positive",
+      "click it again while the ui element is not on screen, the test should return negative",
+      "results have to be consistent and repeatable"
+    ],
+    "searchstrings edit": [
+      "opens a menu where strings for this use-case can be added or edited"
+    ],
+    "searchstrings delete": [
+      "long-click to delete this use-case and its strings"
+    ],
+    "searchstrings copy": [
+      "enter a name below, then click this button to create a copy of this use-case with a new name"
+    ],
+    "searchstrings enable": [
+      "enable/disable the specific use-case"
+    ],
+    "searchstrings enable-beastcrafting": [
+      "enable/disable the specific use-case",
+      "this is included by default and contains strings for flask crafting"
+    ],
+    "searchstrings enable-lilly": [
+      "enable/disable the specific use-case",
+      "(/highlight)this is part of the imported leveling guide and contains strings for every gem"
+    ],
+    "searchstrings add": [
+      "type in a name and press <enter>"
+    ],
+    "searchstrings universal": [
+      "optionally, you can use a separate hotkey that doesn't require calibrated screen-checks",
+      "this is mainly for users who only have one use-case (e.g. vendor) and want a more streamlined setup"
+    ],
+    "stash color tag1": [
+      "price tags currently look like this"
+    ],
+    "stash color tag3": [
+      "bookmarked price tags currently look like this"
+    ],
+    "stash enable": [
+      "stash feature that overlays poe.ninja price-tags onto items in specific stash tabs",
+      "hold down the <omni-key> over an item in a tab to activate it",
+      [
+        "(/highlight)there needs to be at least one tab-folder somewhere in your stash (the overlay will be slightly offset otherwise)"
+      ]
+    ],
+    "stash hotkey": [
+      "this hotkey is exclusive to streaming clients, and pressing it will open an exclusive selection menu that lists the available tabs",
+      "don't bind it to modifier-keys or keys used for chatting: type in a key-name and press <enter>"
+    ],
+    "stash history": [
+      "shows an additional bar-chart with an item's price history for this week",
+      "this will be shown next to conversion rates when hovering over price tags",
+      "it's a timeline with bars that each represent a day and display the change in price compared to the first day"
+    ],
+    "stash global profiles": [
+      "use one set of (up to) 5 profiles that applies to every tab, instead of separate sets for each individual tab"
+    ],
+    "stash exalt": [
+      "also shows exalt-equivalent prices when hovering over highlighted items or pricing items"
+    ],
+    "stash bulk": [
+      "right-clicking an item in a tab will open an additional panel for (bulk-)sale management",
+      "it will only show poe.ninja prices initially:\nclick a currency icon to view open listings on the bulk exchange, or right-click it to refresh the data",
+      "pick a price from the list, and the panel will offer applicable bulk configurations to scroll through and pick from"
+    ],
+    "stash mintrade": [
+      "you can specify an \"i don't want to trade below x chaos\" value here:\ntype in a number and press <enter>",
+      "bulk-sale configurations in chaos will auto-adjust to start at this value"
+    ],
+    "stash config": [
+      "to configure individual tabs, open them in game and hold down the <omni-key> over an item in the tab",
+      "once the stash-ninja overlay is active, settings for the active tab will appear below"
+    ],
+    "stash gap": [
+      "if price tags don't align with the in-game grid, fine-tune this value to improve positioning",
+      "click the button in the middle to reset to default"
+    ],
+    "stash in folder": [
+      "the overlay's position has to be offset if this specific tab is in a stash folder",
+      "check this option if this tab is in a folder"
+    ],
+    "stash bookmarking": [
+      "adds a bookmark-list for this stash tab",
+      "press space while hovering over an item to add 1x to the current list, or press alt to remove 1x",
+      "bookmarked items will always be highlighted on the grid, regardless of active price-profile",
+      "each tab has 5 separate lists: hold down <control> or <shift>, and press number-keys to switch"
+    ],
+    "stash limits": [
+      "you can configure up to 5 price-range profiles for each individual tab",
+      "while the overlay is on screen, press number-keys 1 to 5 to switch between profiles"
+    ],
+    "stash currencies": [
+      [
+        "enter c or d if you want to display chaos or divine prices",
+        "enter c, e, or d if you want to display chaos, exalt, or divine prices"
+      ],
+      "enter % if you want to display price trends"
+    ],
+    "stash profiles": [
+      "the number (and hotkey) of this profile"
+    ],
+    "stash bot": [
+      "the lower limit of this profile's price range",
+      "leave it blank if you don't want to limit it"
+    ],
+    "stash top": [
+      "the upper limit of this profile's price range",
+      "leave it blank if you don't want to limit it"
+    ],
+    "statlas enable": [
+      "atlas feature that displays various information about maps on the atlas",
+      "hold down the <omni-key> over maps on the atlas to activate the overlay",
+      "(/highlight)uses built-in windows functionality. if the game's language is not available on your windows install, you will have to manually add it as a secondary language",
+      "(/highlight)you have to set up the <atlas> check in the <screen-checks> section"
+    ],
+    "statlas maptracker": [
+      "the overlay will show stats collected via the map-tracker feature"
+    ],
+    "statlas troubleshoot": [
+      "pressing <alt> + <omni-key> will open the screen-cap and ocr results",
+      "this can be used to find scan or screen-cap issues"
+    ],
+    "updater check": [
+      "checks for updates on tool launch and in the background while running",
+      "the menu-widget will flash if an update is available"
+    ],
+    "updater hotfix": [
+      "a hotfix release is available, you can download it below",
+      "the versions listed below always include the newest hotfixes, even if the number is not specifically marked"
+    ],
+    "updater hotfix unlisted": [
+      "(/highlight)only download this if you were told to (this branch may be unavailable or outdated)"
+    ],
+    "updater refresh": [
+      "check for updates"
+    ],
+    "updater versions": [
+      "the list below shows the available versions to switch between or reinstall",
+      "(/highlight)versions with important changes are highlighted in orange",
+      "hover over a button to see a summarized changelog, click it to prepare the download"
+    ],
+    "updater full changelog": [
+      "opens the github page with the detailed changelog of the selected version"
+    ],
+    "updater restart": [
+      "click to update and restart\nNOTE: active overlays and unsaved data will be lost"
+    ],
+    "updater manual": [
+      "downloads a zip-file with the complete release, then opens it and the tool-folder",
+      "the zip contains one folder: do not extract it! open it instead",
+      "extract what's inside into the tool-folder that will open in a separate window"
+    ],
+    "updater github": [
+      "opens your browser and downloads the newest version",
+      "also opens the tool folder in a separate window"
+    ],
+    "updater skip": [
+      "long-click to skip this version and no longer receive notifications",
+      "notifications will start showing again with the next version"
+    ],
+    "website": [
+      "external website"
+    ]
+  },
+  "alarm": {
+    "add": [
+      "click: add a new timer\nr-click: add a new stop-watch"
+    ],
+    "drag": [
+      "drag to reposition the whole widget"
+    ],
+    "name": [
+      "long-right-click to permanently remove this timer"
+    ],
+    "orientation": [
+      "toggle between horizontal and vertical layout"
+    ],
+    "set name": [
+      "optional: enter a name to create a permanent, reusable timer",
+      "(/highlight)un-named timers are lost when restarting the tool"
+    ],
+    "set time": [
+      "supported formats: hh:mm:ss, hh mm ss",
+      "leave blank to use the timer as a stopwatch"
+    ],
+    "timer": [
+      "left-click to loop the timer\nright-click to stop the timer"
+    ],
+    "timer idle": [
+      "click to start this timer"
+    ]
+  },
+  "anoints": {
+    "materials": [
+      "hover over materials in your stash/inventory and press the <omni-key> to load the available amounts",
+      "alternatively, hover over the icons below and scroll the mouse-wheel to manually adjust the amounts"
+    ],
+    "keywords": [
+      "this optional search method uses groups (similar to the trade site) and keywords",
+      "keywords are sorted by occurrence (high to low):\nleft-click keywords to add them to the <and> group\nlong-click keywords to add them to the <count> group\nright-click keywords to add them to the <not> group",
+      "type strings into the search-bar and press <enter> to highlight keywords"
+    ],
+    "matches": [
+      "left-click a box below to highlight the node on the in-game passive tree (make sure it's open)",
+      "right-click boxes to hide unwanted nodes until only useful ones are left",
+      "numbers after node names = required # of upgrades/reforges",
+      "type a string into the search-bar and press <enter> to filter the results (supports regex)"
+    ],
+    "reforging": [
+      "whether reforging/upgrading materials should be included to make more recipes available: only 2 tiers above the highest available material are taken into account"
+    ],
+    "rings": [
+      "toggles between amulet & ring recipes"
+    ],
+    "stock reset": [
+      "long-click to reset materials to 0"
+    ]
+  },
+  "async": {
+    "font-size": [
+      "– and + can be held down, the middle button resets the size"
+    ],"list buy": [
+      "press the <omni-key> over an item to log the purchase",
+      "<long-right-click> an item on the list to remove it",
+      "sorting:\n<click> currency icons to sort by price (ascending or descending)\n\n<click> time labels to sort based on how much time has passed"
+    ],
+    "list clear": [
+      "long-click to clear the whole list and permanently remove everything on it",
+      "(/highlight)this ignores any active filters and will not log the items"
+    ],
+    "list sell": [
+      "press the <omni-key> over an item to open 'quick repricing'\n\nhold down the <omni-key> over an item to track and add it to the list below",
+      "<click> an item on the list to highlight it in game\n\n<long-click> an item to mark it as sold, add it to the logs, and hide it\n\n<long-right-click> an item to permanently remove it",
+      "sorting:\n<click> currency icons to sort by price (ascending or descending)\n\n<click> time labels to sort based on how much time has passed since repricing or listing the item"
+    ]
+  },
+  "asynclogs": {
+    "expand all": [
+      "expand sections that are currently collapsed"
+    ],
+    "general": [
+      "click the gray dividers to collapse the section underneath",
+      "long-click item names to view the tooltip text",
+      "long-click currency icons to view further trade details"
+    ],
+    "price history": [
+      "the final price relative to the original listing (and how often it was lowered)",
+      "long-click to view the price history"
+    ],
+    "search field": [
+      "enter one or more strings (separated by commas) to search within item-tooltip texts"
+    ],
+    "search price": [
+      "enter a price to search for trades you made at that price and above",
+      "examples: 10c, 10e, 1d"
+    ],
+    "view default": [
+      "table shows all purchased items (left) and sold items (right)"
+    ],
+    "view in-out": [
+      "table only shows purchased items (left) that you sold again later (right)",
+      "(/highlight)experimental, item matching is very superficial (will be expanded based on feedback)"
+    ]
+  },
+  "cheatsheet": {
+    "image general": [
+      "scroll to switch between images",
+      "f1: zoom out, f2: zoom in, f3: reset zoom",
+      "arrow keys: move the overlay",
+      "segmented image sheets:\nspace: clear selection\nhold down the <widget-key>: show the whole sheet"
+    ]
+  },
+  "cheatsheets": {
+    "menu screencheck": [
+      "refers to the position of the ui element that activates this sheet",
+      "static: always stays in the same position, e.g. stash/inventory plaque",
+      "dynamic: can move around slightly"
+    ],
+    "menu activation": [
+      "how long the sheet stays on screen after activation",
+      "hold: until <omni-key> is released",
+      "toggle: until <esc> is pressed",
+      "activating a sheet by pressing two modifier keys will always <toggle>"
+    ],
+    "menu image-files": [
+      "image files are loaded into numbered slots within each sheet",
+      "while the sheet is active, press number keys to access these files",
+      "slot 00 is reserved for segmented sheets (hover <00> for more info)"
+    ],
+    "menu 00": [
+      "loading an image into 00 turns the sheet into a segmented one",
+      "only works if the information on it is presented in a table or diagram",
+      "image 00 is the header of the sheet, the rest are individual segments (e.g. columns or rows)"
+    ],
+    "menu header": [
+      "positioning of the header relative to the rest of the segments"
+    ],
+    "menu paste": [
+      "paste image(s) into this slot: supports files and raw data",
+      "pasting multiple files at once overwrites x slots, starting with this one"
+    ],
+    "menu snip0": [
+      "opens the snipping widget to snip images into slots"
+    ],
+    "menu snip": [
+      "opens the clipping tool to clip images into slots"
+    ],
+    "menu show": [
+      "long-click to see a preview of the image"
+    ],
+    "menu delete": [
+      "long-click to delete the image in this slot"
+    ],
+    "menu hotkey": [
+      "type in a letter to tag the image",
+      "that letter can be used like a hotkey to activate this slot",
+      "useful if data in the sheet is alphabetical and not numerical"
+    ],
+    "menu preview": [
+      "long-click to see a preview of the sheet"
+    ],
+    "menu entry-about": [
+      "every cheat sheet has multiple entries, and each entry up to 4 notes",
+      "an entry is simply something in the game you want to save notes for",
+      "syndicate: each member is an entry\nsanctum: each room is an entry"
+    ],
+    "menu entry-image": [
+      "long-click to view the calibration image"
+    ],
+    "menu entry-delete": [
+      "long-click to delete this entry"
+    ],
+    "menu entry-select": [
+      "click this entry to access its notes"
+    ],
+    "menu entry-preview": [
+      "long-click to see a preview of this entry's notes"
+    ],
+    "menu windowtitle": [
+      "title of the window you want to use as a cheat sheet",
+      "it is case-sensitive but doesn't require the whole title"
+    ],
+    "menu exe-delete": [
+      "long-click to remove the app from the launcher"
+    ],
+    "menu exe-test": [
+      "click to check if the app launches correctly"
+    ]
+  },
+  "exchange": {
+    "chaos-div": [
+      "the current div-price in chaos (e.g. 210):\nthis value is used to convert chaos to divines when logging trades"
+    ],
+    "exalt-div": [
+      "the current div-price in exalts (e.g. 210):\nthis value is used to convert exalt to divines when logging trades"
+    ],
+    "currency icons": [
+      "optional: click a currency icon to log your in-/outflow of main currency\n(the transaction will be logged when clicking <place order>)"
+    ],
+    "edit fields": [
+      "enter a value, or scroll to adjust the current value (hold down <shift> to adjust by 10)",
+      "click in-game fields to copy values here, or right-click them to paste from here",
+      "press <space> while hovering in-game fields to reset them"
+    ],
+    "logs": [
+      "click a date to view trades from that day",
+      "long-right-click on a date or trade to delete it"
+    ],
+    "ratio": [
+      "scroll to adjust both values according to the ratio (hold down shift to adjust by 10x)",
+      "click to lock the ratio: values will now be adjusted as close to this ratio as possible"
+    ],
+    "ratio 2": [
+      "the actual ratio compared to the locked one"
+    ]
+  },
+  "geartracker": {
+    "about": [
+      "click items on the list to highlight them in in-game searches",
+      "long-right-click an item to remove it from the list",
+      "press the <omni-key> on items to add them to the list"
+    ],
+    "clear highlighted": [
+      "long-click to remove every highlighted item from the list"
+    ],
+    "clear gems": [
+      "long-click to remove every gem from the list"
+    ]
+  },
+  "lab": {
+    "button": [
+      "red = layout unavailable/outdated, yellow = layout only, green = layout + tracking",
+      "click to open poelab.com: select difficulty, right-click layout image, click <copy image>",
+      "optional: right-click <lab compass file>, click <copy link address>, press ctrl + a and then ctrl + c"
+    ]
+  },
+  "leveltracker": {
+    "skilltree-cap about": [
+      "load images into slots via pasting or snipping"
+    ],
+    "skilltree-cap ascend": [
+      "load images into slots via pasting or snipping",
+      "slot 05 is reserved for a potential endgame respec or alternative tree"
+    ],
+    "skilltree-cap index": [
+      "click to add a caption to this slot"
+    ],
+    "skilltree-cap paste": [
+      "paste image file or data into this slot"
+    ],
+    "skilltree-cap snip": [
+      "opens the snipping widget, or triggers a screen-cap"
+    ],
+    "skilltree-cap show": [
+      "long-click to view the image"
+    ],
+    "skilltree-cap delete": [
+      "long-click to delete the image"
+    ],
+    "skilltree-cap delete-all": [
+      "long-click to delete all images"
+    ],
+    "skilltree-cap caption": [
+      "type in a caption and press <enter>"
+    ]
+  },
+  "leveltrackereditor": {
+    "add page": [
+      "insert a new guide page after this one"
+    ],
+    "conditions": [
+      "you can choose to only show/include certain guide pages under specific conditions"
+    ],
+    "discard": [
+      "long-click to discard unsaved changes"
+    ],
+    "export": [
+      "copy the guide data into the clipboard"
+    ],
+    "guide reset": [
+      "long-click to load the default guide",
+      "(/highlight)your progress and custom edits will be deleted"
+    ],
+    "preview": [
+      "long-click to see a preview of this guide page"
+    ],
+    "remove panel": [
+      "long-click to remove this page from the guide"
+    ],
+    "save": [
+      "long-click to save the changes to this guide slot",
+      "(/highlight)your current guide progress will be reset"
+    ],
+    "search": [
+      "type in strings to search within the currently selected act",
+      "pages with matching text will be highlighted green on the page-selection bar"
+    ]
+  },
+  "leveltrackergemcutting": {
+    "general": [
+      "hold down <alt> to temporarily hide the overlay",
+      "select a skill set from the list on the left",
+      "click <all x gems> to start an in-game search: this will include every gem of the matching type within every socket group",
+      "below that, there's a list of all the socket groups from the selected skill set: it only includes groups where the <main gem> matches the uncut gem you initially clicked on (skill or spirit)",
+      "click a socket group to start an in-game search: this will include every gem from the group"
+    ]
+  },
+  "leveltrackergems": {
+    "general": [
+      "adjust when or whether to pick up specific gems during the campaign",
+      "select <skip> if you don't want to pick up certain gems (e.g. if you are already muling them with a different character)",
+      "(/highlight)if gems are underlined, it means that the earliest pickup is the a3 library quest"
+    ],
+    "save-reset": [
+      "(/highlight)applying/reverting changes will also reset your guide progress"
+    ],
+    "skillsets": [
+      "you can disable individual skill sets and automatically set the corresponding gems to <skip>",
+      "right-click an !active! skill set to move every gem to A6 that is exclusive to it (among the currently active skill sets!)",
+      "(/highlight)these are simple on/off toggles, they will not reflect individual adjustments you make on the right afterwards"
+    ]
+  },
+  "leveltrackerschematics": {
+    "color spec": [
+      "color used to highlight new nodes",
+      "left-click to open the color palette\nright-click to reset to default"
+    ],
+    "color unspec": [
+      "color used to highlight nodes to unspec",
+      "left-click to open the color palette\nright-click to reset to default"
+    ],
+    "how-to": [
+      "press <q> or <e> to switch between individual skill-trees",
+      "hold down <w> to show an overview of the whole tree",
+      "hold down number-keys <1> through <4> to show the individual ascendancy-trees",
+      "l-click: drag in-game tree || r-click: drag overlay\n(both can be dragged simultaneously)\nm-click: snap white/yellow circle to cursor",
+      "hold down <alt> to temporarily hide the overlay"
+    ],
+    "opacity": [
+      "adjust the opacity of the overlay (default: 100)"
+    ]
+  },
+  "actdecoder": {
+    "alignment": [
+      "toggles alignment of images: horizontal or vertical"
+    ],
+    "drag": [
+      "drag to move the overlay\nr-click to reset to default position"
+    ],
+    "flip": [
+      "click: mirror horizontally\nr-click: mirror vertically",
+      "(/highlight)when unsure how to match indicators, always try mirroring before rotating"
+    ],
+    "help panel": [
+      "general:\nscroll to zoom\nhold down m-mouse for info\npress <alt> to (un)lock the overlay",
+      "(/highlight)if images have orange borders, they are inconclusive examples of possible layouts (just to give a rough idea)",
+      "if images have white borders, you have to match specific identifiers on the minimap to find the exact layouts:\n\nclick images or press number-keys to select a match\n\npress 3 to discard the currently-displayed set of identifiers and cycle to the next set",
+      "press <q> to revert all modifications and selections/discards",
+      "to hide legends/info-boxes, press the corresponding number-key\n\nto hide images in general, right-click them"
+    ],
+    "reset": [
+      "click to reset image modifications and selections/discards for this zone"
+    ],
+    "reset all": [
+      "click to reset image modifications and selections/discards for every zone"
+    ],
+    "rotate": [
+      "click: rotate 90 degrees\nr-click: rotate -90 degrees",
+      [
+        "",
+        "(/highlight)when unsure how to match indicators, always try mirroring before rotating"
+      ]
+    ],
+    "update": [
+      "layout update available in the settings menu"
+    ]
+  },
+  "lootfilter": {
+    "beams": [
+      "beam of light that can be added to dropped items (black = off)",
+      "click to open the color palette, right-click to revert to the basefilter color"
+    ],
+    "beams temp": [
+      "toggles whether the beam is temporary or permanent"
+    ],
+    "cancel": [
+      "discard unsaved/pending modifications and go back to when you last clicked <apply>"
+    ],
+    "color background": [
+      "background color",
+      "click to open the color palette, right-click to revert to the basefilter color"
+    ],
+    "color border": [
+      "border color",
+      "click to open the color palette, right-click to revert to the basefilter color"
+    ],
+    "color text": [
+      "text color",
+      "click to open the color palette, right-click to revert to the basefilter color"
+    ],
+    "economy cut-offs": [
+      [
+        "enter a value x and click <apply/update> to hide everything under x chaos. enter 0 to revert to defaults",
+        "enter a value x and click <apply/update> to hide everything under x exalts. enter 0 to revert to defaults"
+      ],
+      "(/highlight)sometimes, there's a discrepancy in categorization between poe.ninja and neversink filters (currency vs fragment)",
+      "(/highlight)filter rules will be created according to poe.ninja's categories"
+    ],
+    "economy stacks": [
+      "optionally, you can create additional rules for items below the cut-off so that higher stacks will still show",
+      "example: if your cut-off is 1 and an item is worth 0.6, it will be hidden, but stacks of 2+ will be shown",
+      "(/highlight)these rules max out at stack sizes of 6 and have 10% leeway"
+    ],
+    "edit": [
+      "edit this tier's presentation and/or conditions"
+    ],
+    "expand": [
+      "expand every section that is currently collapsed"
+    ],
+    "filter apply modifications": [
+      "applies unsaved/pending modifications to the filter and loads it into the game",
+      "(/highlight)make sure the in-game chat box is closed but accessible"
+    ],
+    "filter apply update": [
+      "reloads the base filter, then applies your modifications and loads it into game",
+      "(/highlight)make sure the in-game chat box is closed but accessible"
+    ],
+    "filter select": [
+      "!local! copies of your online filters (and when they were last updated)",
+      "(/highlight)the game doesn't delete leftover files when you delete online filters, so this list may be very long",
+      "(/highlight)right-click a filter on the list to delete the local copy"
+    ],
+    "global setting economy": [
+      "lets you hide items based on current poe.ninja prices",
+      "click this label to open the settings menu and select your current league"
+    ],
+    "global setting flasks": [
+      "lets you set a cut-off for quality flasks",
+      "click this label to browse the corresponding section in the filter"
+    ],
+    "global setting flasks toggles": [
+      "0: use base filter rules",
+      "x: hide flasks below x% quality",
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+    ],
+    "global setting gems": [
+      [
+        "lets you set a cut-off for leveled/quality regular gems (i.e. not exceptional, transfigured, etc.)",
+        "lets you set a level cut-off for uncut gems"
+      ],
+      [
+        "the filter only checks one value at a time: gems at or above either cut-off will be shown"
+      ],
+      "click this label to browse the corresponding section in the filter"
+    ],
+    "global setting gems toggles": [
+      "0: use base filter rules",
+      [
+        "x: hide gems below level x or x% quality",
+        "x: hide gems below level x"
+      ],
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust",
+      [
+        "max out the values to hide every leveled/quality regular gem"
+      ]
+    ],
+    "global setting info": [
+      "global quick-settings are always applied first, before normal modifications",
+      "this lets you make broad changes first, and more specific changes on top"
+    ],
+    "global setting maps": [
+      "lets you set a tier cut-off for regular maps (i.e. not influenced, blighted, etc.)",
+      "click this label to browse the corresponding section in the filter"
+    ],
+    "global setting maps toggles": [
+      "0: use base filter rules",
+      "x: hide maps below tier x",
+      "17: hide all regular maps",
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+    ],
+    "global setting sockets 2": [
+      "lets you set an item-size cut-off for socketed gear (salvage bench: artificer's orb)",
+      "click this label to browse the corresponding section in the filter"
+    ],
+    "global setting sockets toggles": [
+      "off: use base filter rules",
+      "none: don't highlight socketed gear",
+      "small: only highlight small items",
+      "all: highlight every socketed item"
+    ],
+    "global setting strands": [
+      "lets you set a cut-off for memory-strand items",
+      "neversink filters have extra highlighting for high-strand items",
+      "click this label to browse the corresponding section in the filter"
+    ],
+    "global setting strands toggles": [
+      "0: use base filter rules",
+      "x (high): items with x or more strands have extra highlighting\nx (minimum): items with x or more strands will be highlighted",
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust",
+      "max out the <minimum> slider to only highlight high-strand items, or max both to ignore strands as a highlighting aspect"
+    ],
+    "global setting unavailable": [
+      "the selected filter has an unexpected structure: this quick-setting cannot be applied"
+    ],
+    "global setting visuals": [
+      "lets you set up unified style settings for the whole filter",
+      "click this label to open the settings menu and adjust presets i to iii"
+    ],
+    "global setting visuals toggles": [
+      "off: use base filter presentation",
+      "i-iii: use a fixed value for every item"
+    ],
+    "home button": [
+      "open the main/home screen with global settings",
+      "alternatively, you can middle click while hovering over the editor"
+    ],
+    "list reload": [
+      "refresh the list of local copies of your online filters",
+      "you have to activate online filters at least once in game to get a local copy"
+    ],
+    "minimap color": [
+      "color of the minimap icon (black = off)",
+      "click to open the color palette, right-click to revert to the basefilter color"
+    ],
+    "minimap icon": [
+      "minimap icon"
+    ],
+    "minimap size": [
+      "size of the minimap icon"
+    ],
+    "modhistory": [
+      "the sequence of boxes below represents the modifications you applied to the filter",
+      "hover over the boxes for more info. click this bar to collapse this section."
+    ],
+    "opacity": [
+      "opacity customization is streamlined to three fixed presets that can be adjusted in the settings",
+      "defaults: 100  |  150  |  255"
+    ],
+    "profiles": [
+      "you can switch between three different profiles to set up different sets of filter modifications"
+    ],
+    "section browse": [
+      "click this label to open the corresponding section in the filter"
+    ],
+    "size": [
+      "size customization is streamlined to three fixed presets that can be adjusted in the settings",
+      "defaults: 25  |  35  |  45"
+    ],
+    "types": [
+      "these bars show how the filter is divided into types",
+      "click this bar to collapse this type, right-click to browse it"
+    ],
+    "tiers": [
+      "these sections show how types are further divided into tiers",
+      "click items for more options, right-click them to start a global search"
+    ],
+    "tiers collapse": [
+      "collapse/expand this tier"
+    ],
+    "rollback": [
+      "click this box to browse the tier that was modified",
+      "hold right-click to go back to this point and delete !every! modification after it: make sure the in-game chat box is closed but accessible"
+    ],
+    "search field": [
+      "press the <omni-key> over an item to find the specific match",
+      "manual searching has basic regex functionality and supports multi-keyword searches via comma separation"
+    ],
+    "search history": [
+      "lets you go back and forth in your search/browse history",
+      "alternatively, you can scroll the mouse wheel while hovering over the editor"
+    ],
+    "slider general": [
+      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+    ],
+    "sounds pick": [
+      "select a sound effect for this rule",
+      "sound effects can be previewed and tagged/renamed in the settings menu"
+    ],
+    "sounds volume": [
+      "volume customization is streamlined to three fixed presets that can be adjusted in the settings",
+      "defaults: 100  |  200  |  300"
+    ],
+    "rule hideshow": [
+      "this toggle affects !every! item in this tier"
+    ],
+    "update check": [
+      "sync the local copy with the online filter: this applies the !base! filter in game, which forces an update check",
+      "(/highlight)make sure the in-game chat box is closed but accessible",
+      "(/highlight)you'll have to click <apply> afterwards to reload your customizations",
+      "there is a server-side sync cooldown if the online filter has been updated multiple times recently (e.g. via filterblade)"
+    ]
+  },
+  "maptracker": {
+    "logviewer day-select": [
+      "open the date selection: shows a breakdown of logged map runs",
+      "the current search-filter will affect the available dates"
+    ],
+    "logviewer date help": [
+      "general: click a button to show runs within that period, hold down <del> while hovering to delete those runs",
+      "years: click a year to show its breakdown below, double-click to load the whole year"
+    ],
+    "logviewer export": [
+      "long-click to export the list of runs below as a CSV-file, overwriting any existing file with the same date",
+      "right-click to open the export folder"
+    ],
+    "logviewer league colors": [
+      "click this button to open the color palette",
+      "press <space> to reset to default"
+    ],
+    "logviewer infopanel color": [
+      "the color used to highlight clickable panels",
+      "click this button to open the color palette, right-click to reset to default"
+    ],
+    "logviewer page-entries": [
+      "how many entries to show on each page (auto = log-viewer will adjust to available screen space)"
+    ],
+    "logviewer search": [
+      "each column has a search bar that supports regex and custom patterns (hover over them for more info):\npress <enter> to start a search with every input at once, or click the red x to restore the unfiltered log-viewer"
+    ],
+    "logviewer selection colors 1": [
+      "the color used for unselected years and map runs that don't belong to any league",
+      "click this button to open the color palette",
+      "press <space> to reset to default"
+    ],
+    "logviewer selection colors 2": [
+      "the color used for the currently selected year",
+      "click this button to open the color palette",
+      "press <space> to reset to default"
+    ],
+    "logviewer sum avg": [
+      "click highlighted cells in this row to display the data within a column as totals / percentages / averages"
+    ],
+    "logviewer search map": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc)"
+    ],
+    "logviewer header map": [
+      "long-click a map name to edit it, long-right-click to delete the run",
+      "map names are clickable for searching:\nclick to paste <name> into the search, r-click to paste !<name>, double-(r-)click to search immediately"
+    ],
+    "logviewer search tier": [
+      "supported inputs:\n\"x\" (exact tier), \"!x\" (exclude), \"x-y\" (between x and y), \"x+\" (x or higher)"
+    ],
+    "logviewer header tier": [
+      "the tier (map) or level (e.g. contract) of the run",
+      "numbers are clickable for searching:\nclick to paste <tier> into the search, r-click to paste !<tier>, double-(r-)click to search immediately"
+    ],
+    "logviewer search run": [
+      "supported inputs:\n\"x\" (exact time), \"x-y\" (between x and y), \"x+\" (x or longer)",
+      "if x/y don't include any colons, they will be treated as seconds, otherwise as (hh:)mm:ss"
+    ],
+    "logviewer header run": [
+      "the time it took to complete the run"
+    ],
+    "logviewer header e-exp": [
+      "effective exp gained in a map (i.e. after penalties), based on your level and the monsters'",
+      "you have to specify your character's name in the <general> section of the settings first"
+    ],
+    "logviewer search deaths": [
+      "supported inputs:\n\"x\" (exact value), \"x-y\" (between x and y), \"x+\" (x or higher)"
+    ],
+    "logviewer header deaths": [
+      "number of deaths in a run",
+      "header is clickable for searching:\nclick to paste \"1+\" into the search, r-click to paste \"0\", double-(r-)click to search immediately"
+    ],
+    "logviewer search portals": [
+      "supported inputs:\n\"x\" (exact value), \"x-y\" (between x and y), \"x+\" (x or higher)"
+    ],
+    "logviewer header portals": [
+      "number of portals used in a run"
+    ],
+    "logviewer search kills": [
+      "supported inputs:\n\"x\" (exact value), \"x-y\" (between x and y), \"x+\" (x or higher)"
+    ],
+    "logviewer header kills": [
+      "monsters killed in a run (optional, has to be enabled first): uses the in-game /kills command",
+      "header is clickable for searching:\nclick to paste \"1+\" into the search, r-click to paste \"0\", double-(r-)click to search immediately"
+    ],
+    "logviewer search loot": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+    ],
+    "logviewer header loot": [
+      "loot found in a map (optional, has to be enabled first):\nclick highlighted cells in this column to view a list with logged loot",
+      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+    ],
+    "logviewer search mapinfo": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)",
+      "you can search for mods and also general rolls, e.g. \"100q\" for 100% quantity\n(for general rolls, it will always search for \"x and above\")"
+    ],
+    "logviewer search mapinfo 2": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+    ],
+    "logviewer header mapinfo": [
+      "mods rolled on a map (optional, has to be enabled first):\nclick highlighted cells in this column to view a list of logged mods",
+      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+    ],
+    "logviewer search notes": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+    ],
+    "logviewer header notes": [
+      "custom notes for runs (adding notes during/before the run is optional and has to be enabled first):\nright-click cells in this column to add/edit notes after the run, click highlighted cells to view them",
+      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+    ],
+    "logviewer search character": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)\n\"x\" (exact level), \"x-y\" (between x and y), \"x+\" (x or higher)"
+    ],
+    "logviewer header character": [
+      "information about the character (and build) played in the run:\nclick highlighted cells in this column to view this information",
+      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+    ],
+    "logviewer header league": [
+      "information about the league (optional, has to be enabled first):\nclick highlighted cells in this column to view this information",
+      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+    ],
+    "logviewer search content": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)",
+      [
+        "available short-hand inputs: \"elder\" for elder guardians, \"sirus\" for conquerors"
+      ]
+    ],
+    "logviewer search content 2": [
+      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+    ],
+    "logviewer header content": [
+      "side-content you encountered in a map (optional, has to be enabled first)",
+      "header & icons are clickable for searching:\nclick to paste <content> into the search, r-click to paste !<content>, double-(r-)click to search immediately"
+    ]
+  },
+  "maptrackernotes": {
+    "help": [
+      "type in custom notes and press <enter>: include \"X#\" before the note to limit it to X runs",
+      "press the <omni-key> over items to add them to the notes:\nmap-device items are highlighted yellow and limited to 4",
+      "long-click a note to remove it, or the header to clear everything"
+    ]
+  },
+  "notepad": {
+    "colors": [
+      "text color: click to open the color-palette, right-click to reset"
+    ],
+    "colors1": [
+      "background color: click to open the color-palette, right-click to reset"
+    ],
+    "widget": [
+      "click to select tab, drag to create a widget, long-right-click to delete"
+    ],
+    "widget help": [
+      "widgets are inactive (unclickable) unless the <widget-key> is held down",
+      "left-click to drag widgets, right-click to destroy widgets",
+      "you can create scrollable widgets with individual pages by separating the text with lines that only contain a single hash-sign (#)"
+    ],
+    "widget grouped": [
+      "drag to combine every note into a single, scrollable widget"
+    ]
+  },
+  "sanctum": {
+    "calibrate paths": [
+      "click to open the snipping tool and calibrate the scanner for pathing: use right-click and wasd for more precise snipping",
+      "long-right-click to delete previous calibration data and start over"
+    ],
+    "calibrate rooms": [
+      "click to open the snipping tool and calibrate the scanner for room count and positions",
+      "long-right-click to delete previous calibration data and start over"
+    ],
+    "general": [
+      "press <space> to lock the overlay so it doesn't automatically hide\npress <esc> to close it",
+      "click a room to mark it as a target room:\ngreen highlighting will show the available pathing",
+      "right-click one or more rooms you want to avoid:\npurple highlighting will show the pathing you need to avoid, and black highlighting will show which rooms will become completely blocked",
+      "middle-click a room to treat it as the current room:\nevery room that is no longer relevant will be blacked out. you can also hold it down and hover back and forth between rooms."
+    ],
+    "scan": [
+      "click to scan the map, long-right-click to view the scan result"
+    ]
+  },
+  "sanctumrelics": {
+    "general": [
+      "right-click relics to load them into the grid",
+      "(/highlight)note: always move the cursor to the top-left corner of the relic",
+      "hold down <alt> to temporarily hide boxes",
+      "press <esc> to close the overlay: it will also close when clicking <confirm> in game"
+    ],
+    "mods": [
+      "click up to 2 mods to highlight corresponding relics",
+      "right-click mods to highlight corresponding relics in the in-game stash"
+    ],
+    "clear": [
+      "long-click to clear the grid and mod-list"
+    ]
+  },
+  "screenchecks": {
+    "async1": [
+      "(/bold)(/underline)instructions:",
+      "-> open your merchant window: the plaque at the top (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "async2": [
+      "(/bold)(/underline)instructions:",
+      "-> open a player's merchant window: the plaque at the top (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "atlas": [
+      "(/bold)(/underline)instructions:",
+      "-> open the atlas: the plaque at the top (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "betrayal": [
+      "(/bold)(/underline)instructions:",
+      "-> open the syndicate board: the x-button (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "exchange": [
+      "(/bold)(/underline)instructions:",
+      "-> open the currency exchange",
+      "-> make sure the inventory is closed",
+      "-> click <cal>",
+      "-> follow the instructions in <test>"
+    ],
+    "gamescreen": [
+      "(/bold)(/underline)explanation:",
+      "-> this check is used to (loosely) determine whether a full-screen ui is on screen",
+      "(/bold)(/underline)instructions:",
+      "-> close every in-game menu: atlas, inventory, etc.",
+      "-> the minimap has to be in the center",
+      "-> the infopanel (img) has to be fully visible",
+      "-> click <cal>",
+      "-> follow the instructions in <test>"
+    ],
+    "gamescreen 2": [
+      "(/bold)(/underline)explanation:",
+      "-> this check is used to (loosely) determine whether a full-screen ui is on screen",
+      "(/bold)(/underline)instructions:",
+      "-> close every in-game menu: atlas, inventory, etc.",
+      "-> the minimap has to be in the center",
+      "-> the infopanel (img) has to be fully visible",
+      "-> long-click the <cal> button: a 'crosshair' and zoom-widget will follow the cursor",
+      "-> drag the 'crosshair' onto a letter in the infopanel, as shown on the img",
+      "-> follow the instructions in <test>"
+    ],
+    "close_button": [
+      "(/bold)(/underline)explanation:",
+      "-> this is an alternative check to (loosely) determine whether a full-screen ui is on screen",
+      "-> used by the <clone-frames> feature to automatically (un)hide overlays",
+      "(/bold)(/underline)instructions:",
+      "-> open the in-game passive tree",
+      "-> the <close button> (img) has to be fully visible",
+      "-> long-click the <cal> button: a 'crosshair' and zoom-widget will follow the cursor",
+      "-> drag the 'crosshair' onto a red pixel on the <close button>, as shown on the img",
+      "-> follow the instructions in <test>"
+    ],
+    "inventory": [
+      "(/bold)(/underline)instructions:",
+      "-> open the inventory",
+      "-> the top-right corner (img: yellow) has to be fully visible",
+      "-> click <cal>",
+      "-> follow the instructions in <test>"
+    ],
+    "runeshaping": [
+      "(/bold)(/underline)instructions:",
+      "-> open the runeshaping interface: the text at the top (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "sanctum": [
+      "(/bold)(/underline)instructions:",
+      "-> open the floor map: the plaque at the top (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "skilltree": [
+      "(/bold)(/underline)instructions:",
+      "-> open the skilltree: the plaque at the top (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "stash": [
+      "(/bold)(/underline)instructions:",
+      "-> open the stash",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ],
+    "tradesearch": [
+      "(/bold)(/underline)instructions:",
+      "-> open the async-trade search: the plaque at the top (img) has to be fully visible",
+      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
+      "-> follow the instructions in <test>"
+    ]
+  },
+  "statlas": {
+    "tier": [
+      "scroll the mouse-wheel to adjust this filter"
+    ]
+  },
+  "radial": {
+    "leveltracker close": [
+      "close the guide overlay:\nthe overlay will stay closed until toggled on again"
+    ],
+    "leveltracker geartracker": [
+      "geartracker:\nnotifies you when you meet gear or gem requirements after lvl-ups"
+    ],
+    "leveltracker leveltracker": [
+      "toggle the guide overlay:\nthe overlay will stay closed until lvl-up or zone transition"
+    ],
+    "maptracker pause": [
+      "pause map tracking"
+    ],
+    "maptracker resume": [
+      "resume map tracking"
+    ],
+    "notepad close": [
+      "close all text widgets"
+    ],
+    "notepad quick-note": [
+      "quick-note:\ncreate a single-use widget"
+    ],
+    "settings close": [
+      "close exile ui"
+    ],
+    "settings restart": [
+      "restart exile ui"
+    ],
+    "settings sub-menu": [
+      "open the settings for this feature"
+    ]
+  },
+  "recombination": {
+    "color 1": [
+      "click: customize   |   r-click: reset to default",
+      "used to highlight characteristics that match"
+    ],
+    "color 2": [
+      "click: customize   |   r-click: reset to default",
+      "used to highlight incompatibilities that prevent simulation"
+    ],
+    "color 3": [
+      "click: customize   |   r-click: reset to default",
+      "used to highlight things that require attention because they influence the outcome"
+    ],
+    "basics": [
+      "one item will be randomly chosen as the final base and retains its influences, tags (e.g. corrupted, split), quality, implicits, enchants, anoints",
+      "you can manipulate odds by crafting/editing mods",
+      "influence-mods cannot be moved to bases that don't have the required influence,\nfractured mods cannot be moved from the original base and only add to the general affix pool there",
+      "(/highlight)note: mod-weighting hasn't been figured out yet, so results become less accurate the more non-exclusive mods are present in each affix-group (e.g. when combining random loot as opposed to target-crafting the inputs)"
+    ],
+    "exclusive": [
+      "whether or not a mod is \"exclusive\" (i.e. part of a specific group and therefore affected by restrictions)",
+      "only a single exclusive mod can be recombined onto the final item",
+      "examples: breach, incursion, essence, bestiary, betrayal & veiled, delve, named bench-crafts (tora's, chosen, of the order, etc.) & metamods, elevated mods"
+    ],
+    "lock": [
+      "locks the item-slot so it won't be automatically overwritten or cleared when loading items or closing the panel"
+    ],
+    "nnn": [
+      "whether or not a mod is \"non-native, natural\" (i.e. restricted to specific bases)",
+      "these mods can only be recombined if the final base meets specific requirements",
+      "examples: influenced, attribute/defense-specific, and fractured mods",
+      "(/highlight)loading new items into the panel will automatically reset/recheck whether mods are nnn"
+    ]
+  },
+  "searchstrings": {
+    "config entry-about": [
+      "create a custom list of strings for this use-case by adding entries:\ntype in a descriptive name for the entry and press <enter>",
+      "example-list for harvest crafting:\n- sacrifice corrupted map\n- sacrifice div card\n- change resistance"
+    ],
+    "config entry-list": [
+      "click an entry to edit its string(s), long-click <del> to remove it",
+      "paste the string(s) into the edit-field on the right:\nyou can add multiple strings per entry by pasting them into separate lines",
+      "when activating an entry with multiple strings, you can scroll the mouse-wheel to paste them into the game one after the other"
+    ]
+  },
+  "seed-explorer": {
+    "import": [
+      "imports a jewel from clipboard (e.g. copied from trade)"
+    ],
+    "trade": [
+      "opens the trade-site with a search for this seed"
+    ],
+    "download": [
+      "the required databases have not been downloaded yet",
+      "click this button to start the download"
+    ],
+    "legion notables": [
+      "the list below shows every legion notable of the current jewel type",
+      "hover over notables to see their effects, right-click them to mark them as desired"
+    ],
+    "legion notables socket": [
+      "the list below shows the resulting modifications after slotting this jewel into the selected jewel slot",
+      "hover over notables to see their effects,\nclick them to highlight their position on the in-game skilltree,\nright-click them to mark them as desired"
+    ],
+    "socket": [
+      "the list below shows the regular notables around the currently-selected jewel socket",
+      "click a notable to highlight it on the in-game skilltree, right-click it to mark it as allocated",
+      "allocated notables are highlighted green, or yellow if the current seed turns it into a desired legion notable"
+    ],
+    "tree": [
+      "click a jewel socket to load it into the explorer above, or click it again to deselect it",
+      "each socket may be labeled with numbers if the seed results in desired legion notables:\n- teal labels show the number of desired legion notables around the socket\n- yellow labels show the number of allocated notables that will turn into desired legion notables"
+    ],
+    "update": [
+      "click this button to check for database updates"
+    ]
+  },
+  "snip": {
+    "about": [
+      "resize and place this widget over an area you want to screencap",
+      "use arrow keys to move/resize the widget by 1 pixel",
+      "hold down <alt> to resize instead of moving,\nhold down <ctrl> to move/resize by 10 pixels",
+      "click <snip> on a specific slot to save the image into it"
+    ]
+  }
+}
