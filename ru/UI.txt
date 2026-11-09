@@ -1151,26 +1151,26 @@
 		m_lvltracker_timer			=	"таймер"
 		m_lvltracker_fadeout		=	"скрывать"
 		m_lvltracker_fadeout		=	"наведение"
-		m_lvltracker_gear			=	"трекер снаряжения"
-		m_lvltracker_lvltips		=	"советы по ур."
-		m_lvltracker_pagehotkeys		=	"клавиши страниц"
-		m_lvltracker_poboverlays		=	"настройки оверлеев pob:"
-		m_lvltracker_pobgems		=	"камни: переключать, а не удерживать"
-		m_lvltracker_pobmanual		=	"дерево: снимки экрана вместо схем"
+		m_lvltracker_gear			=	"снаряжение"
+		m_lvltracker_lvltips		=	"советы"
+		m_lvltracker_pagehotkeys		=	"листание"
+		m_lvltracker_poboverlays		=	"оверлеи pob:"
+		m_lvltracker_pobgems		=	"камни: нажать, а не держать"
+		m_lvltracker_pobmanual		=	"дерево: снимки вместо схем"
 		m_lvltracker_pob			=	"pob: средняя кнопка открывает меню снимков"
 		m_lvltracker_screencap		=	"меню снимков"
 		m_lvltracker_guide			=	"гайды:"
 		m_lvltracker_incompatible	=	"данные гайда несовместимы,;нужно обновление"
 		m_lvltracker_treeclear		=	"удалить данные"
 		m_lvltracker_leaguestart		=	"старт лиги"
-		m_lvltracker_optionals		=	"необязательное"						;## refers to optional loot, quests, etc.
+		m_lvltracker_optionals		=	"побочное"						;## refers to optional loot, quests, etc.
 		m_lvltracker_bandit			=	"бандит"
 		m_lvltracker_bandits		=	"алира"
 		m_lvltracker_bandits		=	"крайтин"
 		m_lvltracker_bandits		=	"дуб"
-		m_lvltracker_treehotkey		=	"клавиша закрытия дерева:"				;## optional setting for users who don't close the in-game tree with ESC
-		m_lvltracker_gemquests		=	"квесты камней"						;## quests that unlock gems
-		m_lvltracker_autotracking	=	"автослежение"
+		m_lvltracker_treehotkey		=	"закрыть дерево:"				;## optional setting for users who don't close the in-game tree with ESC
+		m_lvltracker_gemquests		=	"кв. камней"						;## quests that unlock gems
+		m_lvltracker_autotracking	=	"автотрек"
 
 
 
