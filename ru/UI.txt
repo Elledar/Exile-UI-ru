@@ -125,11 +125,11 @@
 		global_name			=	"name:"
 		global_type			=	"type:"
 		global_add			=	"добавить"
-		global_calibrate		=	"cal"
-		global_calibrate		=	"calibration required"
-		global_calibrate		=	"calibrate"
+		global_calibrate		=	"калибр."
+		global_calibrate		=	"нужна калибровка"
+		global_calibrate		=	"откалибровать"
 		global_import			=	"загр."
-		global_test			=	"test"
+		global_test			=	"тест"
 		global_edit			=	"ред."
 		global_info			=	"инфо"
 		global_negative		=	"negative"
@@ -152,11 +152,11 @@
 		global_errorname		=	"только буквы, пробелы;и цифры"
 		global_errorname		=	"имя уже занято"
 		global_errorname		=	"имя не должно содержать:;"
-		global_inventory		=	"inventory"
+		global_inventory		=	"инвентарь"
 		global_skilltree		=	"дерево умений"
 		global_ascendancy		=	"дерево восхождения"
-		global_atlas			=	"atlas"
-		global_stash			=	"stash"
+		global_atlas			=	"атлас"
+		global_stash			=	"тайник"
 		global_nothing			=	"there's;nothing to display"
 		global_imageinvalid		=	"в буфере обмена;нет картинки"
 		global_releasekey		=	"release key:"
@@ -175,7 +175,7 @@
 		global_regular			=	"regular"			;## as in default
 		global_setup			=	"setup"
 		global_setup			=	"setup required"
-		global_variance		=	"variance"
+		global_variance		=	"допуск"
 		global_hotkey			=	"hotkey:"
 		global_hotkey			=	"optional hotkey:"
 		global_panelsize		=	"panel-size:"
@@ -251,7 +251,7 @@
 		global_updatewait		=	"try again later"
 		global_duration		=	"duration"
 		global_position		=	"position"
-		global_exchange		=	"currency exchange"
+		global_exchange		=	"обмен валюты"
 		global_timeunits		=	"minute#minutes#hour#hours#day#days#week#weeks"
 		global_day			=	"day"
 		global_day			=	"days"
@@ -314,7 +314,7 @@
 		global_folder			=	"folder"
 
 		mechanic_bestiary		=	"bestiary"
-		mechanic_betrayal		=	"betrayal"
+		mechanic_betrayal		=	"синдикат"
 		mechanic_blight		=	"blight"
 		mechanic_delirium		=	"delirium"
 		mechanic_delve			=	"delve"
@@ -828,12 +828,12 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the screen-checks feature
-		screen_snipinstructions	=	"l-click drag: normal snip"
-		screen_snipinstructions	=	"r-click drag: adjustable snip"
-		screen_snipinstructions	=	"wasd: move adj. snip"
-		screen_snipinstructions	=	"shift + wasd: resize adj. snip"
-		screen_snipinstructions	=	"space: confirm adj. snip"
-		screen_snipinstructions	=	"esc: exit"
+		screen_snipinstructions	=	"лкм + тянуть: обычный снимок"
+		screen_snipinstructions	=	"пкм + тянуть: снимок с подгонкой"
+		screen_snipinstructions	=	"wasd: сдвинуть рамку"
+		screen_snipinstructions	=	"shift + wasd: размер рамки"
+		screen_snipinstructions	=	"пробел: подтвердить"
+		screen_snipinstructions	=	"esc: выход"
 
 ;#####################################################
 ;## search-strings
@@ -1270,19 +1270,19 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "screen-checks" section of the settings menu
-		m_screen_pixel			=	"list of required pixel-checks:"
-		m_screen_image			=	"list of required image-checks:"
-		m_screen_inactive		=	"the features that are currently enabled don't require any setup"
-		m_screen_gamescreen		=	"infopanel"									;## refers to the small panel in the top-right corner that shows area-name, server, league, etc.
-		m_screen_close_button	=	"close button"
-		m_screen_instructions	=	"read the instructions on;the <info> button!"
+		m_screen_pixel			=	"метки по пикселям:"
+		m_screen_image			=	"метки по картинкам:"
+		m_screen_inactive		=	"включённым функциям настройка не нужна"
+		m_screen_gamescreen		=	"инфопанель"									;## refers to the small panel in the top-right corner that shows area-name, server, league, etc.
+		m_screen_close_button	=	"кнопка закрытия"
+		m_screen_instructions	=	"прочитайте инструкцию;на кнопке <инфо>!"
 		m_screen_runeshaping	=	"runeshaping"
-		m_screen_runeshaping2	=	"runeshaping (controller)"
-		m_screen_sanctum		=	"sanctum floor map"
-		m_screen_sanctum		=	"sekhema floor map"
-		m_screen_async1		=	"async trade (sell)"
-		m_screen_async2		=	"async trade (buy)"
-		m_screen_tradesearch	=	"trade search"
+		m_screen_runeshaping2	=	"runeshaping (геймпад)"
+		m_screen_sanctum		=	"карта этажа святилища"
+		m_screen_sanctum		=	"карта испытания сехем"
+		m_screen_async1		=	"торговля (продажа)"
+		m_screen_async2		=	"торговля (покупка)"
+		m_screen_tradesearch	=	"поиск торговли"
 
 
 ;#####################################################

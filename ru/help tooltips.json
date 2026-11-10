@@ -1106,49 +1106,49 @@
       "(/highlight)you have to set up the <inventory> check in the <screen-checks> section"
     ],
     "screenchecks pixel-about": [
-      "the tool continually checks the screen for certain ui elements",
-      "this enables context sensitivity and automatic overlay toggling",
-      "(/highlight)these checks will never result in any interaction with the client"
+      "программа постоянно проверяет экран на наличие определённых элементов интерфейса",
+      "благодаря этому функции понимают ситуацию и сами показывают и скрывают оверлеи",
+      "(/highlight)эти проверки никак не взаимодействуют с клиентом игры"
     ],
     "screenchecks pixel-calibration": [
-      "follow the instructions from <info> before clicking this",
-      "captures certain pixel-values and stores them for future checks"
+      "сначала выполните инструкцию из <инфо>",
+      "запоминает цвета нескольких точек экрана для будущих проверок"
     ],
     "screenchecks pixel-test": [
-      "click this button while the ui element shown in <info> is visible, the test should return positive",
-      "click it again while the ui element shown in <info> is not visible, the test should return negative",
-      "geforce now: move your character around a bit, then redo steps 1 & 2"
+      "нажмите эту кнопку, когда элемент из <инфо> виден на экране: тест должен пройти",
+      "нажмите ещё раз, когда элемента из <инфо> на экране нет: тест должен не пройти",
+      "geforce now: немного подвигайте персонажа и повторите шаги 1 и 2"
     ],
     "screenchecks pixel-info": [
-      "long-click to see instructions"
+      "зажмите, чтобы увидеть инструкцию"
     ],
     "screenchecks image-about": [
-      "these checks are used to interpret which feature to activate when you press the <omni-key>"
+      "по этим проверкам программа понимает, какую функцию включить при нажатии <омни-кей>"
     ],
     "screenchecks image-info": [
-      "long-click to see instructions"
+      "зажмите, чтобы увидеть инструкцию"
     ],
     "screenchecks image-calibration": [
-      "follow the instructions from <info> before clicking this",
-      "left-click: automatic calibration",
-      "right-click: manually screen-cap the ui element shown in <info>"
+      "сначала выполните инструкцию из <инфо>",
+      "левый клик: автоматическая калибровка",
+      "правый клик: вручную снять с экрана элемент из <инфо>"
     ],
     "screenchecks image-test": [
-      "click this button while the ui element shown in <info> is visible, the test should return positive",
-      "click it again while the ui element shown in <info> is not visible, the test should return negative",
-      "if tests keep returning negative after automatic calibration, right-click the <cal> button and snip the marked area shown in <info>"
+      "нажмите эту кнопку, когда элемент из <инфо> виден на экране: тест должен пройти",
+      "нажмите ещё раз, когда элемента из <инфо> на экране нет: тест должен не пройти",
+      "если после автоматической калибровки тест всё равно не проходит, нажмите правой кнопкой <калибр.> и вырежьте область, отмеченную в <инфо>"
     ],
     "screenchecks folder": [
-      "opens the folder with calibration files",
-      "if tests keep failing, open the img-files to check if they contain the correct image-clip"
+      "открывает папку с файлами калибровки",
+      "если тесты не проходят, откройте картинки и проверьте, правильный ли на них кусок экрана"
     ],
     "screenchecks variance": [
-      "since streaming-clients have variable image quality, the tool may not be able to accurately check the screen for certain ui elements",
-      "if clicking <test> doesn't return consistent, repeatable results, you may have to increase the allowed variance of screen-checks",
-      "increase the value in increments of 10 and retest the checks until the results are consistent"
+      "у стрим-клиентов качество картинки плавает, поэтому программа может не узнавать некоторые элементы интерфейса",
+      "если <тест> даёт непостоянные результаты, увеличьте допуск проверок",
+      "увеличивайте значение шагами по 10 и повторяйте тесты, пока результаты не станут стабильными"
     ],
     "screenchecks variance input": [
-      "enter a number between 0 and 255"
+      "введите число от 0 до 255"
     ],
     "searchstrings poe-regex": [
       "3rd-party website for regex-strings"
@@ -2111,104 +2111,104 @@
   },
   "screenchecks": {
     "async1": [
-      "(/bold)(/underline)instructions:",
-      "-> open your merchant window: the plaque at the top (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте своё окно торговца: табличка сверху (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "async2": [
-      "(/bold)(/underline)instructions:",
-      "-> open a player's merchant window: the plaque at the top (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте окно торговца другого игрока: табличка сверху (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "atlas": [
-      "(/bold)(/underline)instructions:",
-      "-> open the atlas: the plaque at the top (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте атлас: табличка сверху (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "betrayal": [
-      "(/bold)(/underline)instructions:",
-      "-> open the syndicate board: the x-button (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте доску синдиката: кнопка-крестик (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "exchange": [
-      "(/bold)(/underline)instructions:",
-      "-> open the currency exchange",
-      "-> make sure the inventory is closed",
-      "-> click <cal>",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте обмен валюты",
+      "-> инвентарь должен быть закрыт",
+      "-> нажмите <калибр.>",
+      "-> следуйте инструкции в <тест>"
     ],
     "gamescreen": [
-      "(/bold)(/underline)explanation:",
-      "-> this check is used to (loosely) determine whether a full-screen ui is on screen",
-      "(/bold)(/underline)instructions:",
-      "-> close every in-game menu: atlas, inventory, etc.",
-      "-> the minimap has to be in the center",
-      "-> the infopanel (img) has to be fully visible",
-      "-> click <cal>",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)пояснение:",
+      "-> эта проверка (примерно) определяет, открыто ли на экране полноэкранное окно игры",
+      "(/bold)(/underline)инструкция:",
+      "-> закройте все игровые окна: атлас, инвентарь и т.д.",
+      "-> мини-карта должна быть в центре",
+      "-> инфопанель (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.>",
+      "-> следуйте инструкции в <тест>"
     ],
     "gamescreen 2": [
-      "(/bold)(/underline)explanation:",
-      "-> this check is used to (loosely) determine whether a full-screen ui is on screen",
-      "(/bold)(/underline)instructions:",
-      "-> close every in-game menu: atlas, inventory, etc.",
-      "-> the minimap has to be in the center",
-      "-> the infopanel (img) has to be fully visible",
-      "-> long-click the <cal> button: a 'crosshair' and zoom-widget will follow the cursor",
-      "-> drag the 'crosshair' onto a letter in the infopanel, as shown on the img",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)пояснение:",
+      "-> эта проверка (примерно) определяет, открыто ли на экране полноэкранное окно игры",
+      "(/bold)(/underline)инструкция:",
+      "-> закройте все игровые окна: атлас, инвентарь и т.д.",
+      "-> мини-карта должна быть в центре",
+      "-> инфопанель (на картинке) должна быть видна целиком",
+      "-> зажмите кнопку <калибр.>: за курсором появятся прицел и лупа",
+      "-> наведите прицел на букву в инфопанели, как на картинке",
+      "-> следуйте инструкции в <тест>"
     ],
     "close_button": [
-      "(/bold)(/underline)explanation:",
-      "-> this is an alternative check to (loosely) determine whether a full-screen ui is on screen",
-      "-> used by the <clone-frames> feature to automatically (un)hide overlays",
-      "(/bold)(/underline)instructions:",
-      "-> open the in-game passive tree",
-      "-> the <close button> (img) has to be fully visible",
-      "-> long-click the <cal> button: a 'crosshair' and zoom-widget will follow the cursor",
-      "-> drag the 'crosshair' onto a red pixel on the <close button>, as shown on the img",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)пояснение:",
+      "-> это запасная проверка, которая (примерно) определяет, открыто ли на экране полноэкранное окно игры",
+      "-> её использует функция <клоны окон>, чтобы сама скрывать и показывать оверлеи",
+      "(/bold)(/underline)инструкция:",
+      "-> откройте в игре дерево пассивных умений",
+      "-> <кнопка закрытия> (на картинке) должна быть видна целиком",
+      "-> зажмите кнопку <калибр.>: за курсором появятся прицел и лупа",
+      "-> наведите прицел на красную точку <кнопки закрытия>, как на картинке",
+      "-> следуйте инструкции в <тест>"
     ],
     "inventory": [
-      "(/bold)(/underline)instructions:",
-      "-> open the inventory",
-      "-> the top-right corner (img: yellow) has to be fully visible",
-      "-> click <cal>",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте инвентарь",
+      "-> правый верхний угол (на картинке жёлтым) должен быть виден целиком",
+      "-> нажмите <калибр.>",
+      "-> следуйте инструкции в <тест>"
     ],
     "runeshaping": [
-      "(/bold)(/underline)instructions:",
-      "-> open the runeshaping interface: the text at the top (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте окно runeshaping: текст сверху (на картинке) должен быть виден целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "sanctum": [
-      "(/bold)(/underline)instructions:",
-      "-> open the floor map: the plaque at the top (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте карту этажа: табличка сверху (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "skilltree": [
-      "(/bold)(/underline)instructions:",
-      "-> open the skilltree: the plaque at the top (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте дерево умений: табличка сверху (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "stash": [
-      "(/bold)(/underline)instructions:",
-      "-> open the stash",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте тайник",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ],
     "tradesearch": [
-      "(/bold)(/underline)instructions:",
-      "-> open the async-trade search: the plaque at the top (img) has to be fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)инструкция:",
+      "-> откройте поиск торговли: табличка сверху (на картинке) должна быть видна целиком",
+      "-> нажмите <калибр.> для автоматической калибровки ИЛИ правой кнопкой — для ручной",
+      "-> следуйте инструкции в <тест>"
     ]
   },
   "statlas": {

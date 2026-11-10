@@ -10,7 +10,8 @@ ru = {k: v for k, v in json.load(open(os.path.join(here, "help_tooltips_ru.json"
 
 GUIDE_STYLE = False  # подсказки с (hint) программа рисует как гайд: там "optional:" — служебная метка
 def marks(s):
-    pat = r"\(/highlight\)|\(hint\)_+|\((?:img|color):[^)]*\)|\(quest:|\n" + (r"|optional:" if GUIDE_STYLE else "")
+    # "(img: yellow)" с пробелом — обычный текст инструкции (метки экрана), не разметка
+    pat = r"\(/highlight\)|\(hint\)_+|\((?:img|color):[^)\s][^)]*\)|\(quest:|\n" + (r"|optional:" if GUIDE_STYLE else "")
     c = collections.Counter(re.findall(pat, s))
     c["<>"] = s.count("<")
     return c
