@@ -180,7 +180,7 @@
 		global_hotkey			=	"optional hotkey:"
 		global_panelsize		=	"panel-size:"
 		global_uisize			=	"размер интерфейса:"
-		global_auto			=	"auto"
+		global_auto			=	"авто"
 		global_price			=	"price"
 		global_all			=	"все"
 		global_confirm			=	"confirm"
@@ -1227,7 +1227,7 @@
 
 
 ;## these strings are displayed/required in the "announcements" section of the settings menu
-		m_news_recent			=	"most recent announcement(s):"
+		m_news_recent			=	"последние новости:"
 
 ;#####################################################
 ;## settings menu: minor qol tools
@@ -1366,26 +1366,26 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "updater" section of the settings menu
-		m_updater_version		=	"version information:"
-		m_updater_version		=	"current:"
-		m_updater_version		=	"latest:"
-		m_updater_versions		=	"available downloads:"
-		m_updater_recent		=	"recent changes:"
-		m_updater_github		=	"github links:"
-		m_updater_github		=	"main page"
-		m_updater_github		=	"releases"
-		m_updater_changelog		=	"full changelog"
+		m_updater_version		=	"версия программы:"
+		m_updater_version		=	"текущая:"
+		m_updater_version		=	"новая:"
+		m_updater_versions		=	"доступные версии:"
+		m_updater_recent		=	"последние изменения:"
+		m_updater_github		=	"ссылки на github:"
+		m_updater_github		=	"главная"
+		m_updater_github		=	"релизы"
+		m_updater_changelog		=	"все изменения"
 		m_updater_skip			=	"пропустить"
-		m_updater_failed		=	"update failed:"
-		m_updater_error1		=	"the last update attempt failed because of write-permission errors. please open the <general> section of the settings and run the test at the bottom."
-		m_updater_error1		=	"fixing these issues is critical not just for the updater but for many other features as well."
+		m_updater_failed		=	"обновление не удалось:"
+		m_updater_error1		=	"последнее обновление не удалось из-за ошибок прав на запись. откройте вкладку <общее> в настройках и запустите проверку внизу."
+		m_updater_error1		=	"исправить это важно не только для обновления, но и для многих других функций."
 
-		m_updater_error2		=	"the last update attempt failed because the tool couldn't download the latest version-list."
-		m_updater_error2		=	"this could be a random error that will fix itself on the next try."
-		m_updater_error2		=	"if it doesn't fix itself, you'll have to update manually."
+		m_updater_error2		=	"последнее обновление не удалось: программа не смогла скачать свежий список версий."
+		m_updater_error2		=	"возможно, это случайный сбой, и со следующей попытки всё пройдёт."
+		m_updater_error2		=	"если не пройдёт, обновите программу вручную."
 
-		m_updater_error3		=	"the last update attempt failed because the tool couldn't verify the current version-list. this indicates a damaged installation and needs to be fixed manually as soon as possible."
-		m_updater_error4		=	"the last update attempt failed because some files couldn't be downloaded."
-		m_updater_manual		=	"update manually"
-		m_updater_manual		=	"github download"
-		m_updater_download		=	"download failed, use;the github button"
+		m_updater_error3		=	"последнее обновление не удалось: программа не смогла проверить текущий список версий. похоже, установка повреждена, её нужно как можно скорее исправить вручную."
+		m_updater_error4		=	"последнее обновление не удалось: часть файлов не скачалась."
+		m_updater_manual		=	"обновить вручную"
+		m_updater_manual		=	"скачать с github"
+		m_updater_download		=	"не удалось скачать,;нажмите кнопку github"

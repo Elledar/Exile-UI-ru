@@ -1284,42 +1284,42 @@
       "this can be used to find scan or screen-cap issues"
     ],
     "updater check": [
-      "checks for updates on tool launch and in the background while running",
-      "the menu-widget will flash if an update is available"
+      "проверяет обновления при запуске программы и в фоне во время работы",
+      "если обновление есть, виджет меню будет мигать"
     ],
     "updater hotfix": [
-      "a hotfix release is available, you can download it below",
-      "the versions listed below always include the newest hotfixes, even if the number is not specifically marked"
+      "доступно срочное исправление (hotfix), его можно скачать ниже",
+      "версии в списке ниже всегда включают свежие исправления, даже если номер это не отмечает"
     ],
     "updater hotfix unlisted": [
-      "(/highlight)only download this if you were told to (this branch may be unavailable or outdated)"
+      "(/highlight)скачивайте, только если вам это посоветовали (эта ветка может быть недоступна или устареть)"
     ],
     "updater refresh": [
-      "check for updates"
+      "проверить обновления"
     ],
     "updater versions": [
-      "the list below shows the available versions to switch between or reinstall",
-      "(/highlight)versions with important changes are highlighted in orange",
-      "hover over a button to see a summarized changelog, click it to prepare the download"
+      "в списке ниже версии, на которые можно перейти или переустановить",
+      "(/highlight)версии с важными изменениями выделены оранжевым",
+      "наведите курсор на кнопку, чтобы увидеть краткий список изменений, нажмите, чтобы подготовить загрузку"
     ],
     "updater full changelog": [
-      "opens the github page with the detailed changelog of the selected version"
+      "открывает страницу github с подробным списком изменений выбранной версии"
     ],
     "updater restart": [
-      "click to update and restart\nNOTE: active overlays and unsaved data will be lost"
+      "нажмите, чтобы обновить и перезапустить программу\nВНИМАНИЕ: открытые оверлеи и несохранённые данные пропадут"
     ],
     "updater manual": [
-      "downloads a zip-file with the complete release, then opens it and the tool-folder",
-      "the zip contains one folder: do not extract it! open it instead",
-      "extract what's inside into the tool-folder that will open in a separate window"
+      "скачивает zip-архив с полной версией, затем открывает его и папку программы",
+      "в архиве одна папка: не распаковывайте её! откройте её",
+      "распакуйте её содержимое в папку программы, которая откроется в отдельном окне"
     ],
     "updater github": [
-      "opens your browser and downloads the newest version",
-      "also opens the tool folder in a separate window"
+      "открывает браузер и скачивает свежую версию",
+      "заодно открывает папку программы в отдельном окне"
     ],
     "updater skip": [
-      "long-click to skip this version and no longer receive notifications",
-      "notifications will start showing again with the next version"
+      "зажмите, чтобы пропустить эту версию и больше не получать уведомлений о ней",
+      "уведомления снова появятся со следующей версией"
     ],
     "website": [
       "внешний сайт"
