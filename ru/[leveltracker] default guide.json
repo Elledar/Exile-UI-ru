@@ -532,7 +532,7 @@
       "вход: areaid1_3_2 ;; the slums"
     ],
     [
-      "открыть (img:quest) (quest:решётку): areaid1_3_10_1 ;; the sewers"
+      "открыть (img:quest) (quest:решётку): areaid1_3_10_1 (color:ff8000)[проверить_перевод!] ;; the sewers"
     ],
     [
       "иди (img:7): (img:quest) (quest:бюст_1) || иди (img:1): (img:waypoint)",
@@ -666,7 +666,7 @@
         "yes"
       ],
       "lines": [
-        "найти (img:waypoint) + (color:cc99ff)шаткую_свечу",
+        "найти (img:waypoint) + (color:cc99ff)шаткую_свечу (color:ff8000)[проверить_перевод!]",
         "вход: areaid1_3_17_2 ;; the archives",
         "quest-check: <разгадка_судьбы> ;; this is a hidden routing-check"
       ]
@@ -803,7 +803,7 @@
     [
       "иди (img:0), по рельсам (img:7)",
       "через (color:cc99ff)мост, иди (img:0)",
-      "найти (img:quest) (quest:рычаг): areaid1_5_1 ;; slave pens"
+      "найти (img:quest) (quest:рычаг): areaid1_5_1 (color:ff8000)[проверить_перевод!] ;; slave pens"
     ]
   ],
   [
@@ -848,7 +848,7 @@
     [
       "найти (img:quest) (quest:символ_чистоты)",
       "(hint)__ зона: спираль (против) часовой",
-      "дёрнуть (color:cc99ff)рычаг, вход: areaid1_5_3b ;; ruined square"
+      "дёрнуть (color:cc99ff)рычаг, вход: areaid1_5_3b (color:ff8000)[проверить_перевод!] ;; ruined square"
     ],
     [
       "иди (img:5) к фонтану, поставить (img:portal)",
@@ -991,9 +991,9 @@
       "взять (img:quest) (quest:чёрный_флаг) || дойти: areaid2_6_14 ;; the beacon"
     ],
     [
-      "иди (img:1) к (img:quest) (quest:тележкам_с_топливом)",
+      "иди (img:1) к (img:quest) (quest:тележкам_с_топливом) (color:ff8000)[проверить_перевод!]",
       "leaguestart: (hint)__ (img:craft): лестница к тележкам",
-      "зажечь (img:quest) (quest:маяк), сжечь (img:quest) (quest:флаг)",
+      "зажечь (img:quest) (quest:маяк), сжечь (img:quest) (quest:флаг) (color:ff8000)[проверить_перевод!]",
       "(img:quest) вейлам: areaid2_6_15 ;; brine king's reef"
     ],
     [
@@ -1038,7 +1038,7 @@
     ],
     [
       "взять (img:waypoint) в центральной комнате",
-      "(quest:карту) в (img:quest) (quest:картографическое_устройство)",
+      "(quest:карту) в (img:quest) (quest:картографическое_устройство) (color:ff8000)[проверить_перевод!]",
       "вход: areaid2_7_5_map ;; maligaro's sanctum"
     ],
     [
@@ -1127,7 +1127,7 @@
   ],
   [
     [
-      "optional: (color:cc99ff)тайник_контрабандистов (кража)",
+      "optional: (color:cc99ff)тайник_контрабандистов (кража) (color:ff8000)[проверить_перевод!]",
       "(hint)__ иди (img:0), найти (color:cc99ff)рычаг на стене",
       "иди (img:2), затем вдоль стены",
       "вход: areaid2_8_town ;; sarn encampment"
@@ -1269,7 +1269,7 @@
     ],
     [
       "optional: <самоцвет>: иди (img:1), выбери (color:cc99ff)статую",
-      "иди (img:2), взять (img:waypoint) || найти (img:quest) (quest:сундук)",
+      "иди (img:2), взять (img:waypoint) || найти (img:quest) (quest:сундук) (color:ff8000)[проверить_перевод!]",
       "(hint)__ обычно возле (img:waypoint) или далеко (img:5)",
       "иди (img:0): areaid2_9_5 ;; the foothills"
     ],

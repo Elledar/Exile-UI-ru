@@ -27,6 +27,8 @@ qmap = {k.replace(" ", "_"): v.replace(" ", "_") for k, v in names["quests"].ite
 npcs = names["npcs"]
 guide = load(os.path.join(src, "[leveltracker] default guide.json"))
 
+CHECK_MARK = "(color:ff8000)[проверить_перевод!]"
+
 def tokens(line):
     """то, что программа читает как разметку и что обязано сохраниться при переводе"""
     t = collections.Counter()
@@ -34,6 +36,8 @@ def tokens(line):
     t.update(re.findall(r"areaid\S+", line))
     t.update(re.findall(r"\(lvl:[^)]*\)", line))
     # цвет 569777 добавляется в переводе вручную: программа сама красит только английские "trial" и "_lab"
+    # пометка "[проверить_перевод!]" — временная, для названий, которые надо сверить в игре
+    line = line.replace(" " + CHECK_MARK, "")
     t.update(c for c in re.findall(r"\(color:[^)]*\)", line) if c != "(color:569777)")
     t.update(re.findall(r"\(hint\)_+", line))
     t.update(m for m in ("leaguestart:", "optional:", "twinkrun:", "quest-check:", "||", ";;") for _ in range(line.count(m)))
