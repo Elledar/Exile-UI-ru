@@ -82,7 +82,7 @@
 		ms_stash-ninja			=	"цены в тайнике"
 		ms_statlas			=	"статы атласа"			;## blend of "stats" and "atlas"
 		ms_stream-clients		=	"стрим-клиенты"
-		ms_tldr-tooltips		=	"кратко"
+		ms_tldr-tooltips		=	"разбор модов"
 		ms_exchange			=	"ваал-стрит"		;## reference to Wall Street
 		ms_updater			=	"обновление"
 
