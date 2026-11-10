@@ -62,7 +62,7 @@
 		ms_addons				=	"аддоны"
 		ms_anoints			=	"намазки"
 		ms_betrayal-info		=	"синдикат"
-		ms_cheat-sheets		=	"cheat-sheets"
+		ms_cheat-sheets		=	"шпаргалки"
 		ms_clone-frames		=	"клоны окон"
 		ms_donations			=	"донат"
 		ms_filterspoon			=	"лутфильтр"		;## sarcastically derived from FilterBlade
@@ -77,7 +77,7 @@
 		ms_runeshaping			=	"цены рун"
 		ms_sanctum			=	"святилище"
 		ms_sanctum			=	"сехемы"
-		ms_screen-checks		=	"screen-checks"
+		ms_screen-checks		=	"метки экрана"
 		ms_search-strings		=	"строки поиска"
 		ms_stash-ninja			=	"цены в тайнике"
 		ms_statlas			=	"статы атласа"			;## blend of "stats" and "atlas"
