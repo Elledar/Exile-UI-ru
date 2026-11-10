@@ -55,7 +55,7 @@
       "после выбора программа перезапустится"
     ],
     "lang unknown": [
-      "the client's language couldn't be detected from reading its config-file"
+      "не удалось определить язык клиента по его файлу настроек"
     ],
     "font-size": [
       "– и + можно зажать, средняя кнопка сбрасывает размер"
@@ -73,12 +73,12 @@
       "background color: click to open the color-palette, right click to reset"
     ],
     "input method 1": [
-      "default mode, full compatibility"
+      "обычный режим, всё работает"
     ],
     "input method 2": [
-      "optional mode, (very) limited compatibility: a few features have modified behavior to remain functional in controller mode",
-      "examples:\n- item-info, omni-key, context menu\n- stash-ninja and rune-ninja (poe2 only)",
-      "(/highlight)controller support is low-priority and based on individual requests"
+      "дополнительный режим, работает (очень) ограниченно: некоторые функции изменены, чтобы ими можно было пользоваться с геймпада",
+      "например:\n- о предмете, омни-клавиша, контекстное меню\n- цены в тайнике и цены рун (только poe2)",
+      "(/highlight)поддержка геймпада не в приоритете и делается по отдельным просьбам"
     ],
     "active character": [
       "необязательно: впишите имя текущего персонажа",
@@ -112,45 +112,45 @@
       "проверить новые лиги и события"
     ],
     "logfile": [
-      "the size and load-time of the game's client.txt log-file: excessively large log-files may negatively impact the game's and tool's performance",
-      "if you have issues with the game or log-related features, click the folder button on the right to open the game's log folder"
+      "размер и время загрузки журнала игры client.txt: слишком большой журнал может замедлять игру и программу",
+      "если с игрой или функциями, связанными с журналом, что-то не так, нажмите кнопку с папкой справа, чтобы открыть папку журнала"
     ],
     "logfolder": [
-      "open the game's log folder to manually delete the log file: if you use tools that require the log-file, make a backup of the file first",
-      "(/highlight)the client.txt log-file can only be modified after closing the game"
+      "открывает папку журнала игры, чтобы удалить его вручную: если пользуетесь программами, которым нужен журнал, сначала сделайте его копию",
+      "(/highlight)журнал client.txt можно изменить только после закрытия игры"
     ],
     "force resolution": [
-      "you can force the client to run with a custom resolution not available by default",
-      "it will be applied on every tool start, or when starting the client while the tool is running",
-      "vertical resolutions (second value) are limited due to compatibility reasons"
+      "можно заставить клиент работать в своём разрешении, которого нет в настройках игры",
+      "оно применяется при каждом запуске программы или при запуске игры, пока программа работает",
+      "высота (второе число) ограничена из соображений совместимости"
     ],
     "reset resolution": [
-      "long-click to reset the client's resolution and delete custom-resolution settings",
-      "(/highlight)this will restart the tool",
-      "this is mainly for situations when the tool is forcing an incorrect resolution after switching monitors"
+      "зажмите, чтобы сбросить разрешение клиента и удалить настройки своего разрешения",
+      "(/highlight)программа перезапустится",
+      "это нужно в основном, если после смены монитора программа выставляет неправильное разрешение"
     ],
     "client filler": [
-      "covers the empty screen area around the client window and makes it unclickable",
-      "this area can be used to place overlays outside the client area, and it also prevents misclicks on background windows"
+      "закрашивает пустое место экрана вокруг окна игры, и по нему нельзя кликнуть",
+      "там можно размещать оверлеи вне окна игры, а ещё это защищает от случайных кликов по окнам на заднем плане"
     ],
     "client filler split": [
-      "only covers the empty area(s) above and/or below the game client",
-      "this means free space to the left and/or right can still be used for something else"
+      "закрашивает только пустое место над и/или под окном игры",
+      "свободное место слева и/или справа остаётся доступным для другого"
     ],
     "client filler taskbar": [
-      "the client and filler will also cover the taskbar",
-      "(/highlight)if the taskbar pops up again, you have to refocus the game-client, e.g. by pressing the windows key twice or by alt-tabbing"
+      "окно игры и фон закроют и панель задач",
+      "(/highlight)если панель задач снова всплывёт, переключитесь на игру ещё раз: например, дважды нажмите клавишу windows или alt+tab"
     ],
     "window position": [
-      "the client has to be docked to a specific spot to ensure that overlays are positioned correctly",
-      "pick a preferred position, and the client will be placed there automatically every time"
+      "окно игры должно стоять в определённом месте, чтобы оверлеи были на своих местах",
+      "выберите удобное положение, и окно будет ставиться туда автоматически каждый раз"
     ],
     "black bars": [
-      "the client's aspect ratio is limited to 24:10 and there will be black bars if it's wider",
-      "this option repositions the tool's overlays and screen-checks to compensate for that"
+      "соотношение сторон клиента ограничено 24:10: если экран шире, по бокам будут чёрные полосы",
+      "эта галочка сдвигает оверлеи и метки экрана программы с учётом полос"
     ],
     "window borders": [
-      "removes borders around the client window"
+      "убирает рамку вокруг окна игры"
     ],
     "write permissions": [
       "помогает разобраться, если программа не может создавать или изменять файлы",
@@ -1322,7 +1322,7 @@
       "notifications will start showing again with the next version"
     ],
     "website": [
-      "external website"
+      "внешний сайт"
     ]
   },
   "alarm": {
