@@ -22,46 +22,46 @@
       "донат"
     ],
     "slider general": [
-      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+      "(/highlight)зажмите кнопку и ведите курсор вверх/вниз или вправо/влево, чтобы изменить значение"
     ],
     "multi-threading multi": [
-      "the tool will use two threads/processes, which improves performance and enables advanced features",
-      "examples:\nclone-frames fps options"
+      "программа работает в два потока (процесса): это быстрее и открывает дополнительные возможности",
+      "например:\nнастройки fps в клонах окон"
     ],
     "multi-threading multi failed": [
-      "the tool will use two threads/processes, which improves performance and enables advanced features",
-      "examples:\nclone-frames fps options",
-      "(/highlight)multi-threading failed, the tool is using a single thread/process"
+      "программа работает в два потока (процесса): это быстрее и открывает дополнительные возможности",
+      "например:\nнастройки fps в клонах окон",
+      "(/highlight)запустить второй поток не удалось, программа работает в один поток"
     ],
     "multi-threading single": [
-      "the tool will use a single thread/process, and certain advanced features and performance options will not be available"
+      "программа работает в один поток (процесс): часть дополнительных возможностей и настроек скорости будет недоступна"
     ],
     "kill time": [
-      "the tool will close automatically if it can't find any open game clients",
-      "0: don't close automatically\nX: wait X minutes before closing",
-      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
+      "программа закроется сама, если не найдёт запущенную игру",
+      "0: не закрываться\nX: закрыться через X минут",
+      "(/highlight)зажмите кнопку и ведите курсор вверх/вниз или вправо/влево, чтобы изменить значение"
     ],
     "browser features": [
-      "enables additional features when accessing 3rd-party websites via the tool",
-      "examples:\n-> chrome calculator: auto-paste stats\n-> poe.db cluster jewels: auto-highlight type"
+      "дополнительные функции на сторонних сайтах, открытых через программу",
+      "например:\n-> калькулятор chrome: сам вставляет статы\n-> кластерные самоцветы на poedb: сам подсвечивает тип"
     ],
     "capslock toggling": [
-      "(/highlight)only disable this option if something outside of the tool is bound to capslock",
-      "whenever autohotkey sends inputs, it toggles capslock back and forth, which triggers whatever is bound to it (e.g. voice chat mute)",
-      "toggling this option will restart the tool"
+      "(/highlight)выключайте, только если на caps lock назначено что-то вне программы",
+      "когда autohotkey отправляет нажатия, он переключает caps lock туда-обратно, и срабатывает то, что на нём висит (например, выключение микрофона)",
+      "при переключении программа перезапустится"
     ],
     "lang language": [
-      "select the tool's display language",
-      "the tool will restart upon selection"
+      "язык интерфейса программы",
+      "после выбора программа перезапустится"
     ],
     "lang unknown": [
       "the client's language couldn't be detected from reading its config-file"
     ],
     "font-size": [
-      "– and + can be held down, the middle button resets the size"
+      "– и + можно зажать, средняя кнопка сбрасывает размер"
     ],
     "animations": [
-      "animations/transitions used in some menus and interfaces"
+      "анимации и переходы в некоторых меню и окнах"
     ],
     "generic color": [
       "click to open the color-palette, right click to reset"
@@ -81,35 +81,35 @@
       "(/highlight)controller support is low-priority and based on individual requests"
     ],
     "active character": [
-      "optional: enter the name of your current character",
-      "this enables level tracking and e-exp calculations"
+      "необязательно: впишите имя текущего персонажа",
+      "тогда программа будет следить за уровнем и считать эффективный опыт (e-exp)"
     ],
     "active character status": [
-      "orange: no name specified",
-      "yellow: char not found / waiting for level-up",
-      "green: char found, tracking active"
+      "оранжевый: имя не указано",
+      "жёлтый: персонаж не найден / ждём повышения уровня",
+      "зелёный: персонаж найден, слежение работает"
     ],
     "active character whois": [
-      "click this button to use the \"/whois\" in-game command to force-refresh character info",
-      "(/highlight)make sure the in-game chat box is closed but accessible"
+      "нажмите, чтобы обновить данные персонажа игровой командой \"/whois\"",
+      "(/highlight)окно чата в игре должно быть закрыто, но доступно"
     ],
     "ascendancy": [
-      "the game only logs ascendancies when a character levels up",
-      "this label will be out of sync if you have recently (re)specced but not leveled up yet: in that case, click the refresh button"
+      "игра записывает класс восхождения в журнал только при повышении уровня",
+      "если вы недавно меняли восхождение, а уровень ещё не поднялся, надпись будет устаревшей: в этом случае нажмите кнопку обновления"
     ],
     "active build": [
       "optional: enter a description for the current build",
       "used in the map-tracker feature to log which build was played"
     ],
     "league selection": [
-      "select the league you're currently playing in",
-      "this information can be used in various features for price-checking and logging"
+      "выберите лигу, в которой сейчас играете",
+      "это нужно некоторым функциям для проверки цен и записи в журнал"
     ],
     "league selection other": [
-      "this is a global setting: click this button to open the <general> tab and select your current league"
+      "это общая настройка: нажмите, чтобы открыть вкладку <общее> и выбрать текущую лигу"
     ],
     "league update": [
-      "check for new leagues/events"
+      "проверить новые лиги и события"
     ],
     "logfile": [
       "the size and load-time of the game's client.txt log-file: excessively large log-files may negatively impact the game's and tool's performance",
@@ -153,9 +153,9 @@
       "removes borders around the client window"
     ],
     "write permissions": [
-      "use this to troubleshoot write-permission issues on your system if the tool can't create/edit files",
-      "when these issues are detected, an error message will appear and ask you to run this test",
-      "if the test results show errors, move the tool-folder to a different location or restart the tool as admin, then re-run the test"
+      "помогает разобраться, если программа не может создавать или изменять файлы",
+      "если такая проблема обнаружится, появится сообщение с просьбой запустить эту проверку",
+      "если проверка покажет ошибки, перенесите папку программы в другое место или перезапустите её от имени администратора, затем повторите проверку"
     ],
     "actdecoder enable": [
       "интерактивный оверлей раскладок зон кампании",
