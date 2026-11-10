@@ -1005,10 +1005,10 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "add-ons" section of the settings menu
-		m_addons_failed		=	"write issue: couldn't create add-ons folder"
-		m_addons_warning		=	"warning: proceed with caution and do your own research"
-		m_addons_warning		=	"WARNING:;;Add-ons are not validated and may contain dangerous code.;Please do your own research and check the source code before downloading them.;;Do you want to proceed?"
-		m_addons_list			=	"list of downloaded add-ons:"
+		m_addons_failed		=	"ошибка записи: не удалось создать папку аддонов"
+		m_addons_warning		=	"осторожно: сначала сами проверьте, что устанавливаете"
+		m_addons_warning		=	"ВНИМАНИЕ:;;Аддоны никто не проверяет, в них может быть опасный код.;Прежде чем скачивать, сами разберитесь и посмотрите исходный код.;;Продолжить?"
+		m_addons_list			=	"скачанные аддоны:"
 
 
 

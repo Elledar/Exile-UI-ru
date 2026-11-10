@@ -185,19 +185,19 @@
       "этот оверлей — один из немногих, которые можно вынести за пределы основного монитора, и это может вызвать проблемы, если между сессиями вы меняете конфигурацию мониторов"
     ],
     "addons about": [
-      "long-click to information about this add-on"
+      "зажмите, чтобы узнать об аддоне"
     ],
     "addons delete": [
-      "long-click to delete this add-on"
+      "зажмите, чтобы удалить аддон"
     ],
     "addons enable": [
-      "(/highlight)experimental:\nlets you create your own features or import someone else's features via github"
+      "(/highlight)экспериментально:\nможно создавать свои функции или подключать чужие с github"
     ],
     "addons import": [
-      "copy a github repo url into your clipboard and click this button to import an add-on"
+      "скопируйте ссылку на репозиторий github и нажмите эту кнопку, чтобы подключить аддон"
     ],
     "addons settings": [
-      "open the settings for this add-on"
+      "открыть настройки аддона"
     ],
     "anoints enable": [
       "quick-access interface to find and filter which recipes are available with the materials you have",
