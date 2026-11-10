@@ -116,7 +116,7 @@
 		global_color			=	"color"
 		global_color			=	"colors:"
 		global_opacity			=	"прозрачн.:"
-		global_zoom			=	"zoom:"
+		global_zoom			=	"масштаб:"
 		global_tier			=	"tier"
 		global_tiers			=	"t1"
 		global_tiers			=	"t2"
@@ -176,8 +176,8 @@
 		global_setup			=	"setup"
 		global_setup			=	"setup required"
 		global_variance		=	"допуск"
-		global_hotkey			=	"hotkey:"
-		global_hotkey			=	"optional hotkey:"
+		global_hotkey			=	"клавиша:"
+		global_hotkey			=	"своя клавиша:"
 		global_panelsize		=	"panel-size:"
 		global_uisize			=	"размер интерфейса:"
 		global_auto			=	"авто"
@@ -283,9 +283,9 @@
 		global_memorystrands	=	"memory strands"
 		global_memorystrands	=	"strands"
 		global_campaign		=	"campaign"
-		global_update			=	"update"
-		global_update			=	"update available"
-		global_update			=	"update check"
+		global_update			=	"обновить"
+		global_update			=	"есть обновление"
+		global_update			=	"проверить обновления"
 		global_temp			=	"temp"			;## temporary
 		global_volume			=	"volume"			;## refers to sound
 		global_sound			=	"sound"			;## these refer to different types of sound files/effects, e.g. sound 6
