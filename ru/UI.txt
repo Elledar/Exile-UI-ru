@@ -131,7 +131,7 @@
 		global_import			=	"загр."
 		global_test			=	"test"
 		global_edit			=	"ред."
-		global_info			=	"info"
+		global_info			=	"инфо"
 		global_negative		=	"negative"
 		global_positive		=	"positive"
 		global_paste			=	"вставить"
@@ -164,7 +164,7 @@
 		global_ultrawide		=	"The current aspect ratio is wider than officially supported by the game."
 		global_ultrawide		=	"Unless you're using a mod, the client will display black bars on the sides."
 		global_ultrawide		=	"Are there black bars on the sides of the client?"
-		global_credits			=	"credits"
+		global_credits			=	"авторы"
 		global_none			=	"нет"
 		global_axis			=	"x-axis"
 		global_axis			=	"y-axis"
@@ -209,9 +209,9 @@
 		global_global			=	"global"
 		global_controller		=	"controller"		;## gamepad
 		global_keyboard		=	"keyboard"
-		global_multithreading	=	"multi"			;## i.e. using multiple CPU cores/threads
-		global_multithreading	=	"single"
-		global_multithreading	=	"threads:"
+		global_multithreading	=	"два"			;## i.e. using multiple CPU cores/threads
+		global_multithreading	=	"один"
+		global_multithreading	=	"потоки:"
 		global_ignore			=	"ignore"
 		global_custom			=	"custom"			;## as in "user-defined"
 		global_condition		=	"условие:"		;## as in "if x condition is met"
@@ -219,7 +219,7 @@
 		global_no				=	"нет"
 		global_activation		=	"activation:"
 		global_maps			=	"maps"
-		global_league			=	"league"
+		global_league			=	"лига"
 		global_league_sc		=	"sc"				;## softcore league
 		global_league_hc		=	"hc"				;## hardcore league
 		global_league_standard	=	"standard"
@@ -296,8 +296,8 @@
 		global_large			=	"large"
 		global_active			=	"active:"			;## as in currently active/selected
 		global_meta			=	"meta:"			;## as in meta info/knowledge/data
-		global_animations		=	"ui animations"	;## as in UI transitions, movement, etc.
-		global_animations		=	"animations"
+		global_animations		=	"анимации"	;## as in UI transitions, movement, etc.
+		global_animations		=	"анимации"
 		global_hold_ctrl		=	"hold ctrl"
 		global_load			=	"загрузить"
 		global_troubleshoot		=	"trouble-shooting"
@@ -913,17 +913,17 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "general" section of the settings menu
-		m_general_settings		=	"tool settings:"
-		m_general_autoclose		=	"auto-close:"
-		m_general_browser		=	"browser qol"
-		m_general_capslock		=	"caps-toggle"							;## by default, AHK will toggle capslock back and forth whenever it sends key-strokes
-		m_general_charleague	=	"character & league:"
-		m_general_character		=	"char"
-		m_general_level		=	"lvl"
+		m_general_settings		=	"настройки программы:"
+		m_general_autoclose		=	"автовыход:"
+		m_general_browser		=	"для браузера"
+		m_general_capslock		=	"caps lock"							;## by default, AHK will toggle capslock back and forth whenever it sends key-strokes
+		m_general_charleague	=	"персонаж и лига:"
+		m_general_character		=	"перс"
+		m_general_level		=	"ур."
 		m_general_client		=	"game-client settings:"
 		m_general_client		=	"game-client info:"
 		m_general_logfile		=	"log-file health:"
-		m_general_language		=	"language:"
+		m_general_language		=	"язык:"
 		m_general_language		=	"detected language:"
 		m_general_language		=	"not supported"
 		m_general_language		=	"(some features may not be available)"
@@ -945,10 +945,10 @@
 		m_general_borderless	=	"apply borderless-windowed mode"
 		m_general_borderless	=	"borderless"
 		m_general_blackbars		=	"the client has black bars on the sides"	;## black bars as in letterboxes
-		m_general_permissions	=	"write-permissions test:"
-		m_general_start		=	"start test"
-		m_general_admin		=	"restart as admin"
-		m_general_menuwidget	=	"menu-widget:"
+		m_general_permissions	=	"проверка прав на запись:"
+		m_general_start		=	"начать тест"
+		m_general_admin		=	"запуск от админа"
+		m_general_menuwidget	=	"виджет меню:"
 		m_general_animations	=	"disable ui animations"
 		m_general_input		=	"input method:"						;## keyboard or controller
 		m_general_input		=	"input:"
