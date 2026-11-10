@@ -57,34 +57,34 @@
 ;## these are the individual sections of the settings menu, and most refer to a feature
 ;## these don't necessarily have to be translated, it's up to the translator(s)
 ;## the feature-names are used here and there, so make sure to be consistent across each mention
-		ms_general			=	"general"
+		ms_general			=	"общее"
 		ms_actdecoder			=	"акт-декодер"
-		ms_addons				=	"add-ons"
-		ms_anoints			=	"enchant finder"
-		ms_betrayal-info		=	"betrayal-info"
+		ms_addons				=	"аддоны"
+		ms_anoints			=	"намазки"
+		ms_betrayal-info		=	"синдикат"
 		ms_cheat-sheets		=	"cheat-sheets"
-		ms_clone-frames		=	"clone-frames"
-		ms_donations			=	"donations"
-		ms_filterspoon			=	"filterspoon"		;## sarcastically derived from FilterBlade
-		ms_hotkeys			=	"hotkeys"
-		ms_item-info			=	"item-info"
+		ms_clone-frames		=	"клоны окон"
+		ms_donations			=	"донат"
+		ms_filterspoon			=	"лутфильтр"		;## sarcastically derived from FilterBlade
+		ms_hotkeys			=	"клавиши"
+		ms_item-info			=	"о предмете"
 		ms_leveling tracker		=	"акт-трекер"
-		ms_macros				=	"chat macros"
-		ms_mapping tracker		=	"map-tracker"
-		ms_map-info			=	"map-info"
-		ms_minor qol tools		=	"minor qol tools"
-		ms_news				=	"announcements"
-		ms_runeshaping			=	"rune-ninja"
-		ms_sanctum			=	"sanctum planner"
-		ms_sanctum			=	"sekhema planner"
+		ms_macros				=	"чат-макросы"
+		ms_mapping tracker		=	"трекер карт"
+		ms_map-info			=	"о карте"
+		ms_minor qol tools		=	"полезности"
+		ms_news				=	"новости"
+		ms_runeshaping			=	"цены рун"
+		ms_sanctum			=	"святилище"
+		ms_sanctum			=	"сехемы"
 		ms_screen-checks		=	"screen-checks"
-		ms_search-strings		=	"search-strings"
-		ms_stash-ninja			=	"stash-ninja"
-		ms_statlas			=	"statlas"			;## blend of "stats" and "atlas"
-		ms_stream-clients		=	"stream-clients"
-		ms_tldr-tooltips		=	"tldr-tooltips"
-		ms_exchange			=	"vaal street"		;## reference to Wall Street
-		ms_updater			=	"updater"
+		ms_search-strings		=	"строки поиска"
+		ms_stash-ninja			=	"цены в тайнике"
+		ms_statlas			=	"статы атласа"			;## blend of "stats" and "atlas"
+		ms_stream-clients		=	"стрим-клиенты"
+		ms_tldr-tooltips		=	"кратко"
+		ms_exchange			=	"ваал-стрит"		;## reference to Wall Street
+		ms_updater			=	"обновление"
 
 
 
