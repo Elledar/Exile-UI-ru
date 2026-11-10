@@ -576,7 +576,7 @@
 		lvltracker_gempickups		=	"подбор камней"					;## a manager to adjust when gems should be picked up
 		lvltracker_gemreward		=	"взять:"						;## when handing in quests, the guide will prompt you to take specific rewards
 		lvltracker_gembuy			=	"купить камни"					;## the guide will tell you to buy gems that you unlocked via questing
-		lvltracker_gembuy			=	"(держите omni-key)"
+		lvltracker_gembuy			=	"(держите омни-кей)"
 
 
 ;#####################################################
@@ -1088,7 +1088,7 @@
 		m_hotkeys_descriptions	=	"<show advanced item descriptions>;is not bound to the alt-key"		;## in-game setting, usually on ALT
 		m_hotkeys_descriptions	=	"instead, it is bound to:"
 		m_hotkeys_ckey			=	"клавиша c назначена;не на <окно персонажа>"		;## in-game setting, on C by default
-		m_hotkeys_movekey		=	"move-key:"												;## i.e. the key used to move the character, default l-mouse
+		m_hotkeys_movekey		=	"мув-кей:"												;## i.e. the key used to move the character, default l-mouse
 		m_hotkeys_omnikey_new	=	"омни-кей:"
 		m_hotkeys_exclusive		=	"перехват"												;## option that blocks what a key normally does, e.g. CapsLock-key toggles capslock-state, windows-key opens start-menu
 		m_hotkeys_widget		=	"виджет-кей:"

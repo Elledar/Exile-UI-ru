@@ -154,7 +154,7 @@
   "lvltracker_itembuy": ["купить предметы"],
   "lvltracker_gempickups": ["подбор камней"],
   "lvltracker_gemreward": ["взять:"],
-  "lvltracker_gembuy": ["купить камни", "(держите omni-key)"],
+  "lvltracker_gembuy": ["купить камни", "(держите омни-кей)"],
 
   "m_actdecoder_simple": ["только общие раскладки"],
   "m_actdecoder_download": ["загрузить раскладки:", "раскладки ещё не загружены"],
@@ -171,6 +171,7 @@
   "m_hotkeys_menukey": ["меню-кей:"],
   "m_hotkeys_restartkey": ["рестарт-кей:"],
   "m_hotkeys_exclusive": ["перехват"],
+  "m_hotkeys_movekey": ["мув-кей:"],
 
   "m_lvltracker_timer": ["таймер"],
   "m_lvltracker_fadeout": ["скрывать", "наведение"],
