@@ -1,25 +1,25 @@
 {
   "settings": {
     "selection general": [
-      "general"
+      "общее"
     ],
     "selection client": [
-      "game-client"
+      "клиент игры"
     ],
     "selection hotkeys": [
-      "hotkeys"
+      "клавиши"
     ],
     "selection screen-checks": [
-      "screen-checks"
+      "метки экрана"
     ],
     "selection news": [
-      "announcements"
+      "новости"
     ],
     "selection updater": [
-      "updater"
+      "обновление"
     ],
     "selection donations": [
-      "donations"
+      "донат"
     ],
     "slider general": [
       "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
