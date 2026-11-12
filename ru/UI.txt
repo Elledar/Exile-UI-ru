@@ -46,8 +46,8 @@
 ;#####################################################
 
 ;## these names will be shown in a tooltip when hovering over the "credits" label	;## the tooltip is segmented into smaller boxes
-		translator			=	"translators:"
-		translator			=	"lailloken"			;## you can add additional <translator> lines, and each value will have its own box
+		translator			=	"перевод:"
+		translator			=	"Elledar"			;## you can add additional <translator> lines, and each value will have its own box
 
 
 
@@ -305,7 +305,7 @@
 		global_animations		=	"анимации"		;## as in UI transitions, movement, etc.
 		global_hold_ctrl		=	"hold ctrl"
 		global_load			=	"загрузить"
-		global_troubleshoot		=	"trouble-shooting"
+		global_troubleshoot		=	"диагностика"
 		global_flash			=	"мигание"			;## as in flashing text (alternating color, brightness, etc.)
 		global_omnikey			=	"omni-key"
 		global_omnikey			=	"omni"
