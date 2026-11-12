@@ -160,8 +160,8 @@
 		global_inventory		=	"инвентарь"
 		global_skilltree		=	"дерево умений"
 		global_skilltree		=	"skilltrees"
-		global_tree			=	"tree"
-		global_tree			=	"trees"
+		global_tree			=	"дерево"
+		global_tree			=	"деревья"
 		global_ascendancy		=	"дерево восхождения"
 		global_atlas			=	"атлас"
 		global_stash			=	"тайник"
@@ -206,7 +206,7 @@
 		global_copying			=	"копирование..."
 		global_download		=	"download"
 		global_search			=	"поиск:"
-		global_toggle			=	"toggle"			;## pressing a hotkey opens a feature
+		global_toggle			=	"по нажатию"			;## pressing a hotkey opens a feature
 		global_hold			=	"hold"			;## feature stays open while holding a hotkey, then closes on release
 		global_hide			=	"hide"
 		global_hide			=	"hide text"
@@ -265,8 +265,8 @@
 		global_trade			=	"trade"
 		global_trade			=	"trades"
 		global_last			=	"last"
-		global_gem			=	"gem"
-		global_gem			=	"gems"
+		global_gem			=	"камень"
+		global_gem			=	"камни"
 		global_act			=	"акт"
 		global_ctrl			=	"ctrl"			;## modifier-keys
 		global_alt			=	"alt"
@@ -328,8 +328,8 @@
 		global_choc			=	"шоколад"			;## as in chocolate color theme
 		global_fill			=	"заливка"			;## as in filling a UI shape/button with color
 		global_contrast		=	"контраст"		;## setting for additional contrast around buttons
-		global_manual			=	"manual"			;## opposite of automatic
-		global_menu			=	"menu"
+		global_manual			=	"вручную"			;## opposite of automatic
+		global_menu			=	"меню"
 
 		mechanic_bestiary		=	"bestiary"
 		mechanic_betrayal		=	"синдикат"
@@ -1207,12 +1207,12 @@
 		m_lvltracker_pob			=	"pob: средняя кнопка открывает меню снимков"
 		m_lvltracker_screencap		=	"меню снимков"
 		m_lvltracker_guide			=	"гайды:"
-		m_lvltracker_guide			=	"guide"
+		m_lvltracker_guide			=	"гайд"
 		m_lvltracker_incompatible	=	"данные гайда несовместимы,;нужно обновление"
 		m_lvltracker_treeclear		=	"удалить данные"
-		m_lvltracker_quests			=	"quests"
-		m_lvltracker_quests			=	"loot"
-		m_lvltracker_leaguestart		=	"старт лиги"
+		m_lvltracker_quests			=	"квесты"
+		m_lvltracker_quests			=	"лут"
+		m_lvltracker_leaguestart		=	"новая лига"
 		m_lvltracker_optionals		=	"побочное"						;## refers to optional loot, quests, etc.
 		m_lvltracker_bandit			=	"бандит"
 		m_lvltracker_bandits		=	"алира"
