@@ -12,6 +12,7 @@
 - Термины (выбор пользователя): омни-кей, виджет-кей, меню-кей, рестарт-кей, мув-кей, «виджет меню», exclusive = «перехват», cal = «калибр.», variance = «допуск», tldr-tooltips = «разбор модов», betrayal = «синдикат», enchant finder = «намазки».
 
 ## В работе
+- Arcane Link (камень 3.30) без русского названия: на 2026-11-12 RePoE = 3.29.3.6, на poedb только английский. Ждём обновления RePoE → скачать en/ru gems в `.tmp/repoe` (URL в build_names_ru.py) → build_all → коммит.
 - Не переведено из 1.65.2 (редкие окна): msg_langswitch/badresolution/restart/shutdown/proceed, global_warning, m_permission_restart, m_hotkeys_ckey2, m_addons_leftover/importfail/disable, global_league_umbra; null: global_delete[3] «deleted», global_skilltree[2] «skilltrees»; client.txt contributor = «contributors:» (нужен текст из русского журнала).
 - Ждём названия из игры (оранжевая пометка `(color:ff8000)[проверить_перевод!]` в гайде): рабыня со Всепламенем (а1, Грот погибших кораблей), решётка в Трущобах, шаткая свеча (а3), рычаг ×2 (а4), тележки с топливом и маяк (а6), картографическое устройство (а7), тайник контрабандистов (а8), сундук в пустыне Ваштири (а9). Получив, заменить слово и убрать пометку.
 - Сверить с русским клиентом: события карт mechanic_hideout / high graftblood / infamous merc (оставлены английскими), «сехемы» (PoE 2), «торговля», «поиск торговли», runeshaping, «клоны окон».
