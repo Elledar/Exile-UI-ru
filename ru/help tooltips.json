@@ -31,28 +31,28 @@
       "(/highlight)зажмите кнопку и ведите курсор вверх/вниз или вправо/влево, чтобы изменить значение"
     ],
     "contrast": [
-      "high-contrast setting for button borders"
+      "рамки кнопок с повышенной контрастностью"
     ],
     "fill": [
-      "fills text panels with the background color instead of black"
+      "заливает текстовые панели цветом фона вместо чёрного"
     ],
     "themes": [
-      "click: select theme\nright-click: load theme into <custom> slot"
+      "клик: выбрать тему\nправый клик: загрузить тему в слот <своя>"
     ],
     "themes color1": [
-      "button color:\nclick to open the color palette, right-click to reset"
+      "цвет кнопок:\nклик — открыть палитру, правый клик — сбросить"
     ],
     "themes color2": [
-      "background color:\nclick to open the color palette, right-click to reset"
+      "цвет фона:\nклик — открыть палитру, правый клик — сбросить"
     ],
     "themes custom": [
-      "use the buttons on the right to adjust this custom color theme"
+      "настройте эту тему кнопками справа"
     ],
     "themes new": [
-      "rounded corners"
+      "скруглённые углы"
     ],
     "themes old": [
-      "regular corners"
+      "прямые углы"
     ],
     "multi-threading multi": [
       "программа работает в два потока (процесса): это быстрее и открывает дополнительные возможности",

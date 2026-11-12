@@ -58,8 +58,8 @@
 ;## these are the individual sections of the settings menu, and most refer to a feature
 ;## these don't necessarily have to be translated, it's up to the translator(s)
 ;## the feature-names are used here and there, so make sure to be consistent across each mention
-		ms_header				=	"features"
-		ms_header2			=	"misc. settings"
+		ms_header				=	"функции"
+		ms_header2			=	"прочее"
 		ms_general			=	"общее"
 		ms_actdecoder			=	"акт-декодер"
 		ms_addons				=	"аддоны"
@@ -221,7 +221,7 @@
 		global_multithreading	=	"один"
 		global_multithreading	=	"потоки:"
 		global_ignore			=	"ignore"
-		global_custom			=	"custom"			;## as in "user-defined"
+		global_custom			=	"своя"			;## as in "user-defined"
 		global_condition		=	"условие:"		;## as in "if x condition is met"
 		global_yes			=	"да"
 		global_no				=	"нет"
@@ -319,15 +319,15 @@
 		global_folder			=	"folder"
 		global_warning			=	"warning"
 		global_read			=	"read"
-		global_design			=	"design"
-		global_old			=	"old"
-		global_new			=	"new"
-		global_theme			=	"theme"			;## as in UI (color) theme
-		global_blue			=	"blue"
-		global_gray			=	"gray"
-		global_choc			=	"choc"			;## as in chocolate color theme
-		global_fill			=	"fill"			;## as in filling a UI shape/button with color
-		global_contrast		=	"contrast"		;## setting for additional contrast around buttons
+		global_design			=	"углы"
+		global_old			=	"прям."
+		global_new			=	"кругл."
+		global_theme			=	"тема"			;## as in UI (color) theme
+		global_blue			=	"синяя"
+		global_gray			=	"серая"
+		global_choc			=	"шоколад"			;## as in chocolate color theme
+		global_fill			=	"заливка"			;## as in filling a UI shape/button with color
+		global_contrast		=	"контраст"		;## setting for additional contrast around buttons
 		global_manual			=	"manual"			;## opposite of automatic
 		global_menu			=	"menu"
 
@@ -952,7 +952,7 @@
 		m_general_autoclose		=	"автовыход:"
 		m_general_browser		=	"для браузера"
 		m_general_capslock		=	"caps lock"							;## by default, AHK will toggle capslock back and forth whenever it sends key-strokes
-		m_general_charleague	=	"персонаж и лига:"
+		m_general_charleague	=	"лига и персонаж:"
 		m_general_character		=	"перс"
 		m_general_level		=	"ур."
 		m_general_client		=	"настройки клиента:"
@@ -963,7 +963,7 @@
 		m_general_language		=	"не поддерживается"
 		m_general_language		=	"(некоторые функции могут быть недоступны)"
 		m_general_display		=	"окно клиента:"						;## refers to the client-window
-		m_general_display		=	"окно на весь экран"
+		m_general_display		=	"полноэкр. окно"
 		m_general_display		=	"в окне"
 		m_general_display		=	"окно без рамки"
 		m_general_resolution	=	"своё разрешение:"
@@ -979,7 +979,7 @@
 		m_general_postaskbar	=	"панель задач"
 		m_general_borderless	=	"включить режим без рамки"
 		m_general_borderless	=	"без рамки"
-		m_general_ultrawidebars	=	"black bars"							;## black bars as in letterboxes
+		m_general_ultrawidebars	=	"чёрные полосы"							;## black bars as in letterboxes
 		m_general_permissions	=	"проверка прав на запись:"
 		m_general_start		=	"начать тест"
 		m_general_admin		=	"запуск от админа"
