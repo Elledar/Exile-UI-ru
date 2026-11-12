@@ -138,24 +138,24 @@
       "вдоль стены: areaid1_1_9 ;; ship graveyard"
     ],
     [
-      "follow wall, (color:ff00ff)find_2 (img:arena) exits:",
-      "(hint)_ - (color:red)3.30_note: if arena:fairgraves is blocking an",
-      "(hint)__ _exit, убить (color:white)him and (color:cc99ff)skip_this_&_next_page",
-      "(hint)_ - (color:ff00ff)if (color:cc99ff)cavern 1st: (img:in-out2) (color:ffffff)for (img:waypoint) || enter (img:arena) ship...",
-      "(hint)_ - (color:ff00ff)else: set (img:portal) || enter (img:arena) cavern, (img:waypoint) to (img:town)",
-      "(enter (img:portal) ,) enter areaid1_1_9a ;; ship graveyard cave"
+      "вдоль стены, (color:ff00ff)найти_2 (img:arena) выхода:",
+      "(hint)_ - (color:red)важно_(3.30): если arena:фейргрейвс загородил",
+      "(hint)__ _выход, убить (color:white)его и (color:cc99ff)пропустить_эту_и_след._страницу",
+      "(hint)_ - (color:ff00ff)если (color:cc99ff)пещера первой: (img:in-out2) (color:ffffff)за (img:waypoint) || в (img:arena) грот...",
+      "(hint)_ - (color:ff00ff)иначе: поставить (img:portal) || в (img:arena) пещеру, (img:waypoint) в (img:town)",
+      "(войти в (img:portal) ,) вход: areaid1_1_9a ;; ship graveyard cave"
     ],
     [
-      "find (img:quest) (quest:slave_girl) for (quest:allflame)",
-      "(hint)__ (color:cc99ff)start & (quest:girl) : opposite corners",
-      "enter areaid1_1_9 ;; ship graveyard"
+      "найти (img:quest) (quest:рабыню) (color:ff8000)[проверить_перевод!] за (quest:всепламенем)",
+      "(hint)__ (color:cc99ff)старт и (quest:рабыня) : противоположные углы",
+      "вход: areaid1_1_9 ;; ship graveyard"
     ],
     [
-      "убить fairgraves",
-      "(color:ff00ff)if he blocked the exit:",
-      "(hint)_ - enter areaid1_1_11_1 ;; cavern of wrath",
-      "(hint)_ - (img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch",
-      "(color:ff00ff)else (color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
+      "убить фейргрейвса",
+      "(color:ff00ff)если он загородил выход:",
+      "(hint)_ - вход: areaid1_1_11_1 ;; cavern of wrath",
+      "(hint)_ - (img:waypoint) до: areaid1_1_town (img:town) ;; lioneye's watch",
+      "(color:ff00ff)иначе (color:cc99ff)релог: areaid1_1_town ;; lioneye's watch"
     ],
     [
       "(img:quest) бестель: (quest:книга)",
