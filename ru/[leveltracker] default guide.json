@@ -138,10 +138,24 @@
       "вдоль стены: areaid1_1_9 ;; ship graveyard"
     ],
     [
-      "leaguestart: убить фейргрейвса (quest:(всепламень))",
-      "twinkrun: убить фейргрейвса",
-      "дойти: areaid1_1_11_1 ;; cavern of wrath",
-      "(img:waypoint) до: areaid1_1_town (img:town) ;; lioneye's watch"
+      "follow wall, (color:ff00ff)find_2 (img:arena) exits:",
+      "(hint)_ - (color:red)3.30_note: if arena:fairgraves is blocking an",
+      "(hint)__ _exit, убить (color:white)him and (color:cc99ff)skip_this_&_next_page",
+      "(hint)_ - (color:ff00ff)if (color:cc99ff)cavern 1st: (img:in-out2) (color:ffffff)for (img:waypoint) || enter (img:arena) ship...",
+      "(hint)_ - (color:ff00ff)else: set (img:portal) || enter (img:arena) cavern, (img:waypoint) to (img:town)",
+      "(enter (img:portal) ,) enter areaid1_1_9a ;; ship graveyard cave"
+    ],
+    [
+      "find (img:quest) (quest:slave_girl) for (quest:allflame)",
+      "(hint)__ (color:cc99ff)start & (quest:girl) : opposite corners",
+      "enter areaid1_1_9 ;; ship graveyard"
+    ],
+    [
+      "убить fairgraves",
+      "(color:ff00ff)if he blocked the exit:",
+      "(hint)_ - enter areaid1_1_11_1 ;; cavern of wrath",
+      "(hint)_ - (img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch",
+      "(color:ff00ff)else (color:cc99ff)relog: areaid1_1_town ;; lioneye's watch"
     ],
     [
       "(img:quest) бестель: (quest:книга)",
@@ -808,7 +822,7 @@
   ],
   [
     [
-      "leaguestart: optional: 5л нагрудник: (color:cc99ff)лига",
+      "leaguestart: optional: 5л нагрудник: (color:cc99ff)лига (color:red)(?)",
       "вдоль (img:5) края, убить надзирателя",
       "(hint)_ - найти коридор с виселицами",
       "(hint)_ - по часовой, чтобы дойти до arena:него",
@@ -922,7 +936,7 @@
         "yes"
       ],
       "lines": [
-        "optional: 5л нагрудник: (color:cc99ff)лига",
+        "optional: 5л нагрудник: (color:cc99ff)лига (color:red)(?)",
         "зачистить всё",
         "(color:cc99ff)релог: areaid2_6_town ;; lioneye's watch"
       ]

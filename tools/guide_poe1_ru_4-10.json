@@ -45,7 +45,7 @@
   "cross (color:cc99ff)bridge, go (img:0)": "через (color:cc99ff)мост, иди (img:0)",
   "find (img:quest) (quest:lever): areaid1_5_1 ;; slave pens": "найти (img:quest) (quest:рычаг): areaid1_5_1 (color:ff8000)[проверить_перевод!] ;; slave pens",
 
-  "leaguestart: optional: 5l body: (color:cc99ff)league": "leaguestart: optional: 5л нагрудник: (color:cc99ff)лига",
+  "leaguestart: optional: 5l body: (color:cc99ff)league (color:red)(?)": "leaguestart: optional: 5л нагрудник: (color:cc99ff)лига (color:red)(?)",
   "follow (img:5) edge, kill overseer": "вдоль (img:5) края, убить надзирателя",
   "(hint)_ - find corridor with gallows": "(hint)_ - найти коридор с виселицами",
   "(hint)_ - loop clockwise to reach arena:him": "(hint)_ - по часовой, чтобы дойти до arena:него",
@@ -100,7 +100,7 @@
   "(hint)__ find (img:quest) (quest:script) in (img:arena) areaid2_6_3 ;; tidal island": "(hint)__ найти (img:quest) (quest:рукопись) в (img:arena) areaid2_6_3 ;; tidal island",
   "(img:portal) to areaid2_6_town ;; lioneye's watch": "(img:portal) до: areaid2_6_town ;; lioneye's watch",
   "enter areaid2_6_1 ;; twilight strand": "вход: areaid2_6_1 ;; twilight strand",
-  "optional: 5l body: (color:cc99ff)league": "optional: 5л нагрудник: (color:cc99ff)лига",
+  "optional: 5l body: (color:cc99ff)league (color:red)(?)": "optional: 5л нагрудник: (color:cc99ff)лига (color:red)(?)",
   "kill everything": "зачистить всё",
   "(color:cc99ff)relog: areaid2_6_town ;; lioneye's watch": "(color:cc99ff)релог: areaid2_6_town ;; lioneye's watch",
   "(img:quest) lilly: <fallen_from_grace>": "(img:quest) lilly: <впавшие_в_немилость>",

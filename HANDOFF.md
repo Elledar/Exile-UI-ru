@@ -1,7 +1,7 @@
 # HANDOFF — русский языковой пакет для Exile UI
 
 ## Готово
-- Пакет = папка `ru/` (без форка). Сборка+установка: `python tools/build_all.py "D:/Downloads/PoE_UI/Exile-UI-main"` (эталон `base/english`, Exile UI 16501). Переводы: `tools/ui_ru.json` (UI.txt, ключ → значения по порядку повторов, null = английское), `tools/help_tooltips_ru.json` (подсказки), гайд `tools/guide_poe1_ru*.json`.
+- Пакет = папка `ru/` (без форка). Сборка+установка: `python tools/build_all.py "D:/Downloads/PoE_UI/Exile-UI-main"` (эталон `base/english`, Exile UI 16502 — принят 2026-11-12). Переводы: `tools/ui_ru.json` (UI.txt, ключ → значения по порядку повторов, null = английское), `tools/help_tooltips_ru.json` (подсказки), гайд `tools/guide_poe1_ru*.json`.
 - Этапы 1–4 (client.txt, названия локаций/камней, гайд PoE 1 на 10 актов, акт-трекер/декодер, `check_update.py` после обновлений — «Exile UI обновилась» → запускаю сам) — готовы, проверены в игре.
 - GitHub (публичный): https://github.com/Elledar/Exile-UI-ru, релиз v16501 (`tools/make_release.py`), архив и описание обновлены 2026-11-10 (README: что переведено/в работе). Тема №835 https://github.com/Lailloken/Exile-UI/discussions/835 — на 2026-11-10 ответов нет. Push — только после прямого «да».
 - Меню настроек, переведено в этой сессии (всё собрано и закоммичено):
@@ -13,6 +13,7 @@
 - В гайде 9 строк с оранжевой пометкой `(color:ff8000)[проверить_перевод!]` (CHECK_MARK в build_guide_ru.py пропускает её мимо проверки меток).
 
 ## В работе
+- Обновление Exile UI 1.65.2 (16502, 2026-11-12): опасные места исправлены, пакет собран и установлен. Осталось доперевести (сейчас по-английски): 35 новых строк UI (темы global_theme/blue/gray/choc/fill/contrast, раздел notifications, msg_* о перезапуске/разрешении, ms_header/ms_header2, global_tree/warning/read/design/old/new/manual/menu, m_general_ultrawidebars, m_hotkeys_ckey2, m_lvltracker_quests, m_updater_autocheck, m_addons_leftover/importfail/disable, m_permission_restart, global_league_umbra); третьи значения global_delete «deleted», global_reset «reset position», вторые global_skilltree «skilltrees», m_lvltracker_guide «guide» (стоят null); устаревшие: m_general_charleague (теперь «league & character»), m_general_display «wind. fullscreen/borderless wind.», m_lvltracker_leaguestart «new league»; ~20 новых подсказок + ~10 изменённых (leveltracker gems — текст чуть изменился, порядок уже переставлен; подсказка «hotkeys enable» 2-й пункт переведён дословно); гайд акт 1 шаги 19–21 (Фейргрейвс/Всепламень, ~13 строк) — старые 3 строки удалены; client.txt contributor = «contributors:» — нужен текст из русского журнала. Полный отчёт: `python tools/check_update.py` больше не покажет (эталон принят) — список выше.
 - Ждём от пользователя названия из игры (по пометкам в гайде): решётка в Трущобах, шаткая свеча в Библиотеке (а3); рычаг ×2 (а4), тележки с топливом и маяк (а6), картографическое устройство (а7), тайник контрабандистов (а8), сундук в пустыне Ваштири (а9). Получив — заменить слово и убрать пометку.
 - Сверить с русским клиентом: «сехемы»/«карта испытания сехем» (PoE 2), «торговля (продажа/покупка)», «поиск торговли», runeshaping (оставлен английским), «клоны окон» (временно).
 - Возможна теснота: «фон вокруг / панель задач / сверху/снизу» на странице клиента (запас — «частично»).

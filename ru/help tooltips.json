@@ -12,17 +12,47 @@
     "selection screen-checks": [
       "метки экрана"
     ],
+    "selection notifications": [
+      "(map-event) notifications"
+    ],
     "selection news": [
       "новости"
     ],
     "selection updater": [
       "обновление"
     ],
+    "selection addons": [
+      "add-ons"
+    ],
     "selection donations": [
       "донат"
     ],
     "slider general": [
       "(/highlight)зажмите кнопку и ведите курсор вверх/вниз или вправо/влево, чтобы изменить значение"
+    ],
+    "contrast": [
+      "high-contrast setting for button borders"
+    ],
+    "fill": [
+      "fills text panels with the background color instead of black"
+    ],
+    "themes": [
+      "click: select theme\nright-click: load theme into <custom> slot"
+    ],
+    "themes color1": [
+      "button color:\nclick to open the color palette, right-click to reset"
+    ],
+    "themes color2": [
+      "background color:\nclick to open the color palette, right-click to reset"
+    ],
+    "themes custom": [
+      "use the buttons on the right to adjust this custom color theme"
+    ],
+    "themes new": [
+      "rounded corners"
+    ],
+    "themes old": [
+      "regular corners"
     ],
     "multi-threading multi": [
       "программа работает в два потока (процесса): это быстрее и открывает дополнительные возможности",
@@ -212,8 +242,8 @@
       "(/highlight)you have to set up the <betrayal> check in the <screen-checks> section",
       "while the syndicate board is on screen, hold down the <omni-key> to activate the overlay"
     ],
-    "betrayal ruthless": [
-      "show ruthless rewards:\ntiering/highlighting you apply is stored separately for this mode"
+    "betrayal mode": [
+      "select your game mode:\ntiering/highlighting you apply is stored separately for each mode"
     ],
     "betrayal folder": [
       "folder that contains calibration files"
@@ -537,16 +567,17 @@
     "leveltracker expbar": [
       "немного поднимает оверлей гайда, чтобы он не закрывал полосу опыта"
     ],
-    "leveltracker skilltree-info": [
+    "leveltracker pobgems info": [
       "удерживайте <омни-кей> над камнем, чтобы увидеть связки камней",
-      "колесом мыши можно переключать наборы умений",
-      "–––––",
+      "колесом мыши можно переключать наборы умений"
+    ],
+    "leveltracker skilltree info": [
       "когда на экране дерево умений, нажмите <омни-кей>, чтобы показать оверлеи со схемами дерева",
       "(/highlight)для этого настройте проверку <дерево умений> в разделе <проверки экрана>"
     ],
     "leveltracker skilltree clear": [
       "долгий клик — удалить файлы дерева умений, по которым рисуются схемы: они скачаются заново, когда понадобятся",
-      "удалять их нужно, только если схемы устарели или неверны"
+      "(/highlight)удалять их нужно, только если схемы устарели или неверны"
     ],
     "leveltracker pob gems": [
       "оверлей камней остаётся на экране после отпускания <омни-кей>, пока вы не нажмёте <esc>",
@@ -598,8 +629,8 @@
       ]
     ],
     "leveltracker gems": [
-      "(/highlight)правый клик — настройка подбора камней:\nкогда и нужно ли подбирать определённые камни в кампании",
       "клик — включать ли квесты камней в гайд (меньше возвратов и разговоров с npc)",
+      "(/highlight)правый клик — настройка подбора камней:\nкогда и нужно ли подбирать определённые камни в кампании",
       "вкл: камни получаете за квесты\nвыкл: покупаете камни отдельно (лилия/торговля)"
     ],
     "leveltracker gems all": [
@@ -691,12 +722,16 @@
       "необязательно: описание/название билда, которым вы играете по этому гайду",
       "(/highlight)оно также попадёт в раздел <общие>, то есть будет использоваться везде"
     ],
+    "leveltracker pob info": [
+      "optional: you can import builds from pob so the guide has access to gem and skilltree information"
+    ],
     "leveltracker pob preview": [
       "долгий клик — посмотреть доступные данные pob",
       "долгий правый клик — удалить данные pob"
     ],
     "leveltracker hotkeys enable": [
-      "позволяет переключать страницы гайда настраиваемыми клавишами"
+      "позволяет переключать страницы гайда настраиваемыми клавишами",
+      ">> левое поле: предыдущая страница гайда\n>> правое поле: следующая страница гайда"
     ],
     "leveltracker hotkeys": [
       "введите название клавиши и нажмите <enter>",
@@ -748,7 +783,8 @@
     ],
     "lootfilter notification": [
       "if you are using an online filter that is periodically updated, you can set up notification pop-ups as a reminder to regularly re-sync your modified filter",
-      "these pop-ups will be displayed whenever you enter a hideout and the last sync was more than x hours ago"
+      "these pop-ups will be displayed whenever you enter a hideout and the last sync was more than x hours ago",
+      "(/highlight)right-click to customize global notifications"
     ],
     "macros animations": [
       "toggles menu-widget animations"
@@ -960,16 +996,16 @@
       "timer-widget with alarm/countdown and stopwatch functionality",
       "hidden by default: hold down the <widget-key> to access it"
     ],
-    "map-events duration": [
-      "the notification will be on screen for x seconds",
-      "(/highlight)long-click, and move the cursor up/down or right/left to adjust"
-    ],
     "map-events enable": [
       "displays notifications whenever certain events happen",
       "examples: infamous mercenaries, claimable hideouts, graftblood (almost) full"
     ],
     "map-events enable event": [
       "click to enable/disable this event",
+      "right-click to activate a test notification"
+    ],
+    "map-events enable notification": [
+      "click to enable/disable this feature notification",
       "right-click to activate a test notification"
     ],
     "map-events hideout tiers": [
@@ -990,6 +1026,16 @@
     "notepad opacity": [
       "the opacity of inactive widgets (i.e. when not holding down the <widget-key>)",
       "0 = inactive widgets are hidden"
+    ],
+    "notifications events about": [
+      "you can set up pop-up notifications for certain in-game events that may be easily missable"
+    ],
+    "notifications disabled": [
+      "the corresponding (sub-)feature is currently disabled"
+    ],
+    "notifications features about": [
+      "you can set up pop-up notifications for certain feature events",
+      "(/highlight)unless stated otherwise, these will pop up whenever you enter a hideout"
     ],
     "lab enable": [
       "simple lab layout overlay and tracker for casual runs",
@@ -1293,6 +1339,10 @@
     ],
     "updater hotfix unlisted": [
       "(/highlight)скачивайте, только если вам это посоветовали (эта ветка может быть недоступна или устареть)"
+    ],
+    "updater notification": [
+      "shows a notification pop-up when you enter a hideout and an update is available",
+      "(/highlight)right-click to customize global notifications"
     ],
     "updater refresh": [
       "проверить обновления"

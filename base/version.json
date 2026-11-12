@@ -1,5 +1,5 @@
 {
-  "release": 16501,
-  "commit": "67d1a3637e97b791072129f0cf890e22f385b237",
+  "release": 16502,
+  "commit": "из папки D:/Downloads/PoE_UI/Exile-UI-main",
   "note": "английские файлы Exile UI, по которым сделан перевод (обновляются только через tools/check_update.py --accept)"
 }
