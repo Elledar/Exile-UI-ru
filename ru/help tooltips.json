@@ -13,13 +13,13 @@
       "метки экрана"
     ],
     "selection notifications": [
-      "(map-event) notifications"
+      "уведомления (о событиях на картах)"
     ],
     "selection news": [
       "новости"
     ],
     "selection updater": [
-      "обновление"
+      "обновление и новости"
     ],
     "selection addons": [
       "add-ons"
@@ -97,10 +97,10 @@
       "click to open the color-palette, right click to reset"
     ],
     "generic color double": [
-      "text color: click to open the color-palette, right click to reset"
+      "цвет текста: клик — открыть палитру, правый клик — сбросить"
     ],
     "generic color double1": [
-      "background color: click to open the color-palette, right click to reset"
+      "цвет фона: клик — открыть палитру, правый клик — сбросить"
     ],
     "input method 1": [
       "обычный режим, всё работает"
@@ -997,23 +997,23 @@
       "hidden by default: hold down the <widget-key> to access it"
     ],
     "map-events enable": [
-      "displays notifications whenever certain events happen",
-      "examples: infamous mercenaries, claimable hideouts, graftblood (almost) full"
+      "показывает уведомления, когда происходят определённые события",
+      "например: infamous merc, убежища, которые можно занять, почти полный graftblood"
     ],
     "map-events enable event": [
-      "click to enable/disable this event",
-      "right-click to activate a test notification"
+      "клик — включить/выключить это событие",
+      "правый клик — тестовое уведомление"
     ],
     "map-events enable notification": [
-      "click to enable/disable this feature notification",
-      "right-click to activate a test notification"
+      "клик — включить/выключить это уведомление",
+      "правый клик — тестовое уведомление"
     ],
     "map-events hideout tiers": [
-      "you can filter hideouts by rarity:\nextremely rare | very rare | rare",
-      "(/highlight)hideout notifications are shown 10 seconds after entering the map to prevent abuse"
+      "убежища можно отбирать по редкости:\nкрайне редкие | очень редкие | редкие",
+      "(/highlight)уведомление об убежище появляется через 10 секунд после входа на карту, чтобы им не злоупотребляли"
     ],
     "map-events position": [
-      "the notification will be docked to one of the client's edges"
+      "уведомление прикрепляется к одному из краёв окна игры"
     ],
     "notepad enable": [
       "notepad tool with individual tabs, and floating widgets that can be used as sticky-notes",
@@ -1028,14 +1028,14 @@
       "0 = inactive widgets are hidden"
     ],
     "notifications events about": [
-      "you can set up pop-up notifications for certain in-game events that may be easily missable"
+      "можно настроить всплывающие уведомления о некоторых игровых событиях, которые легко пропустить"
     ],
     "notifications disabled": [
-      "the corresponding (sub-)feature is currently disabled"
+      "соответствующая функция (или её часть) сейчас выключена"
     ],
     "notifications features about": [
-      "you can set up pop-up notifications for certain feature events",
-      "(/highlight)unless stated otherwise, these will pop up whenever you enter a hideout"
+      "можно настроить всплывающие уведомления о событиях функций программы",
+      "(/highlight)если не сказано иное, они появляются, когда вы заходите в убежище"
     ],
     "lab enable": [
       "simple lab layout overlay and tracker for casual runs",
@@ -1341,8 +1341,8 @@
       "(/highlight)скачивайте, только если вам это посоветовали (эта ветка может быть недоступна или устареть)"
     ],
     "updater notification": [
-      "shows a notification pop-up when you enter a hideout and an update is available",
-      "(/highlight)right-click to customize global notifications"
+      "показывает уведомление, когда вы заходите в убежище и есть обновление",
+      "(/highlight)правый клик — настроить общие уведомления"
     ],
     "updater refresh": [
       "проверить обновления"

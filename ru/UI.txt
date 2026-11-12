@@ -117,7 +117,7 @@
 		global_enable			=	"включить"
 		global_reset			=	"сброс"
 		global_reset			=	"с"
-		global_reset			=	"reset position"
+		global_reset			=	"сбросить позицию"
 		global_color			=	"color"
 		global_color			=	"colors:"
 		global_opacity			=	"прозрачн.:"
@@ -255,8 +255,8 @@
 		global_databaseinfo		=	"database information"
 		global_current			=	"current"
 		global_updatewait		=	"try again later"
-		global_duration		=	"duration"
-		global_position		=	"position"
+		global_duration		=	"длительн."
+		global_position		=	"место"
 		global_exchange		=	"обмен валюты"
 		global_timeunits		=	"minute#minutes#hour#hours#day#days#week#weeks"
 		global_day			=	"day"
@@ -309,7 +309,7 @@
 		global_flash			=	"мигание"			;## as in flashing text (alternating color, brightness, etc.)
 		global_omnikey			=	"omni-key"
 		global_omnikey			=	"omni"
-		global_notification		=	"notification"
+		global_notification		=	"уведомление"
 		global_shared			=	"shared"			;## e.g. shared hotkey
 		global_separate		=	"separate"
 		global_style			=	"style"
@@ -318,7 +318,7 @@
 		global_compact			=	"compact"
 		global_folder			=	"folder"
 		global_warning			=	"warning"
-		global_read			=	"read"
+		global_read			=	"прочитано"
 		global_design			=	"углы"
 		global_old			=	"прям."
 		global_new			=	"кругл."
@@ -748,8 +748,8 @@
 ;#####################################################
 
 ;## these strings are displayed/required for notifications
-		notification_lootfilter	=	"sync lootfilter"
-		notification_updater	=	"update available"
+		notification_lootfilter	=	"синхр. лутфильтр"
+		notification_updater	=	"есть обновление"
 
 
 ;#####################################################
@@ -1287,8 +1287,8 @@
 
 
 ;## these strings are displayed/required in the "(map-event) notifications" section of the settings menu
-		m_notifications_label	=	"map-event notifications:"
-		m_notifications_label2	=	"feature notifications:"
+		m_notifications_label	=	"события на картах:"
+		m_notifications_label2	=	"события функций:"
 
 
 
@@ -1439,7 +1439,7 @@
 		m_updater_changelog		=	"все изменения"
 		m_updater_skip			=	"пропустить"
 		m_updater_failed		=	"обновление не удалось:"
-		m_updater_autocheck		=	"auto-check"
+		m_updater_autocheck		=	"автопроверка"
 
 
 		m_updater_error1		=	"последнее обновление не удалось из-за ошибок прав на запись. откройте вкладку <общее> в настройках и запустите проверку внизу."
