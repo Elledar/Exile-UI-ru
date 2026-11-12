@@ -407,6 +407,23 @@
     },
     "name": "чародейский покров"
   },
+  "arcane link": {
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "снятие печати": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
   "arcane surge support": {
     "attribute": 3,
     "level": 1,

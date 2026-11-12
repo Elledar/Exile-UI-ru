@@ -527,7 +527,8 @@
       "it will be available once a language-pack for the current language has been installed"
     ],
     "leveltracker enable": [
-      "автоматический оверлей-гайд по кампании и несколько удобств",
+      "оверлей-гайд по кампании и несколько удобств",
+      "читает журнал игры, следит за прогрессом и сам листает страницы",
       "добавляет в виджет меню кнопку, которая включает и выключает оверлей гайда"
     ],
     "leveltracker timer": [
@@ -841,8 +842,8 @@
       "guild hideout"
     ],
     "maptracker enable": [
-      "automated tracker for your map runs, and a log viewer with export tools",
-      "tracks map-times, deaths, portals, loot, kills, and certain types of side-content"
+      "tracker for your map runs, and a log viewer with export tools",
+      "reads the game's log-file to track map-times, deaths, portals, loot, kills, and certain types of side-content"
     ],
     "maptracker rename": [
       "boss maps will be tagged and renamed for easier searching/filtering",
@@ -1152,9 +1153,8 @@
       "(/highlight)you have to set up the <inventory> check in the <screen-checks> section"
     ],
     "screenchecks pixel-about": [
-      "программа постоянно проверяет экран на наличие определённых элементов интерфейса",
-      "благодаря этому функции понимают ситуацию и сами показывают и скрывают оверлеи",
-      "(/highlight)эти проверки никак не взаимодействуют с клиентом игры"
+      "после определённых нажатий программа проверяет экран на наличие элементов интерфейса игры",
+      "благодаря этому функции понимают ситуацию и удобнее располагают оверлеи, но нужна ручная калибровка"
     ],
     "screenchecks pixel-calibration": [
       "сначала выполните инструкцию из <инфо>",
