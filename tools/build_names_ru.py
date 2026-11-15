@@ -64,12 +64,15 @@ for gid, g in en_gems.items():
 
 # камни, которые в Exile UI записаны под старыми именами или не являются камнями
 MANUAL_IDS = {"dark pact": "DarkPact"}                      # в игре переименован в Dark Bargain
+MANUAL_NAMES = {"arcane link": "чародейская связь"}         # камень 3.30 (Covens of Umbra)
 en_base, ru_base = load(os.path.join(repoe, "en_base_items.json")), load(os.path.join(repoe, "ru_base_items.json"))
 for bid, b in en_base.items():                              # флаконы и прочие предметы из гайда
     if b.get("name") and bid in ru_base and ru_base[bid].get("name"):
         gem_by_en.setdefault(b["name"].lower(), ru_base[bid]["name"])
 for key, gid in MANUAL_IDS.items():
     gem_by_en[key] = disp(ru_gems[gid])
+for key, name in MANUAL_NAMES.items():
+    gem_by_en[key] = name
 
 gems = load(os.path.join(src, "[leveltracker] gems.json"))
 done = 0

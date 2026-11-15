@@ -68,6 +68,9 @@ RU = {
     ("lab_sepulchre atrium", "sepulchre atrium"): "атриум усыпальницы",
     ("lab_sepulchre halls", "sepulchre halls"): "залы усыпальницы",
     ("lab_sepulchre passage", "sepulchre passage"): "коридоры усыпальницы",
+    # 3.30 (1.66.0) явные свойства карт
+    ("items_rareonly", "Rare-only"): "Только для редких",
+    ("items_deliriumreward", "Delirium Reward Type:"): "Тип награды Делириума:",
 }
 # квесты/NPC для логики гайда — те же названия, что в гайде и gems.json (tools/quest_names_ru.json)
 import json, os
