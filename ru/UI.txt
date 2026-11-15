@@ -103,7 +103,7 @@
 		global_abort			=	"aborted"
 		global_delete			=	"удалить"
 		global_delete			=	"удал."
-		global_delete			=	"deleted"
+		global_delete			=	"удалено"
 		global_scan			=	"scanning..."
 		global_scan			=	"scan"
 		global_match			=	"no match"
@@ -159,7 +159,7 @@
 		global_errorname		=	"имя не должно содержать:;"
 		global_inventory		=	"инвентарь"
 		global_skilltree		=	"дерево умений"
-		global_skilltree		=	"skilltrees"
+		global_skilltree		=	"деревья умений"
 		global_tree			=	"дерево"
 		global_tree			=	"деревья"
 		global_ascendancy		=	"дерево восхождения"
@@ -235,7 +235,7 @@
 		global_league_aldur		=	"aldur"
 		global_league_rites		=	"ritual event"
 		global_league_allflame	=	"allflame"
-		global_league_umbra		=	"umbra"
+		global_league_umbra		=	"умбрия"
 		global_league_ssf		=	"ssf"
 		global_league_trade		=	"trade"
 		global_league_ruthless	=	"ruthless"
@@ -317,7 +317,7 @@
 		global_full			=	"full"
 		global_compact			=	"compact"
 		global_folder			=	"folder"
-		global_warning			=	"warning"
+		global_warning			=	"внимание"
 		global_read			=	"прочитано"
 		global_design			=	"углы"
 		global_old			=	"прям."
@@ -365,15 +365,15 @@
 		msg_clientswitch		=	"you have switched to a different game-client, do you want the tool to switch/restart as well?"
 		msg_clientswitch		=	"if not, launch the correct client and then click <no>"
 
-		msg_langswitch			=	"The game was launched with a different language setting."
+		msg_langswitch			=	"Игра была запущена с другими языковыми настройками."
 
-		msg_badresolution		=	"Unsupported resolution detected"
-		msg_badresolution		=	"The tool has detected an unsupported vertical resolution:"
-		msg_badresolution		=	"You have to run the client with a custom resolution, which you can set up in the following window."
+		msg_badresolution		=	"Обнаружено неподдерживаемое разрешение"
+		msg_badresolution		=	"Программа обнаружила неподдерживаемое разрешение по вертикали:"
+		msg_badresolution		=	"Необходимо запустить клиент с пользовательским разрешением, которое можно настроить в следующем окне."
 
-		msg_restart			=	"The tool will now restart."
-		msg_shutdown			=	"The tool will now close."
-		msg_proceed			=	"Do you want to proceed?"
+		msg_restart			=	"Программа будет перезапущена."
+		msg_shutdown			=	"Программа будет закрыта."
+		msg_proceed			=	"Вы хотите продолжить?"
 
 
 
@@ -1009,7 +1009,7 @@
 		m_permission_image		=	"can delete image-files:"
 		m_permission_error		=	"There are some leftover files from a previous test, and the tool cannot delete them."
 		m_permission_error		=	"Please delete the 'write-test' folder within the folder that will open after closing this message."	;## NOTE: don't translate the name of folders (as they're hard-coded and not localized)
-		m_permission_restart	=	"Do you want to restart the tool with admin rights?"
+		m_permission_restart	=	"Перезапустить программу с правами администратора?"
 
 ;## these strings are displayed/required in an error-message related to write-permissions
 		m_permission_error1		=	"The tool couldn't create a file/folder:"
@@ -1046,17 +1046,17 @@
 		m_addons_warning2		=	"Аддоны никто не проверяет, в них может быть опасный код."
 		m_addons_warning2		=	"Прежде чем скачивать, сами разберитесь и посмотрите исходный код."
 		m_addons_list			=	"скачанные аддоны:"
-		m_addons_leftover		=	"There are left-over zip-files from previous downloads that couldn't be deleted. You have to manually delete them."
-		m_addons_leftover		=	"Do you want to open the folder?"
-		m_addons_importfail		=	"download failed"
-		m_addons_importfail		=	"add-on info couldn't be downloaded"
-		m_addons_importfail		=	"add-on doesn't support this game version"
-		m_addons_importfail		=	"add-on info is incorrect/incompatible"
-		m_addons_importfail		=	"duplicate add-on names"
-		m_addons_importfail		=	"zip-extraction failed"
-		m_addons_importfail		=	"unexpected zip contents"
-		m_addons_importfail		=	"couldn't move add-on folder"
-		m_addons_disable		=	"disabling add-ons requires a restart."
+		m_addons_leftover		=	"Остались zip-файлы от прошлых загрузок, которые не удалось удалить. Удалите их вручную."
+		m_addons_leftover		=	"Открыть папку?"
+		m_addons_importfail		=	"ошибка загрузки"
+		m_addons_importfail		=	"не удалось загрузить сведения об аддоне"
+		m_addons_importfail		=	"аддон не поддерживает эту версию игры"
+		m_addons_importfail		=	"сведения об аддоне неверны или несовместимы"
+		m_addons_importfail		=	"повторяющиеся названия аддонов"
+		m_addons_importfail		=	"ошибка распаковки zip"
+		m_addons_importfail		=	"непредвиденное содержимое zip"
+		m_addons_importfail		=	"не удалось переместить папку аддона"
+		m_addons_disable		=	"для отключения аддонов требуется перезапуск."
 
 
 
@@ -1135,7 +1135,7 @@
 		m_hotkeys_settings		=	"клавиши программы:"
 		m_hotkeys_descriptions	=	"<show advanced item descriptions>;is not bound to the alt-key"		;## in-game setting, usually on ALT
 		m_hotkeys_descriptions	=	"instead, it is bound to:"
-		m_hotkeys_ckey2		=	"c-key is rebound"
+		m_hotkeys_ckey2		=	"клавиша C переназначена"
 		m_hotkeys_movekey		=	"мув-кей:"												;## i.e. the key used to move the character, default l-mouse
 		m_hotkeys_omnikey_new	=	"омни-кей:"
 		m_hotkeys_exclusive		=	"перехват"												;## option that blocks what a key normally does, e.g. CapsLock-key toggles capslock-state, windows-key opens start-menu
@@ -1380,6 +1380,7 @@
 		m_stash_ritual			=	"ritual"
 		m_stash_abyss			=	"abyss"
 		m_stash_expedition		=	"expedition"
+		m_stash_threads		=	"нити"
 
 		m_stash_runes1			=	"runes"				;## the sub-tabs in the PoE2 fragments tab
 		m_stash_runes2			=	"kalguuran runes"
